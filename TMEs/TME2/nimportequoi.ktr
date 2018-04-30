@@ -430,7 +430,7 @@
     <created_date>2018/02/16 16:07:33.878</created_date>
     <modified_user>-</modified_user>
     <modified_date>2018/02/16 16:07:33.878</modified_date>
-    <key_for_session_key />
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -452,6 +452,95 @@
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>Agrégation valeurs</name>
+    <type>GroupBy</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>arrondissement</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>nbRestantes</aggregate>
+        <subject>available_bike_stands</subject>
+        <type>SUM</type>
+        <valuefield />
+      </field>
+      <field>
+        <aggregate>nbOccupées</aggregate>
+        <subject>available_bikes</subject>
+        <type>SUM</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>384</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Extraction depuis chaînes de caractères</name>
+    <type>StringCut</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>name</in_stream_name>
+        <out_stream_name>name_extracted</out_stream_name>
+        <cut_from>7</cut_from>
+        <cut_to>60</cut_to>
+      </field>
+      <field>
+        <in_stream_name>ville</in_stream_name>
+        <out_stream_name>arrondissement</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>6</cut_to>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Extraction depuis fichier CSV</name>
     <type>CsvInput</type>
@@ -1024,95 +1113,6 @@
     <GUI>
       <xloc>352</xloc>
       <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Extraction depuis chaînes de caractères</name>
-    <type>StringCut</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>name</in_stream_name>
-        <out_stream_name>name_extracted</out_stream_name>
-        <cut_from>7</cut_from>
-        <cut_to>60</cut_to>
-      </field>
-      <field>
-        <in_stream_name>ville</in_stream_name>
-        <out_stream_name>arrondissement</out_stream_name>
-        <cut_from>0</cut_from>
-        <cut_to>6</cut_to>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>160</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Agrégation valeurs</name>
-    <type>GroupBy</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <all_rows>N</all_rows>
-    <ignore_aggregate>N</ignore_aggregate>
-    <field_ignore />
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>grp</prefix>
-    <add_linenr>N</add_linenr>
-    <linenr_fieldname />
-    <give_back_row>N</give_back_row>
-    <group>
-      <field>
-        <name>arrondissement</name>
-      </field>
-    </group>
-    <fields>
-      <field>
-        <aggregate>nbRestantes</aggregate>
-        <subject>available_bike_stands</subject>
-        <type>SUM</type>
-        <valuefield />
-      </field>
-      <field>
-        <aggregate>nbOccupées</aggregate>
-        <subject>available_bikes</subject>
-        <type>SUM</type>
-        <valuefield />
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
-      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
