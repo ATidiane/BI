@@ -430,7 +430,11 @@
     <created_date>2018/02/09 16:31:29.755</created_date>
     <modified_user>-</modified_user>
     <modified_date>2018/02/09 16:31:29.755</modified_date>
+<<<<<<< HEAD
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+=======
+    <key_for_session_key />
+>>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -453,6 +457,103 @@
     </hop>
   </order>
   <step>
+<<<<<<< HEAD
+=======
+    <name>Extraction depuis fichier CSV</name>
+    <type>CsvInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <filename>/users/nfs/Etu4/3502264/Documents/BI/TMEs/TME1/noms-prenoms.csv</filename>
+    <filename_field />
+    <rownum_field />
+    <include_filename>N</include_filename>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding />
+    <fields>
+      <field>
+        <name>nom</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>6</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>prenom</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>5</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>tel</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>14</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>pays</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>6</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>age</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>6</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>200</xloc>
+      <yloc>100</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+>>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     <name>Agrégation valeurs</name>
     <type>GroupBy</type>
     <description />
@@ -598,6 +699,7 @@
       <draw>Y</draw>
     </GUI>
   </step>
+<<<<<<< HEAD
   <step>
     <name>Extraction depuis fichier CSV</name>
     <type>CsvInput</type>
@@ -692,6 +794,8 @@
       <draw>Y</draw>
     </GUI>
   </step>
+=======
+>>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
   <step_error_handling>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
