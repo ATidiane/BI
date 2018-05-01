@@ -2,21 +2,21 @@
 <transformation>
   <info>
     <name>load_dim_film</name>
-    <description />
-    <extended_description />
-    <trans_version />
+    <description/>
+    <extended_description/>
+    <trans_version/>
     <trans_type>Normal</trans_type>
     <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection />
-        <schema />
-        <table />
-        <size_limit_lines />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>N</enabled>
@@ -41,37 +41,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>N</enabled>
           <name>LINES_REJECTED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>ERRORS</id>
@@ -125,11 +125,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection />
-        <schema />
-        <table />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -207,10 +207,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -273,10 +273,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -349,10 +349,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -401,9 +401,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection />
-      <table />
-      <field />
+      <connection/>
+      <table/>
+      <field/>
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -414,10 +414,10 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file />
+    <shared_objects_file/>
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
-    <step_performance_capturing_size_limit />
+    <step_performance_capturing_size_limit/>
     <dependencies>
     </dependencies>
     <partitionschemas>
@@ -426,7 +426,7 @@
     </slaveservers>
     <clusterschemas>
     </clusterschemas>
-    <created_user />
+    <created_user/>
     <created_date>2018/03/02 15:20:14.094</created_date>
     <modified_user>-</modified_user>
     <modified_date>2008/10/25 22:20:48.187</modified_date>
@@ -477,7 +477,7 @@
       <drawshadow>N</drawshadow>
     </notepad>
     <notepad>
-      <note />
+      <note/>
       <xloc>1045</xloc>
       <yloc>20</yloc>
       <width>20</width>
@@ -547,7 +547,7 @@ to get this film's actors</note>
       <yloc>617</yloc>
       <width>159</width>
       <heigth>31</heigth>
-      <fontname />
+      <fontname/>
       <fontsize>-1</fontsize>
       <fontbold>N</fontbold>
       <fontitalic>N</fontitalic>
@@ -724,9 +724,9 @@ in this film. Calculate weight as 1/#actors</note>
     <port>3306</port>
     <username>root</username>
     <password>Encrypted </password>
-    <servername />
-    <data_tablespace />
-    <index_tablespace />
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -779,9 +779,9 @@ in this film. Calculate weight as 1/#actors</note>
     <port>3306</port>
     <username>root</username>
     <password>Encrypted </password>
-    <servername />
-    <data_tablespace />
-    <index_tablespace />
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -935,29 +935,29 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Add Yes</name>
     <type>Constant</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
         <name>Yes</name>
         <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
         <nullif>Yes</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -973,22 +973,22 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Add Yes/No</name>
     <type>Constant</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
         <name>Yes</name>
         <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
         <nullif>Yes</nullif>
         <length>-1</length>
         <precision>-1</precision>
@@ -997,17 +997,17 @@ in this film. Calculate weight as 1/#actors</note>
       <field>
         <name>No</name>
         <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
         <nullif>No</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1023,45 +1023,45 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Calculate Actor weighting factor</name>
     <type>Calculator</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <calculation>
       <field_name>one</field_name>
       <calc_type>CONSTANT</calc_type>
       <field_a>1</field_a>
-      <field_b />
-      <field_c />
+      <field_b/>
+      <field_c/>
       <value_type>Number</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>Y</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>actor_weighting_factor</field_name>
       <calc_type>DIVIDE</calc_type>
       <field_a>one</field_a>
       <field_b>count_actors</field_b>
-      <field_c />
+      <field_c/>
       <value_type>Number</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1077,21 +1077,21 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Calculate actor count</name>
     <type>GroupBy</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <all_rows>N</all_rows>
     <ignore_aggregate>N</ignore_aggregate>
-    <field_ignore />
+    <field_ignore/>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>grp</prefix>
     <add_linenr>N</add_linenr>
-    <linenr_fieldname />
+    <linenr_fieldname/>
     <give_back_row>N</give_back_row>
     <group>
       <field>
@@ -1103,10 +1103,10 @@ in this film. Calculate weight as 1/#actors</note>
         <aggregate>count_actors</aggregate>
         <subject>actor_id</subject>
         <type>COUNT_ALL</type>
-        <valuefield />
+        <valuefield/>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1122,13 +1122,13 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Denormalize Categories to 'Yes' Columns</name>
     <type>Denormaliser</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <key_field>category</key_field>
     <group>
@@ -1217,13 +1217,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Action</key_value>
         <target_name>tmp_is_category_action</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1231,13 +1231,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Animation</key_value>
         <target_name>tmp_is_category_animation</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1245,13 +1245,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Children</key_value>
         <target_name>tmp_is_category_children</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1259,13 +1259,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Classics</key_value>
         <target_name>tmp_is_category_classics</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1273,13 +1273,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Comedy</key_value>
         <target_name>tmp_is_category_comedy</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1287,13 +1287,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Documentary</key_value>
         <target_name>tmp_is_category_documentary</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1301,13 +1301,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Drama</key_value>
         <target_name>tmp_is_category_drama</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1315,13 +1315,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Family</key_value>
         <target_name>tmp_is_category_family</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1329,13 +1329,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Foreign</key_value>
         <target_name>tmp_is_category_foreign</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1343,13 +1343,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Games</key_value>
         <target_name>tmp_is_category_games</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1357,13 +1357,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Horror</key_value>
         <target_name>tmp_is_category_horror</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1371,13 +1371,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Music</key_value>
         <target_name>tmp_is_category_music</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1385,13 +1385,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>New</key_value>
         <target_name>tmp_is_category_new</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1399,13 +1399,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Sci-Fi</key_value>
         <target_name>tmp_is_category_sci-fi</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1413,13 +1413,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Sports</key_value>
         <target_name>tmp_is_category_sports</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1427,17 +1427,17 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Travel</key_value>
         <target_name>tmp_is_category_travel</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1453,13 +1453,13 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Denormalize Special Features to 'Yes' Columns</name>
     <type>Denormaliser</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <key_field>special_feature</key_field>
     <group>
@@ -1518,13 +1518,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Trailers</key_value>
         <target_name>tmp_has_trailers</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1532,13 +1532,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Commentaries</key_value>
         <target_name>tmp_has_commentaries</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1546,13 +1546,13 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Deleted Scenes</key_value>
         <target_name>tmp_has_deleted_scenes</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
       <field>
@@ -1560,17 +1560,17 @@ in this film. Calculate weight as 1/#actors</note>
         <key_value>Behind the Scenes</key_value>
         <target_name>tmp_has_behind_the_scenes</target_name>
         <target_type>String</target_type>
-        <target_format />
+        <target_format/>
         <target_length>-1</target_length>
         <target_precision>-1</target_precision>
-        <target_decimal_symbol />
-        <target_grouping_symbol />
-        <target_currency_symbol />
-        <target_null_string />
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
         <target_aggregation_type>-</target_aggregation_type>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1586,13 +1586,13 @@ in this film. Calculate weight as 1/#actors</note>
   <step>
     <name>Film</name>
     <type>TableInput</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <sql>SELECT
@@ -1616,7 +1616,7 @@ WHERE last_update > ?</sql>
     <execute_each_row>N</execute_each_row>
     <variables_active>N</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1632,13 +1632,13 @@ WHERE last_update > ?</sql>
   <step>
     <name>Get  film categories</name>
     <type>DBJoin</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <rowlimit>0</rowlimit>
@@ -1653,7 +1653,7 @@ WHERE  film_id = ?</sql>
         <type>Integer</type>
       </field>
     </parameter>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1669,13 +1669,13 @@ WHERE  film_id = ?</sql>
   <step>
     <name>Get film_actor</name>
     <type>DBJoin</type>
-    <description />
+    <description/>
     <distribute>N</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <rowlimit>0</rowlimit>
@@ -1690,7 +1690,7 @@ where  film_id = ?</sql>
         <type>Integer</type>
       </field>
     </parameter>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1706,15 +1706,15 @@ where  film_id = ?</sql>
   <step>
     <name>Load dim_film</name>
     <type>CombinationLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-    <schema />
+    <schema/>
     <table>dim_film</table>
     <connection>sakila_dwh</connection>
     <commit>1000</commit>
@@ -1862,9 +1862,9 @@ where  film_id = ?</sql>
         <use_autoinc>Y</use_autoinc>
       </return>
     </fields>
-    <sequence />
-    <last_update_field />
-    <cluster_schema />
+    <sequence/>
+    <last_update_field/>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1880,38 +1880,38 @@ where  film_id = ?</sql>
   <step>
     <name>Lookup Category</name>
     <type>DBLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
-      <schema />
+      <schema/>
       <table>category</table>
-      <orderby />
+      <orderby/>
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>Y</eat_row_on_failure>
       <key>
         <name>category_id</name>
         <field>category_id</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>name</name>
         <rename>category</rename>
-        <default />
+        <default/>
         <type>String</type>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1927,38 +1927,38 @@ where  film_id = ?</sql>
   <step>
     <name>Lookup Language</name>
     <type>DBLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
-      <schema />
+      <schema/>
       <table>language</table>
-      <orderby />
+      <orderby/>
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>Y</eat_row_on_failure>
       <key>
         <name>language_id</name>
         <field>language_id</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>name</name>
         <rename>language</rename>
-        <default />
+        <default/>
         <type>String</type>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1974,29 +1974,29 @@ where  film_id = ?</sql>
   <step>
     <name>Lookup Original Language</name>
     <type>DBLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
-      <schema />
+      <schema/>
       <table>language</table>
-      <orderby />
+      <orderby/>
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>original_language_id</name>
         <field>language_id</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>name</name>
@@ -2005,7 +2005,7 @@ where  film_id = ?</sql>
         <type>String</type>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2021,13 +2021,13 @@ where  film_id = ?</sql>
   <step>
     <name>Lookup actor weighting factor</name>
     <type>StreamLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <from>Calculate Actor weighting factor</from>
     <input_sorted>N</input_sorted>
@@ -2042,11 +2042,11 @@ where  film_id = ?</sql>
       <value>
         <name>actor_weighting_factor</name>
         <rename>actor_weighting_factor</rename>
-        <default />
+        <default/>
         <type>Number</type>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2062,38 +2062,38 @@ where  film_id = ?</sql>
   <step>
     <name>Lookup dim_actor</name>
     <type>DBLookup</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila_dwh</connection>
     <cache>Y</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
-      <schema />
+      <schema/>
       <table>dim_actor</table>
-      <orderby />
+      <orderby/>
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>actor_id</name>
         <field>actor_id</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>actor_key</name>
         <rename>actor_key</rename>
-        <default />
+        <default/>
         <type>Integer</type>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2109,22 +2109,22 @@ where  film_id = ?</sql>
   <step>
     <name>Normalize Special Features</name>
     <type>SplitFieldToRows3</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <splitfield>special_features</splitfield>
     <delimiter>,</delimiter>
     <newfield>special_feature</newfield>
     <rownum>N</rownum>
-    <rownum_field />
+    <rownum_field/>
     <resetrownumber>N</resetrownumber>
     <delimiter_is_regex>N</delimiter_is_regex>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2140,13 +2140,13 @@ where  film_id = ?</sql>
   <step>
     <name>Rating Text</name>
     <type>ValueMapper</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <field_to_use>rating</field_to_use>
     <target_field>rating_text</target_field>
@@ -2173,7 +2173,7 @@ where  film_id = ?</sql>
         <target_value>No One Under 17 Admitted </target_value>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2189,255 +2189,255 @@ where  film_id = ?</sql>
   <step>
     <name>Set Empty Category Columns to 'No'</name>
     <type>Calculator</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <calculation>
       <field_name>film_in_category_action</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_action</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_animation</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_animation</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_children</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_children</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_classics</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_classics</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_comedy</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_comedy</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_documentary</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_documentary</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_drama</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_drama</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_family</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_family</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_foreign</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_foreign</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_games</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_games</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_horror</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_horror</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_music</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_music</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_new</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_new</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_sci-fi</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_sci-fi</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_sports</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_sports</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>film_in_category_travel</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_is_category_travel</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2453,75 +2453,75 @@ where  film_id = ?</sql>
   <step>
     <name>Set Empty Special Feature Columns  to 'No'</name>
     <type>Calculator</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <calculation>
       <field_name>has_behind_the_scenes</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_has_behind_the_scenes</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>has_commentaries</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_has_commentaries</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>has_deleted_scenes</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_has_deleted_scenes</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
     <calculation>
       <field_name>has_trailers</field_name>
       <calc_type>NVL</calc_type>
       <field_a>tmp_has_trailers</field_a>
       <field_b>No</field_b>
-      <field_c />
+      <field_c/>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
       <remove>N</remove>
-      <conversion_mask />
-      <decimal_symbol />
-      <grouping_symbol />
-      <currency_symbol />
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
     </calculation>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2537,31 +2537,31 @@ where  film_id = ?</sql>
   <step>
     <name>dim_film_actor_bridge</name>
     <type>InsertUpdate</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila_dwh</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema />
+      <schema/>
       <table>dim_film_actor_bridge</table>
       <key>
         <name>film_key</name>
         <field>film_key</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <key>
         <name>actor_key</name>
         <field>actor_key</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>actor_weighting_factor</name>
@@ -2579,7 +2579,7 @@ where  film_id = ?</sql>
         <update>N</update>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2595,27 +2595,27 @@ where  film_id = ?</sql>
   <step>
     <name>max_dim_film_last_update</name>
     <type>TableInput</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>sakila_dwh</connection>
     <sql>SELECT COALESCE(
            MAX(film_last_update)
        ,   '1970-01-01 00:00:00'
        ) AS max_dim_film_last_update
-FROM   dim_film
+FROM   dim_film;
 </sql>
     <limit>0</limit>
-    <lookup />
+    <lookup/>
     <execute_each_row>N</execute_each_row>
     <variables_active>N</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>

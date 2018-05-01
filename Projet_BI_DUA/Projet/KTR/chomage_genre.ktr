@@ -1,0 +1,3937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>chomage_genre</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <trans_type>Normal</trans_type>
+    <directory>&#x2f;</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2017&#x2f;03&#x2f;17 12&#x3a;36&#x3a;37.532</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2017&#x2f;03&#x2f;17 12&#x3a;36&#x3a;37.532</modified_date>
+    <key_for_session_key/>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>homme</from>
+      <to>Filtrage lignes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrage lignes</from>
+      <to>Normalisation Ligne</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Normalisation Ligne</from>
+      <to>D&#xe9;composition Champs</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>femme</from>
+      <to>Filtrage lignes 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrage lignes 2</from>
+      <to>Normalisation Ligne 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Normalisation Ligne 2</from>
+      <to>D&#xe9;composition Champs 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>D&#xe9;composition Champs</from>
+      <to>Calculateur</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>D&#xe9;composition Champs 2</from>
+      <to>Calculateur 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculateur</from>
+      <to>Alimentation fichier</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculateur 2</from>
+      <to>Alimentation fichier</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>homme</name>
+    <type>ExcelInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <header>Y</header>
+    <noempty>Y</noempty>
+    <stoponempty>N</stoponempty>
+    <filefield/>
+    <sheetfield/>
+    <sheetrownumfield/>
+    <rownumfield/>
+    <sheetfield/>
+    <filefield/>
+    <limit>0</limit>
+    <encoding/>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <accept_filenames>N</accept_filenames>
+    <accept_field/>
+    <accept_stepname/>
+    <file>
+      <name>&#x2f;users&#x2f;Etu6&#x2f;3200386&#x2f;M1DAC&#x2f;BI&#x2f;Projet_BI_DUA&#x2f;EXCEL&#x2f;chomage_homme_tout_age.xls</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>Libell&#xfffd;</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ain</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aisne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Allier</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-de-Haute-Provence</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Alpes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-Maritimes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ard&#xfffd;che</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ardennes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ari&#xfffd;ge</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aube</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aude</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aveyron</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bouches-du-Rh&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Calvados</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cantal</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente-Maritime</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cher</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Corr&#xfffd;ze</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;te-d&#x27;Or</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;tes-d&#x27;Armor</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Creuse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dordogne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Doubs</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dr&#xfffd;me</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure-et-Loir</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Finist&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gard</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gers</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gironde</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - H&#xfffd;rault</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ille-et-Vilaine</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Is&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Jura</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Landes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loir-et-Cher</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire-Atlantique</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loiret</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot-et-Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loz&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Maine-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Manche</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Mayenne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meurthe-et-Moselle</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meuse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Morbihan</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Moselle</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ni&#xfffd;vre</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Nord</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Oise</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Orne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pas-de-Calais</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Puy-de-D&#xfffd;me</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Pyr&#xfffd;n&#xfffd;es</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Orientales</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bas-Rhin</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haut-Rhin</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Rh&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Sa&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sa&#xfffd;ne-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sarthe</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Savoie</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Vienne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Savoie</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ville-de-Paris</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Maritime</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-et-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yvelines</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Deux-S&#xfffd;vres</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Somme</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn et Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Var</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vaucluse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vend&#xfffd;e</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vienne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vosges</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Territoire de Belfort</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Essonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hauts-de-Seine</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Saint-Denis</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-de-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-d&#x27;Oise</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+    </fields>
+    <sheets>
+      <sheet>
+        <name>Valeurs</name>
+        <startrow>0</startrow>
+        <startcol>0</startcol>
+        </sheet>
+    </sheets>
+    <strict_types>N</strict_types>
+    <error_ignored>N</error_ignored>
+    <error_line_skipped>N</error_line_skipped>
+    <bad_line_files_destination_directory/>
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory/>
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory/>
+    <line_number_files_extension>line</line_number_files_extension>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <spreadsheet_type>JXL</spreadsheet_type>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>192</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Normalisation Ligne</name>
+    <type>Normaliser</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+   <typefield>departement</typefield>
+    <fields>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ain</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ain</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aisne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aisne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Allier</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Allier</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-de-Haute-Provence</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-de-Haute-Provence</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Alpes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Alpes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-Maritimes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Alpes-Maritimes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ard&#xfffd;che</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ard&#xfffd;che</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ardennes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ardennes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ari&#xfffd;ge</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ari&#xfffd;ge</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aube</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aube</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aude</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aude</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aveyron</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Aveyron</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bouches-du-Rh&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bouches-du-Rh&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Calvados</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Calvados</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cantal</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cantal</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente-Maritime</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Charente-Maritime</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cher</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Cher</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Corr&#xfffd;ze</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Corr&#xfffd;ze</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;te-d&#x27;Or</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;te-d&#x27;Or</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;tes-d&#x27;Armor</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - C&#xfffd;tes-d&#x27;Armor</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Creuse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Creuse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dordogne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dordogne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Doubs</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Doubs</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dr&#xfffd;me</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Dr&#xfffd;me</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure-et-Loir</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Eure-et-Loir</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Finist&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Finist&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gard</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gard</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gers</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gers</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gironde</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Gironde</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - H&#xfffd;rault</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - H&#xfffd;rault</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ille-et-Vilaine</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ille-et-Vilaine</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Indre-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Is&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Is&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Jura</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Jura</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Landes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Landes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loir-et-Cher</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loir-et-Cher</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire-Atlantique</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loire-Atlantique</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loiret</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loiret</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot-et-Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Lot-et-Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loz&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Loz&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Maine-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Maine-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Manche</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Manche</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Mayenne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Mayenne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meurthe-et-Moselle</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meurthe-et-Moselle</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meuse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Meuse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Morbihan</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Morbihan</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Moselle</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Moselle</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ni&#xfffd;vre</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ni&#xfffd;vre</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Nord</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Nord</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Oise</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Oise</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Orne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Orne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pas-de-Calais</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pas-de-Calais</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Puy-de-D&#xfffd;me</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Puy-de-D&#xfffd;me</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Pyr&#xfffd;n&#xfffd;es</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hautes-Pyr&#xfffd;n&#xfffd;es</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Orientales</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Pyr&#xfffd;n&#xfffd;es-Orientales</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bas-Rhin</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Bas-Rhin</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haut-Rhin</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haut-Rhin</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Rh&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Rh&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Sa&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Sa&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sa&#xfffd;ne-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sa&#xfffd;ne-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sarthe</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Sarthe</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Savoie</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Savoie</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Vienne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Vienne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Savoie</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Haute-Savoie</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ville-de-Paris</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Ville-de-Paris</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Maritime</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Maritime</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-et-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-et-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yvelines</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yvelines</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Deux-S&#xfffd;vres</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Deux-S&#xfffd;vres</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Somme</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Somme</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn et Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Tarn et Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Var</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Var</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vaucluse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vaucluse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vend&#xfffd;e</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vend&#xfffd;e</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vienne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vienne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vosges</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Vosges</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Yonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Territoire de Belfort</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Territoire de Belfort</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Essonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Essonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hauts-de-Seine</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Hauts-de-Seine</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Saint-Denis</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Seine-Saint-Denis</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-de-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-de-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-d&#x27;Oise</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Hommes - Val-d&#x27;Oise</value>
+        <norm>chomage</norm>
+        </field>      </fields>    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Filtrage lignes</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+<send_true_to>Normalisation Ligne</send_true_to>
+<send_false_to/>
+    <compare>
+<condition>
+ <negated>Y</negated>
+ <conditions>
+  <condition>
+   <negated>N</negated>
+   <leftvalue>Libell&#xfffd;</leftvalue>
+   <function>CONTAINS</function>
+   <rightvalue/>
+   <value><name>constant</name><type>String</type><text>Id</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
+  <condition>
+   <negated>N</negated>
+   <operator>OR</operator>
+   <leftvalue>Libell&#xfffd;</leftvalue>
+   <function>CONTAINS</function>
+   <rightvalue/>
+   <value><name>constant</name><type>String</type><text>Ann</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
+  </conditions>
+ </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>D&#xe9;composition Champs</name>
+    <type>FieldSplitter</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+   <splitfield>departement</splitfield>
+   <delimiter>-</delimiter>
+   <enclosure/>
+    <fields>      <field>        <name>x</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>      <field>        <name>genre</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>      <field>        <name>departement</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>    </fields>    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>640</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>femme</name>
+    <type>ExcelInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <header>Y</header>
+    <noempty>Y</noempty>
+    <stoponempty>N</stoponempty>
+    <filefield/>
+    <sheetfield/>
+    <sheetrownumfield/>
+    <rownumfield/>
+    <sheetfield/>
+    <filefield/>
+    <limit>0</limit>
+    <encoding/>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <accept_filenames>N</accept_filenames>
+    <accept_field/>
+    <accept_stepname/>
+    <file>
+      <name>&#x2f;users&#x2f;Etu6&#x2f;3200386&#x2f;M1DAC&#x2f;BI&#x2f;Projet_BI_DUA&#x2f;EXCEL&#x2f;chomage_femme_tout_age.xls</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>Libell&#xfffd;</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ain</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aisne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Allier</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-de-Haute-Provence</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Alpes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-Maritimes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ard&#xfffd;che</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ardennes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ari&#xfffd;ge</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aube</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aude</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aveyron</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bouches-du-Rh&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Calvados</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cantal</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente-Maritime</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cher</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Corr&#xfffd;ze</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;te-d&#x27;Or</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;tes-d&#x27;Armor</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Creuse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dordogne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Doubs</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dr&#xfffd;me</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure-et-Loir</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Finist&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gard</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gers</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gironde</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - H&#xfffd;rault</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ille-et-Vilaine</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Is&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Jura</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Landes</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loir-et-Cher</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire-Atlantique</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loiret</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot-et-Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loz&#xfffd;re</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Maine-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Manche</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Mayenne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meurthe-et-Moselle</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meuse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Morbihan</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Moselle</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ni&#xfffd;vre</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Nord</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Oise</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Orne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pas-de-Calais</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Puy-de-D&#xfffd;me</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Pyr&#xfffd;n&#xfffd;es</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Orientales</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bas-Rhin</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haut-Rhin</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Rh&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Sa&#xfffd;ne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sa&#xfffd;ne-et-Loire</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sarthe</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Savoie</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Savoie</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ville-de-Paris</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Maritime</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-et-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yvelines</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Deux-S&#xfffd;vres</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Somme</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn et Garonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Var</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vaucluse</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vend&#xfffd;e</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vienne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Vienne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vosges</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Territoire de Belfort</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Essonne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hauts-de-Seine</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Saint-Denis</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-de-Marne</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-d&#x27;Oise</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+    </fields>
+    <sheets>
+      <sheet>
+        <name>Valeurs</name>
+        <startrow>0</startrow>
+        <startcol>0</startcol>
+        </sheet>
+    </sheets>
+    <strict_types>N</strict_types>
+    <error_ignored>N</error_ignored>
+    <error_line_skipped>N</error_line_skipped>
+    <bad_line_files_destination_directory/>
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory/>
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory/>
+    <line_number_files_extension>line</line_number_files_extension>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <spreadsheet_type>JXL</spreadsheet_type>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>192</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Filtrage lignes 2</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+<send_true_to>Normalisation Ligne 2</send_true_to>
+<send_false_to/>
+    <compare>
+<condition>
+ <negated>Y</negated>
+ <conditions>
+  <condition>
+   <negated>N</negated>
+   <leftvalue>Libell&#xfffd;</leftvalue>
+   <function>CONTAINS</function>
+   <rightvalue/>
+   <value><name>constant</name><type>String</type><text>Id</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
+  <condition>
+   <negated>N</negated>
+   <operator>OR</operator>
+   <leftvalue>Libell&#xfffd;</leftvalue>
+   <function>CONTAINS</function>
+   <rightvalue/>
+   <value><name>constant</name><type>String</type><text>Ann</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
+  </conditions>
+ </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>336</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Normalisation Ligne 2</name>
+    <type>Normaliser</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+   <typefield>departement</typefield>
+    <fields>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ain</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ain</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aisne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aisne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Allier</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Allier</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-de-Haute-Provence</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-de-Haute-Provence</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Alpes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Alpes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-Maritimes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Alpes-Maritimes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ard&#xfffd;che</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ard&#xfffd;che</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ardennes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ardennes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ari&#xfffd;ge</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ari&#xfffd;ge</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aube</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aube</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aude</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aude</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aveyron</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Aveyron</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bouches-du-Rh&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bouches-du-Rh&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Calvados</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Calvados</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cantal</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cantal</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente-Maritime</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Charente-Maritime</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cher</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Cher</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Corr&#xfffd;ze</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Corr&#xfffd;ze</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;te-d&#x27;Or</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;te-d&#x27;Or</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;tes-d&#x27;Armor</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - C&#xfffd;tes-d&#x27;Armor</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Creuse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Creuse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dordogne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dordogne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Doubs</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Doubs</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dr&#xfffd;me</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Dr&#xfffd;me</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure-et-Loir</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Eure-et-Loir</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Finist&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Finist&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gard</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gard</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gers</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gers</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gironde</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Gironde</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - H&#xfffd;rault</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - H&#xfffd;rault</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ille-et-Vilaine</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ille-et-Vilaine</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Indre-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Is&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Is&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Jura</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Jura</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Landes</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Landes</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loir-et-Cher</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loir-et-Cher</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire-Atlantique</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loire-Atlantique</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loiret</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loiret</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot-et-Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Lot-et-Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loz&#xfffd;re</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Loz&#xfffd;re</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Maine-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Maine-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Manche</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Manche</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Mayenne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Mayenne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meurthe-et-Moselle</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meurthe-et-Moselle</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meuse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Meuse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Morbihan</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Morbihan</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Moselle</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Moselle</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ni&#xfffd;vre</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ni&#xfffd;vre</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Nord</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Nord</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Oise</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Oise</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Orne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Orne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pas-de-Calais</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pas-de-Calais</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Puy-de-D&#xfffd;me</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Puy-de-D&#xfffd;me</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Atlantiques</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Pyr&#xfffd;n&#xfffd;es</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hautes-Pyr&#xfffd;n&#xfffd;es</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Orientales</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Pyr&#xfffd;n&#xfffd;es-Orientales</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bas-Rhin</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Bas-Rhin</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haut-Rhin</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haut-Rhin</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Rh&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Rh&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Sa&#xfffd;ne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Sa&#xfffd;ne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sa&#xfffd;ne-et-Loire</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sa&#xfffd;ne-et-Loire</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sarthe</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Sarthe</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Savoie</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Savoie</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Savoie</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Savoie</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ville-de-Paris</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Ville-de-Paris</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Maritime</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Maritime</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-et-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-et-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yvelines</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yvelines</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Deux-S&#xfffd;vres</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Deux-S&#xfffd;vres</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Somme</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Somme</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn et Garonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Tarn et Garonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Var</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Var</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vaucluse</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vaucluse</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vend&#xfffd;e</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vend&#xfffd;e</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vienne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vienne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Vienne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Haute-Vienne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vosges</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Vosges</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Yonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Territoire de Belfort</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Territoire de Belfort</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Essonne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Essonne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hauts-de-Seine</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Hauts-de-Seine</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Saint-Denis</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Seine-Saint-Denis</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-de-Marne</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-de-Marne</value>
+        <norm>chomage</norm>
+        </field>      <field>        <name>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-d&#x27;Oise</name>
+        <value>Taux de ch&#xfffd;mage localis&#xfffd;s &#x28;moyenne annuelle&#x29; - Femmes - Val-d&#x27;Oise</value>
+        <norm>chomage</norm>
+        </field>      </fields>    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>503</xloc>
+      <yloc>284</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>D&#xe9;composition Champs 2</name>
+    <type>FieldSplitter</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+   <splitfield>departement</splitfield>
+   <delimiter>-</delimiter>
+   <enclosure/>
+    <fields>      <field>        <name>x</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>      <field>        <name>genre</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>      <field>        <name>departement</name>
+        <id/>
+        <idrem>N</idrem>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <currency/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>    </fields>    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Calculateur</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+       <formula><field_name>Date</field_name>
+<formula_string>&#x22;&#x22;&#x26;&#x5b;Libell&#xfffd;&#x5d;</formula_string>
+<value_type>String</value_type>
+<value_length>-1</value_length>
+<value_precision>-1</value_precision>
+<replace_field/>
+</formula>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Alimentation fichier</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>&#x3b;</separator>
+    <enclosure>&#x22;</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>&#x2f;users&#x2f;Etu6&#x2f;3200386&#x2f;M1DAC&#x2f;BI&#x2f;Projet_BI_DUA&#x2f;CSV&#x2f;chomage_genre</name>
+      <is_command>N</is_command>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>departement</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>Date</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>genre</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>chomage</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Calculateur 2</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+       <formula><field_name>Date</field_name>
+<formula_string>&#x22;&#x22;&#x26;&#x5b;Libell&#xfffd;&#x5d;</formula_string>
+<value_type>String</value_type>
+<value_length>-1</value_length>
+<value_precision>-1</value_precision>
+<replace_field/>
+</formula>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+</transformation>

@@ -1,0 +1,1935 @@
+Numero departement,Departement,Ville,Localisation,Type,Logo
+1,Ain,Bourg-en-Bresse,Bourg-en-Bresse Ain France,Police,small_blue
+1,Ain,Viriat,Viriat Ain France,Police,small_blue
+1,Ain,Oyonnax,Oyonnax Ain France,Police,small_blue
+1,Ain,Gex,Gex Ain France,Gendarmerie,small_green
+1,Ain,Châtillon-Chalaronne,Châtillon-Chalaronne Ain France,Gendarmerie,small_green
+1,Ain,Saint-Vulbas,Saint-Vulbas Ain France,Gendarmerie,small_green
+1,Ain,Beynost,Beynost Ain France,Gendarmerie,small_green
+1,Ain,Cessy,Cessy Ain France,Gendarmerie,small_green
+1,Ain,Divonne-les-Bains,Divonne-les-Bains Ain France,Gendarmerie,small_green
+1,Ain,Jassans-Riottier,Jassans-Riottier Ain France,Gendarmerie,small_green
+1,Ain,Loyettes,Loyettes Ain France,Gendarmerie,small_green
+1,Ain,Meximieux,Meximieux Ain France,Gendarmerie,small_green
+1,Ain,Montluel,Montluel Ain France,Gendarmerie,small_green
+1,Ain,Montreal-la-Cluse,Montreal-la-Cluse Ain France,Gendarmerie,small_green
+1,Ain,Murs-et-Geligneux,Murs-et-Geligneux Ain France,Gendarmerie,small_green
+1,Ain,Replonges,Replonges Ain France,Gendarmerie,small_green
+1,Ain,Neyron,Neyron Ain France,Gendarmerie,small_green
+1,Ain,Saint-Cyr-sur-Menton,Saint-Cyr-sur-Menton Ain France,Gendarmerie,small_green
+2,Aisne,Saint-Quentin,Saint-Quentin Aisne France,Police,small_blue
+2,Aisne,Charmes,Charmes Aisne France,Police,small_blue
+2,Aisne,Château-Thierry,Château-Thierry Aisne France,Police,small_blue
+2,Aisne,Bohain-en-Vermandois,Bohain-en-Vermandois Aisne France,Gendarmerie,small_green
+2,Aisne,Chauny,Chauny Aisne France,Gendarmerie,small_green
+2,Aisne,Origny-en-Thierache,Origny-en-Thierache Aisne France,Gendarmerie,small_green
+2,Aisne,Guise,Guise Aisne France,Gendarmerie,small_green
+2,Aisne,Origny-Sainte-Benoite,Origny-Sainte-Benoite Aisne France,Gendarmerie,small_green
+2,Aisne,Neuilly-Saint-Front,Neuilly-Saint-Front Aisne France,Gendarmerie,small_green
+2,Aisne,Villers-Cotterets,Villers-Cotterets Aisne France,Gendarmerie,small_green
+2,Aisne,Beaurevoir,Beaurevoir Aisne France,Gendarmerie,small_green
+2,Aisne,Jussy,Jussy Aisne France,Gendarmerie,small_green
+2,Aisne,Corsy,Corsy Aisne France,Gendarmerie,small_green
+2,Aisne,Dizy-le-Gros,Dizy-le-Gros Aisne France,Gendarmerie,small_green
+2B,Haute- Corse,Biguglia,Biguglia Haute- Corse France,Police,small_blue
+2B,Haute- Corse,Corte,Corte Haute- Corse France,Gendarmerie,small_green
+2B,Haute- Corse,Calvi,Calvi Haute- Corse France,Gendarmerie,small_green
+2A,Corse du Sud,Bonifacio,Bonifacio Corse du Sud France,Gendarmerie,small_green
+3,Allier,Montluçon,Montluçon Allier France,Police,small_blue
+3,Allier,Moulins,Moulins Allier France,Police,small_blue
+3,Allier,Yzeure,Yzeure Allier France,Police,small_blue
+3,Allier,Vichy,Vichy Allier France,Police,small_blue
+3,Allier,Lapalisse,Lapalisse Allier France,Gendarmerie,small_green
+3,Allier,Commentry,Commentry Allier France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,La-Foux-d'Allos,La-Foux-d'Allos Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,Les-Mees,Les-Mees Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,Oraison,Oraison Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,Mane Alpes-de-Haute-Provence France,Mane Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,greoux-les-Bains,greoux-les-Bains Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,Sainte-Croix-du-Verdon,Sainte-Croix-du-Verdon Alpes-de-Haute-Provence France,Gendarmerie,small_green
+4,Alpes-de-Haute-Provence,Sisteron,Sisteron Alpes-de-Haute-Provence France,Gendarmerie,small_green
+5,Hautes-Alpes,Gap,Gap Hautes-Alpes France,Police,small_blue
+5,Hautes-Alpes,Orcieres,Orcieres Hautes-Alpes France,Gendarmerie,small_green
+5,Hautes-Alpes,Vars-les-Claux,Vars-les-Claux Hautes-Alpes France,Gendarmerie,small_green
+5,Hautes-Alpes,Risoul,Risoul Hautes-Alpes France,Gendarmerie,small_green
+5,Hautes-Alpes,Saint-Etienne-en-Devoluy,Saint-Etienne-en-Devoluy Hautes-Alpes France,Gendarmerie,small_green
+5,Hautes-Alpes,Embrun-Plan-d'Eau,Embrun-Plan-d'Eau Hautes-Alpes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Nice,Nice Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Villefranche-sur-Mer,Villefranche-sur-Mer Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Menton,Menton Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Cannes,Cannes Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Le Cannet,Le Cannet Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Antibes,Antibes Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Vallauris,Vallauris Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Saint-Laurent-du-Var,Saint-Laurent-du-Var Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Grasse,Grasse Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Cagnes sur Mer,Cagnes sur Mer Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Beausoleil,Beausoleil Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Roquebrune-Cap-Martin,Roquebrune-Cap-Martin Alpes-Maritimes France,Police,small_blue
+6,Alpes-Maritimes,Vence,Vence Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Beaulieu Alpes-Maritimes France,Beaulieu Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Jean-Cap-Ferrat,Saint-Jean-Cap-Ferrat Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Tourettes-Levens,Tourettes-Levens Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Levens,Levens Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Carros,Carros Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Falicon,Falicon Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Le Broc,Le Broc Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Gattières,Gattières Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,L'Escarène,L'Escarène Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Martin-du-Var,Saint-Martin-du-Var Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Castagniers,Castagniers Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Colomars,Colomars Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La Roquette-sur-Var,La Roquette-sur-Var Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Gilette Alpes-Maritimes France,Gilette Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Mandelieu-la-Napoule,Mandelieu-la-Napoule Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Villeneuve-Loubet,Villeneuve-Loubet Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Mougins,Mougins Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Paul-de-Vence,Saint-Paul-de-Vence Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La Gaude,La Gaude Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Ezé,Ezé Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Capd'ail,Capd'ail Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La Turbie,La Turbie Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Martin-Vésubie,Saint-Martin-Vésubie Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Roquesteron,Roquesteron Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Roquefort-les-Pins,Roquefort-les-Pins Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Aspremont,Aspremont Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Auribeau-sur-Siagne,Auribeau-sur-Siagne Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Berre-les-Alpes,Berre-les-Alpes Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Biot Alpes-Maritimes France,Biot Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Blausasc,Blausasc Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Chateauneuf,Chateauneuf Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Clans,Clans Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Courmes,Courmes Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Drap,Drap Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Gourdon,Gourdon Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Isola Alpes-Maritimes France,Isola Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La-Bollene-Vesubie,La-Bollene-Vesubie Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La-Trinité,La-Trinité Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Le Rouret,Le Rouret Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Puget-Théniers,Puget-Théniers Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Roquebillière,Roquebillière Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-André-de-la-Roche,Saint-André-de-la-Roche Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Blaise,Saint-Blaise Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Théoule-sur-Mer,Théoule-sur-Mer Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Tournefort,Tournefort Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Tourrettes-sur-Loup,Tourrettes-sur-Loup Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Valbonne,Valbonne Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,La Roquette-sur-Siagne,La Roquette-sur-Siagne Alpes-Maritimes France,Gendarmerie,small_green
+6,Alpes-Maritimes,Saint-Jeannet,Saint-Jeannet Alpes-Maritimes France,Gendarmerie,small_green
+7,Ardèche,Labégude,Labégude Ardèche France,Police,small_blue
+7,Ardèche,Vals-les-Bains,Vals-les-Bains Ardèche France,Police,small_blue
+7,Ardèche,Joyeuse,Joyeuse Ardèche France,Police,small_blue
+7,Ardèche,Aubenas,Aubenas Ardèche France,Police,small_blue
+7,Ardèche,Saint-Dizier-sur-Aubenas,Saint-Dizier-sur-Aubenas Ardèche France,Police,small_blue
+7,Ardèche,Vallon-Pont-d'Arc,Vallon-Pont-d'Arc Ardèche France,Gendarmerie,small_green
+7,Ardèche,Tournon-sur-Rhône,Tournon-sur-Rhône Ardèche France,Gendarmerie,small_green
+7,Ardèche,Mauves,Mauves Ardèche France,Gendarmerie,small_green
+7,Ardèche,Largentiere,Largentiere Ardèche France,Gendarmerie,small_green
+7,Ardèche,Le Teil,Le Teil Ardèche France,Gendarmerie,small_green
+7,Ardèche,Ruoms,Ruoms Ardèche France,Gendarmerie,small_green
+7,Ardèche,Andance,Andance Ardèche France,Gendarmerie,small_green
+7,Ardèche,Bourg-Saint-Andéol,Bourg-Saint-Andéol Ardèche France,Gendarmerie,small_green
+7,Ardèche,Joyeuse,Joyeuse Ardèche France,Gendarmerie,small_green
+7,Ardèche,La Voulte-sur-Rhône,La Voulte-sur-Rhône Ardèche France,Gendarmerie,small_green
+7,Ardèche,Le Pouzin,Le Pouzin Ardèche France,Gendarmerie,small_green
+7,Ardèche,Sampzon,Sampzon Ardèche France,Gendarmerie,small_green
+7,Ardèche,Sarras,Sarras Ardèche France,Gendarmerie,small_green
+7,Ardèche,Saint-Julien-en-Saint-Alban,Saint-Julien-en-Saint-Alban Ardèche France,Gendarmerie,small_green
+7,Ardèche,Saint-Just-d'Ardèche,Saint-Just-d'Ardèche Ardèche France,Gendarmerie,small_green
+8,Ardennes,Charleville-Mézieres,Charleville-Mézieres Ardennes France,Police,small_blue
+8,Ardennes,La francheville,La francheville Ardennes France,Police,small_blue
+8,Ardennes,Villers-Semeuse,Villers-Semeuse Ardennes France,Police,small_blue
+8,Ardennes,warcq,warcq Ardennes France,Police,small_blue
+8,Ardennes,Sedan,Sedan Ardennes France,Police,small_blue
+8,Ardennes,Bazeilles,Bazeilles Ardennes France,Gendarmerie,small_green
+8,Ardennes,Bogny-sur-Meuse,Bogny-sur-Meuse Ardennes France,Gendarmerie,small_green
+8,Ardennes,Mouzon,Mouzon Ardennes France,Gendarmerie,small_green
+8,Ardennes,Rethel,Rethel Ardennes France,Gendarmerie,small_green
+8,Ardennes,Rémilly-Allicourt,Rémilly-Allicourt Ardennes France,Gendarmerie,small_green
+8,Ardennes,Maubert-Fontaine,Maubert-Fontaine Ardennes France,Gendarmerie,small_green
+8,Ardennes,Vireux-Molhain,Vireux-Molhain Ardennes France,Gendarmerie,small_green
+8,Ardennes,Givet,Givet Ardennes France,Gendarmerie,small_green
+8,Ardennes,Vivier-au-Court,Vivier-au-Court Ardennes France,Gendarmerie,small_green
+8,Ardennes,Donchery,Donchery Ardennes France,Gendarmerie,small_green
+8,Ardennes,Lucquy.,Lucquy. Ardennes France,Gendarmerie,small_green
+9,Ariège,Pamiers,Pamiers Ariège France,Police,small_blue
+9,Ariège,Saint-Girons,Saint-Girons Ariège France,Gendarmerie,small_green
+9,Ariège,Mazeres,Mazeres Ariège France,Gendarmerie,small_green
+10,Aube,Troyes,Troyes Aube France,Police,small_blue
+10,Aube,La Chapelle-Saint-Luc,La Chapelle-Saint-Luc Aube France,Police,small_blue
+10,Aube,Des-Portes-de-Romilly-sur-Seine,Des-Portes-de-Romilly-sur-Seine Aube France,Gendarmerie,small_green
+10,Aube,Bar-sur-Aube,Bar-sur-Aube Aube France,Gendarmerie,small_green
+11,Aude,Carcassonne,Carcassonne Aude France,Police,small_blue
+11,Aude,Narbonne,Narbonne Aude France,Police,small_blue
+11,Aude,Leucate,Leucate Aude France,Gendarmerie,small_green
+11,Aude,Fitou,Fitou Aude France,Gendarmerie,small_green
+11,Aude,Salleles-d'Aude,Salleles-d'Aude Aude France,Gendarmerie,small_green
+11,Aude,Limoux,Limoux Aude France,Gendarmerie,small_green
+11,Aude,Lezignan-Corbieres,Lezignan-Corbieres Aude France,Gendarmerie,small_green
+11,Aude,Cazilhac,Cazilhac Aude France,Gendarmerie,small_green
+11,Aude,Port-la-Nouvelle,Port-la-Nouvelle Aude France,Gendarmerie,small_green
+11,Aude,Rennes-les-Bains,Rennes-les-Bains Aude France,Gendarmerie,small_green
+11,Aude,Berniac,Berniac Aude France,Gendarmerie,small_green
+11,Aude,Coursan,Coursan Aude France,Gendarmerie,small_green
+12,Aveyron,Rodez,Rodez Aveyron France,Police,small_blue
+12,Aveyron,Laissac,Laissac Aveyron France,Gendarmerie,small_green
+12,Aveyron,Villefranche-de-Rouergue,Villefranche-de-Rouergue Aveyron France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Marseille,Marseille Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Aix-en-Provence,Aix-en-Provence Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Port-de-Bouc,Port-de-Bouc Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Miramas,Miramas Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Saint-Mitre-les-Remparts,Saint-Mitre-les-Remparts Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Salon-de-Provence,Salon-de-Provence Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Marignane,Marignane Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Les Pennes-Mirabeau,Les Pennes-Mirabeau Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,vitrolles,vitrolles Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,beaucaire,beaucaire Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Tarascon,Tarascon Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Aubagne,Aubagne Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,La Ciotat,La Ciotat Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Allauch,Allauch Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Istres,Istres Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Chateauneuf-les-Martigues,Chateauneuf-les-Martigues Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Fos sur Mer,Fos sur Mer Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Martigues,Martigues Bouches-du-Rhône France,Police,small_blue
+13,Bouches-du-Rhône,Alleins,Alleins Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Auriol,Auriol Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Barbentane,Barbentane Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Berre-l'Etang,Berre-l'Etang Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Bouc-Bel-Air,Bouc-Bel-Air Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Simiane-Collongue,Simiane-Collongue Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Carry-le-Rouet,Carry-le-Rouet Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Cassis,Cassis Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Ceyreste,Ceyreste Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Chateaurenard,Chateaurenard Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Cornillon-Confoux,Cornillon-Confoux Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Coudoux,Coudoux Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Eguilles,Eguilles Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Fuveau,Fuveau Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Gemenos,Gemenos Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Gardanne,Gardanne Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Grans,Grans Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,La-Fare-Les-Oliviers,La-Fare-Les-Oliviers Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,La-Roque-d'Antheron,La-Roque-d'Antheron Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Les Baux-de-Provence,Les Baux-de-Provence Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Maillane,Maillane Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Meyreuil,Meyreuil Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Mimet,Mimet Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Orgon,Orgon Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Pelissane,Pelissane Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Rognes,Rognes Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Rognonas,Rognonas Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Sausset-les-Pins,Sausset-les-Pins Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Saint-Andiol,Saint-Andiol Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Senas,Senas Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Saint-Martin-de-Crau ,Saint-Martin-de-Crau  Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Saint-Rémy-de-Provence,Saint-Rémy-de-Provence Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Cadolive,Cadolive Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Greasque,Greasque Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Trets,Trets Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Velaux,Velaux Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Venelles,Venelles Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Le-Puy-Sainte-Reparade,Le-Puy-Sainte-Reparade Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Ventabren,Ventabren Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Cabannes,Cabannes Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Plan-d'Orgon,Plan-d'Orgon Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Meyrargues,Meyrargues Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Saint-Cannat,Saint-Cannat Bouches-du-Rhône France,Gendarmerie,small_green
+13,Bouches-du-Rhône,Eyguières,Eyguières Bouches-du-Rhône France,Gendarmerie,small_green
+14,Calvados,Caen,Caen Calvados France,Police,small_blue
+14,Calvados,Carpiquet,Carpiquet Calvados France,Police,small_blue
+14,Calvados,Cormeilles-le-Royal,Cormeilles-le-Royal Calvados France,Police,small_blue
+14,Calvados,Saint-Germain-la-Blanche-Herbe,Saint-Germain-la-Blanche-Herbe Calvados France,Police,small_blue
+14,Calvados,Saint-Arnoult,Saint-arnoult Calvados France,Police,small_blue
+14,Calvados,Touques,Touques Calvados France,Police,small_blue
+14,Calvados,Trouville-sur-Mer,Trouville-sur-Mer Calvados France,Police,small_blue
+14,Calvados,Cabourg,Cabourg Calvados France,Police,small_blue
+14,Calvados,Beuvillers,Beuvillers Calvados France,Police,small_blue
+14,Calvados,Saint-Désir,Saint-Désir Calvados France,Police,small_blue
+14,Calvados,Bonneville-sur-Mer,Bonneville-sur-Mer Calvados France,Police,small_blue
+14,Calvados,Courseulles-sur-Mer,Courseulles-sur-Mer Calvados France,Gendarmerie,small_green
+14,Calvados,Luc-sur-Mer,Luc-sur-Mer Calvados France,Gendarmerie,small_green
+14,Calvados,Livarot,Livarot Calvados France,Gendarmerie,small_green
+14,Calvados,Douvres-la-Délivrande,Douvres-la-Délivrande Calvados France,Gendarmerie,small_green
+14,Calvados,Saint-André-sur-Orne,Saint-André-sur-Orne Calvados France,Gendarmerie,small_green
+15,Cantal,Aurillac,Aurillac Cantal France,Police,small_blue
+15,Cantal,Saint-Flour,Saint-Flour Cantal France,Gendarmerie,small_green
+15,Cantal,Laveissière,Laveissière Cantal France,Gendarmerie,small_green
+15,Cantal,Vieillespesse,Vieillespesse Cantal France,Gendarmerie,small_green
+15,Cantal,Saint-Georges,Saint-Georges Cantal France,Gendarmerie,small_green
+15,Cantal,Mauriac,Mauriac Cantal France,Gendarmerie,small_green
+16,Charente,Angoulême,Angoulême Charente France,Police,small_blue
+16,Charente,La couronne,La couronne Charente France,Police,small_blue
+16,Charente,Soyaux,Soyaux Charente France,Police,small_blue
+16,Charente,Nersac,Nersac Charente France,Gendarmerie,small_green
+16,Charente,Cognac,Cognac Charente France,Gendarmerie,small_green
+17,Charente-Maritime,Royan,Royan Charente-Maritime France,Police,small_blue
+17,Charente-Maritime,La Rochelle,La Rochelle Charente-Maritime France,Police,small_blue
+17,Charente-Maritime,Saint-Georges-de-Didonne,Saint-Georges-de-Didonne Charente-Maritime France,Police,small_blue
+17,Charente-Maritime,Saintes,Saintes Charente-Maritime France,Police,small_blue
+17,Charente-Maritime,Saint-Palais-de-la-Mer,Saint-Palais-de-la-Mer Charente-Maritime France,Police,small_blue
+17,Charente-Maritime,Saujon,Saujon Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Les Mathes,Les Mathes Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Ars-en-Ré,Ars-en-Ré Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Bourcefranc-le-Chapus,Bourcefranc-le-Chapus Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Champdolent,Champdolent Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Charron,Charron Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Chatelaillon-Plage,Chatelaillon-Plage Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Cram-Chaban,Cram-Chaban Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Dolus-d'Oléron,Dolus-d'Oléron Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,La Tremblade,La Tremblade Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,La Vallée Charente-Maritime France,La Vallée Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Le Château-d'Oléron,Le Château-d'Oléron Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Meursac,Meursac Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Plassay,Plassay Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Pons,Pons Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Rivedoux,Rivedoux Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Semussac,Semussac Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Soubise,Soubise Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Clément-des-Baleines,Saint-Clément-des-Baleines Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Denis-d'Oléron,Saint-Denis-d'Oléron Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Jean-d'Angely,Saint-Jean-d'Angely Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Martin-de-Ré,Saint-Martin-de-Ré Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Pierre-d'Oléron,Saint-Pierre-d'Oléron Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Romain-de-Benet,Saint-Romain-de-Benet Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Sulpice-de-Royan,Saint-Sulpice-de-Royan Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Vivien,Saint-Vivien Charente-Maritime France,Gendarmerie,small_green
+17,Charente-Maritime,Saint-Mard,Saint-Mard Charente-Maritime France,Gendarmerie,small_green
+18,Cher,Bourges,Bourges Cher France,Police,small_blue
+18,Cher,Saint-Doulchard,Saint-Doulchard Cher France,Police,small_blue
+18,Cher,Vierzon,Vierzon Cher France,Police,small_blue
+18,Cher,La Chapelle-Saint-Ursin,La Chapelle-Saint-Ursin Cher France,Police,small_blue
+18,Cher,Avord,Avord Cher France,Gendarmerie,small_green
+18,Cher,Aubigny-sur-Nere,Aubigny-sur-Nere Cher France,Gendarmerie,small_green
+18,Cher,Marmagne,Marmagne Cher France,Gendarmerie,small_green
+18,Cher,Saint-Amand-Montrond,Saint-Amand-Montrond Cher France,Gendarmerie,small_green
+19,Corrèze,Brives,Brives Corrèze France,Police,small_blue
+19,Corrèze,Cublac,Cublac Corrèze France,Gendarmerie,small_green
+19,Corrèze,Objat,Objat Corrèze France,Gendarmerie,small_green
+19,Corrèze,Lubersac,Lubersac Corrèze France,Gendarmerie,small_green
+19,Corrèze,Varetz,Varetz Corrèze France,Gendarmerie,small_green
+21,Côte-d'Or,Dijon,Dijon Côte-d'Or France,Police,small_blue
+21,Côte-d'Or,Beaune,Beaune Côte-d'Or France,Police,small_blue
+21,Côte-d'Or,Longvic,Longvic Côte-d'Or France,Police,small_blue
+21,Côte-d'Or,Vosne-Romanée,Vosne-Romanée Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Thorey-en-Plaine,Thorey-en-Plaine Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Daix,Daix Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Gevrey-Chambertin,Gevrey-Chambertin Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Auxonne,Auxonne Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Saint-Appolinaire,Saint-Appolinaire Côte-d'Or France,Gendarmerie,small_green
+21,Côte-d'Or,Selongey,Selongey Côte-d'Or France,Gendarmerie,small_green
+22,Côtes-d'Armor,Dinan,Dinan Côtes-d'Armor France,Police,small_blue
+22,Côtes-d'Armor,Langueux,Langueux Côtes-d'Armor France,Police,small_blue
+22,Côtes-d'Armor,Saint-Brieuc,Saint-Brieuc Côtes-d'Armor France,Police,small_blue
+22,Côtes-d'Armor,Lancieux,Lancieux Côtes-d'Armor France,Gendarmerie,small_green
+22,Côtes-d'Armor,Pordic,Pordic Côtes-d'Armor France,Gendarmerie,small_green
+22,Côtes-d'Armor,Pledran,Pledran Côtes-d'Armor France,Gendarmerie,small_green
+22,Côtes-d'Armor,Loudéac,Loudéac Côtes-d'Armor France,Gendarmerie,small_green
+24,Dordogne,Bergerac,Bergerac Dordogne France,Police,small_blue
+24,Dordogne,Perigueux,Perigueux Dordogne France,Police,small_blue
+24,Dordogne,Port-Sainte-Foy-et-Ponchapt,Port-Sainte-Foy-et-Ponchapt Dordogne France,Gendarmerie,small_green
+25,Doubs,Besançon,Besançon Doubs France,Police,small_blue
+25,Doubs,Montbéliard,Montbéliard Doubs France,Police,small_blue
+25,Doubs,Arbouans,Arbouans Doubs France,Police,small_blue
+25,Doubs,Exincourt,Exincourt Doubs France,Police,small_blue
+25,Doubs,Seloncourt,Seloncourt Doubs France,Police,small_blue
+25,Doubs,Audincourt,Audincourt Doubs France,Police,small_blue
+25,Doubs,Sochaux,Sochaux Doubs France,Police,small_blue
+25,Doubs,Morteau,Morteau Doubs France,Gendarmerie,small_green
+25,Doubs,Arc-et-Senans,Arc-et-Senans Doubs France,Gendarmerie,small_green
+25,Doubs,Grand-Charmont,Grand-Charmont Doubs France,Gendarmerie,small_green
+25,Doubs,Métabief,Métabief Doubs France,Gendarmerie,small_green
+25,Doubs,Ornans,Ornans Doubs France,Gendarmerie,small_green
+25,Doubs,Vaux-les-Prés,Vaux-les-Prés Doubs France,Gendarmerie,small_green
+25,Doubs,Mamirolle,Mamirolle Doubs France,Gendarmerie,small_green
+25,Doubs,Béthoncourt,Béthoncourt Doubs France,Gendarmerie,small_green
+25,Doubs,Auxon-Dessus,Auxon-Dessus Doubs France,Gendarmerie,small_green
+25,Doubs,Rougemont Doubs France,Rougemont Doubs France,Gendarmerie,small_green
+25,Doubs,Marchaux,Marchaux Doubs France,Gendarmerie,small_green
+25,Doubs,Avannes-Aveney,Avannes-Aveney Doubs France,Gendarmerie,small_green
+26,Drôme,Valence,Valence Drôme France,Police,small_blue
+26,Drôme,Montélimar,Montélimar Drôme France,Police,small_blue
+26,Drôme,Romans-sur-Isère,Romans-sur-Isère Drôme France,Police,small_blue
+26,Drôme,Crest Drôme France,Crest Drôme France,Gendarmerie,small_green
+26,Drôme,Tain-l'Hermitage,Tain-l'Hermitage Drôme France,Gendarmerie,small_green
+26,Drôme,Saint-Donat-sur-l'Herbasse,Saint-Donat-sur-l'Herbasse Drôme France,Gendarmerie,small_green
+26,Drôme,Châteauneuf-sur-Isère,Châteauneuf-sur-Isère Drôme France,Gendarmerie,small_green
+26,Drôme,Roussas,Roussas Drôme France,Gendarmerie,small_green
+26,Drôme,Montboucher-sur-Jabron,Montboucher-sur-Jabron Drôme France,Gendarmerie,small_green
+26,Drôme,Mirabel-aux-Baronnies,Mirabel-aux-Baronnies Drôme France,Gendarmerie,small_green
+26,Drôme,Nyons,Nyons Drôme France,Gendarmerie,small_green
+26,Drôme,La Garde-Adhemar,La Garde-Adhemar Drôme France,Gendarmerie,small_green
+26,Drôme,Pierrelatte,Pierrelatte Drôme France,Gendarmerie,small_green
+26,Drôme,Saint-Paul-Trois-Châteaux,Saint-Paul-Trois-Châteaux Drôme France,Gendarmerie,small_green
+26,Drôme,Loriol,Loriol Drôme France,Gendarmerie,small_green
+26,Drôme,Saint-Gervais-sur-Roubion,Saint-Gervais-sur-Roubion Drôme France,Gendarmerie,small_green
+26,Drôme,Saint-Rambert-d'Albon,Saint-Rambert-d'Albon Drôme France,Gendarmerie,small_green
+26,Drôme,Saint-Vallier,Saint-Vallier Drôme France,Gendarmerie,small_green
+27,Eure,Évreux,Évreux Eure France,Police,small_blue
+27,Eure,Vernon Eure France,Vernon Eure France,Police,small_blue
+27,Eure,Le Vaudreuil,Le Vaudreuil Eure France,Police,small_blue
+27,Eure,Val de Reuil,Val de Reuil Eure France,Police,small_blue
+27,Eure,Louviers,Louviers Eure France,Police,small_blue
+27,Eure,Pont-de-L'Arche,Pont-de-L'Arche Eure France,Gendarmerie,small_green
+27,Eure,Criquebeuf-sur-Seine,Criquebeuf-sur-Seine Eure France,Gendarmerie,small_green
+27,Eure,Igoville,Igoville Eure France,Gendarmerie,small_green
+27,Eure,Martot,Martot Eure France,Gendarmerie,small_green
+27,Eure,La Roquette,La Roquette Eure France,Gendarmerie,small_green
+27,Eure,Saint-André-de-l'Eure,Saint-André-de-l'Eure Eure France,Gendarmerie,small_green
+27,Eure,Saint-Maclou,Saint-Maclou Eure France,Gendarmerie,small_green
+27,Eure,Pont-Audemer,Pont-Audemer Eure France,Gendarmerie,small_green
+27,Eure,Beuzeville,Beuzeville Eure France,Gendarmerie,small_green
+27,Eure,Garencières,Garencières Eure France,Gendarmerie,small_green
+28,Eure-et-Loir,Chartres,Chartres Eure-et-Loir France,Police,small_blue
+28,Eure-et-Loir,Dreux,Dreux Eure-et-Loir France,Police,small_blue
+28,Eure-et-Loir,Luce,Luce Eure-et-Loir France,Police,small_blue
+28,Eure-et-Loir,Maintenon,Maintenon Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Voves,Voves Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Bonneval,Bonneval Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Sancheville,Sancheville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Nogent-le-Roi,Nogent-le-Roi Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Chateauneuf-en-Thymerais,Chateauneuf-en-Thymerais Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Brou-Yevres,Brou-Yevres Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Chateaudun,Chateaudun Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Cloyes-sur-le-Loir,Cloyes-sur-le-Loir Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Margon,Margon Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,La Loupe,La Loupe Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Boutigny-Prouais,Boutigny-Prouais Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Les Pinthières,Les Pinthières Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Faverolles,Faverolles Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Senantes,Senantes Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Saint-Lucien,Saint-Lucien Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Houx,Houx Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Allaines-Mervilliers,Allaines-Mervilliers Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Aunay-sous-Auneau,Aunay-sous-Auneau Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Auneau,Auneau Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Beaudreville,Beaudreville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Bleury-Saint-Symphorien,Bleury-Saint-Symphorien Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Ecrosnes,Ecrosnes Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Epernon,Epernon Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Trancrainville,Trancrainville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Fresnay-l'Evêque,Fresnay-l'Evêque Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Gallardon,Gallardon Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Gommerville,Gommerville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Janville,Janville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Ouarville,Ouarville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Rouvray-Saint-Denis,Rouvray-Saint-Denis Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Rouvres,Rouvres Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Saint-Lubin-de-la-Haye,Saint-Lubin-de-la-Haye Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Sainville,Sainville Eure-et-Loir France,Gendarmerie,small_green
+28,Eure-et-Loir,Santilly,Santilly Eure-et-Loir France,Gendarmerie,small_green
+29,Finistère,Brest,Brest Finistère France,Police,small_blue
+29,Finistère,Quimper,Quimper Finistère France,Police,small_blue
+29,Finistère,Chateauneuf-du-Faou,Chateauneuf-du-Faou Finistère France,Gendarmerie,small_green
+29,Finistère,Crozon,Crozon Finistère France,Gendarmerie,small_green
+29,Finistère,Camaret-sur-Mer,Camaret-sur-Mer Finistère France,Gendarmerie,small_green
+29,Finistère,Pleyben,Pleyben Finistère France,Gendarmerie,small_green
+30,Gard,Nîmes,Nîmes Gard France,Police,small_blue
+30,Gard,Alès,Alès Gard France,Police,small_blue
+30,Gard,Beaucaire,Beaucaire Gard France,Police,small_blue
+30,Gard,Bagnoles-sur-Cèze,Bagnoles-sur-Cèze Gard France,Police,small_blue
+30,Gard,Bagard,Bagard Gard France,Gendarmerie,small_green
+30,Gard,Boisset-Gaujac,Boisset-Gaujac Gard France,Gendarmerie,small_green
+30,Gard,Aigues-Mortes,Aigues-Mortes Gard France,Gendarmerie,small_green
+30,Gard,Uchaud,Uchaud Gard France,Gendarmerie,small_green
+30,Gard,Vergèze,Vergèze Gard France,Gendarmerie,small_green
+30,Gard,Grau-du-Roi,Grau-du-Roi Gard France,Gendarmerie,small_green
+30,Gard,Sommières,Sommières Gard France,Gendarmerie,small_green
+30,Gard,Uzès,Uzès Gard France,Gendarmerie,small_green
+30,Gard,Pont-Saint-Esprit,Pont-Saint-Esprit Gard France,Gendarmerie,small_green
+30,Gard,Bellegarde,Bellegarde Gard France,Gendarmerie,small_green
+30,Gard,Generac,Generac Gard France,Gendarmerie,small_green
+30,Gard,Poulx,Poulx Gard France,Gendarmerie,small_green
+30,Gard,Marguerittes,Marguerittes Gard France,Gendarmerie,small_green
+30,Gard,Jonquières-Saint-Vincent,Jonquières-Saint-Vincent Gard France,Gendarmerie,small_green
+30,Gard,Roquemaure,Roquemaure Gard France,Gendarmerie,small_green
+30,Gard,Aimargues,Aimargues Gard France,Gendarmerie,small_green
+30,Gard,Aramon,Aramon Gard France,Gendarmerie,small_green
+30,Gard,Codognan,Codognan Gard France,Gendarmerie,small_green
+30,Gard,Gallargues-le-Montueux,Gallargues-le-Montueux Gard France,Gendarmerie,small_green
+30,Gard,La Grand-Combe,La Grand-Combe Gard France,Gendarmerie,small_green
+30,Gard,Meynes,Meynes Gard France,Gendarmerie,small_green
+30,Gard,Milhaud,Milhaud Gard France,Gendarmerie,small_green
+30,Gard,Montfrin,Montfrin Gard France,Gendarmerie,small_green
+30,Gard,Pujaut,Pujaut Gard France,Gendarmerie,small_green
+30,Gard,Redessan,Redessan Gard France,Gendarmerie,small_green
+30,Gard,Rochefort-du-Gard,Rochefort-du-Gard Gard France,Gendarmerie,small_green
+30,Gard,Sainte-Anastasie,Sainte-Anastasie Gard France,Gendarmerie,small_green
+30,Gard,Saint-Bauzely,Saint-Bauzely Gard France,Gendarmerie,small_green
+30,Gard,Saint-Génies-de-Malgoires,Saint-Génies-de-Malgoires Gard France,Gendarmerie,small_green
+30,Gard,Vauvert,Vauvert Gard France,Gendarmerie,small_green
+30,Gard,Vers-Pont-du-Gard,Vers-Pont-du-Gard Gard France,Gendarmerie,small_green
+30,Gard,Aigueze,Aigueze Gard France,Gendarmerie,small_green
+30,Gard,Rodilhan,Rodilhan Gard France,Gendarmerie,small_green
+30,Gard,Bouillargues,Bouillargues Gard France,Gendarmerie,small_green
+30,Gard,Saint-Gilles Gard France,Saint-Gilles Gard France,Gendarmerie,small_green
+30,Gard,Mus Gard France,Mus Gard France,Gendarmerie,small_green
+31,Haute-Garonne,Toulouse,Toulouse Haute-Garonne France,Police,small_blue
+31,Haute-Garonne,Blagnac,Blagnac Haute-Garonne France,Police,small_blue
+31,Haute-Garonne,Tournefeuille,Tournefeuille Haute-Garonne France,Police,small_blue
+31,Haute-Garonne,Revel,Revel Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Frouzins,Frouzins Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Bruguieres,Bruguiere Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Languevin Haute-Garonne France,Languevin Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Castanet-Tolosan,Castanet-Tolosan Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Castelginest,Castelginest Haute-Garonne France,Gendarmerie,small_green
+31,Haute-Garonne,Revel,Revel Haute-Garonne France,Gendarmerie,small_green
+33,Gironde,Bordeaux,Bordeaux Gironde France,Police,small_blue
+33,Gironde,La Teste-de-Buch,La Teste-de-Buch Gironde France,Police,small_blue
+33,Gironde,Cenon,Cenon Gironde France,Police,small_blue
+33,Gironde,Le Bouscat,Le Bouscat Gironde France,Police,small_blue
+33,Gironde,Pessac,Pessac Gironde France,Police,small_blue
+33,Gironde,Blaye,Blaye Gironde France,Police,small_blue
+33,Gironde,Villenave-d-'Ornon,Villenave-d-'Ornon Gironde France,Police,small_blue
+33,Gironde,Andernos-les-Bains,Andernos-les-Bains Gironde France,Gendarmerie,small_green
+33,Gironde,AresAres Gironde France,Ares Gironde France,Gendarmerie,small_green
+33,Gironde,Arsac,Arsac Gironde France,Gendarmerie,small_green
+33,Gironde,Blaye,Blaye Gironde France,Gendarmerie,small_green
+33,Gironde,Cadillac-en-Fronsadais,Cadillac-en-Fronsadais Gironde France,Gendarmerie,small_green
+33,Gironde,Castelnau-de-Médoc,Castelnau-de-Médoc Gironde France,Gendarmerie,small_green
+33,Gironde,Castillon-la-Bataille,Castillon-la-Bataille Gironde France,Gendarmerie,small_green
+33,Gironde,Cubzac-les-Ponts,Cubzac-les-Ponts Gironde France,Gendarmerie,small_green
+33,Gironde,Lacanau,Lacanau Gironde France,Gendarmerie,small_green
+33,Gironde,Lanton,Lanton Gironde France,Gendarmerie,small_green
+33,Gironde,Le-Verdon-sur-Mer,Le-Verdon-sur-Mer Gironde France,Gendarmerie,small_green
+33,Gironde,Lege-Cap-Ferret,Lege-Cap-Ferret Gironde France,Gendarmerie,small_green
+33,Gironde,Lesparre-Médoc,Lesparre-Médoc Gironde France,Gendarmerie,small_green
+33,Gironde,Libourne,Libourne Gironde France,Gendarmerie,small_green
+33,Gironde,Macau Gironde France,Macau Gironde France,Gendarmerie,small_green
+33,Gironde,Naujac-sur-Mer,Naujac-sur-Mer Gironde France,Gendarmerie,small_green
+33,Gironde,Peujard,Peujard Gironde France,Gendarmerie,small_green
+33,Gironde,Portets,Portets Gironde France,Gendarmerie,small_green
+33,Gironde,Soulac-sur-Mer,Soulac-sur-Mer Gironde France,Gendarmerie,small_green
+33,Gironde,Saint-Louis-de-Montferrand,Saint-Louis-de-Montferrand Gironde France,Gendarmerie,small_green
+33,Gironde,Saint-Magne,Saint-Magne Gironde France,Gendarmerie,small_green
+33,Gironde,Saint-Vincent-de-Paul,Saint-Vincent-de-Paul Gironde France,Gendarmerie,small_green
+33,Gironde,Saint-Yzan-de-Soudiac,Saint-Yzan-de-Soudiac Gironde France,Gendarmerie,small_green
+33,Gironde,Sainte-Eulalie,Sainte-Eulalie Gironde France,Gendarmerie,small_green
+33,Gironde,Sainte-Foy-la-Grande,Sainte-Foy-la-Grande Gironde France,Gendarmerie,small_green
+33,Gironde,Vendays-Montalivet,Vendays-Montalivet Gironde France,Gendarmerie,small_green
+33,Gironde,Virsac,Virsac Gironde France,Gendarmerie,small_green
+33,Gironde,Bazas,Bazas Gironde France,Gendarmerie,small_green
+34,Hérault,Sète,Sète Hérault France,Police,small_blue
+34,Hérault,Montpellier,Montpellier Hérault France,Police,small_blue
+34,Hérault,Agde,Agde Hérault France,Police,small_blue
+34,Hérault,Béziers,Béziers Hérault France,Police,small_blue
+34,Hérault,Pézenas,Pézenas Hérault France,Gendarmerie,small_green
+34,Hérault,Valras,Valras Hérault France,Gendarmerie,small_green
+34,Hérault,Sérignan,Sérignan Hérault France,Gendarmerie,small_green
+34,Hérault,Lunel,Lunel Hérault France,Gendarmerie,small_green
+34,Hérault,Baillargues,Baillargues Hérault France,Gendarmerie,small_green
+34,Hérault,Vendargues,Vendargues Hérault France,Gendarmerie,small_green
+34,Hérault,La Grande-Motte,La Grande-Motte Hérault France,Gendarmerie,small_green
+34,Hérault,Aspiran,Aspiran Hérault France,Gendarmerie,small_green
+34,Hérault,Beaulieu Hérault France,Beaulieu Hérault France,Gendarmerie,small_green
+34,Hérault,Bedarieux,Bedarieux Hérault France,Gendarmerie,small_green
+34,Hérault,Bessan,Bessan Hérault France,Gendarmerie,small_green
+34,Hérault,Castelnau-le-Lez,Castelnau-le-Lez Hérault France,Gendarmerie,small_green
+34,Hérault,Castries Hérault France,Castries Hérault France,Gendarmerie,small_green
+34,Hérault,Caux,Caux Hérault France,Gendarmerie,small_green
+34,Hérault,Clermont-l'Hérault,Clermont-l'Hérault Hérault France,Gendarmerie,small_green
+34,Hérault,Colombiers,Colombiers Hérault France,Gendarmerie,small_green
+34,Hérault,Cournonterral,Cournonterral Hérault France,Gendarmerie,small_green
+34,Hérault,Fabregues,Fabregues Hérault France,Gendarmerie,small_green
+34,Hérault,Faugeres,Faugeres Hérault France,Gendarmerie,small_green
+34,Hérault,Florensac,Florensac Hérault France,Gendarmerie,small_green
+34,Hérault,Ganges,Ganges Hérault France,Gendarmerie,small_green
+34,Hérault,Gigean,Gigean Hérault France,Gendarmerie,small_green
+34,Hérault,Gignac,Gignac Hérault France,Gendarmerie,small_green
+34,Hérault,Gornies,Gornies Hérault France,Gendarmerie,small_green
+34,Hérault,Lamalou-les-Bains,Lamalou-les-Bains Hérault France,Gendarmerie,small_green
+34,Hérault,Laroque,Laroque Hérault France,Gendarmerie,small_green
+34,Hérault,Laurens Hérault France,Laurens Hérault France,Gendarmerie,small_green
+34,Hérault,Le-Cres,Le-Cres Hérault France,Gendarmerie,small_green
+34,Hérault,Lodeve,Lodeve Hérault France,Gendarmerie,small_green
+34,Hérault,Magalas,Magalas Hérault France,Gendarmerie,small_green
+34,Hérault,Marseillan,Marseillan Hérault France,Gendarmerie,small_green
+34,Hérault,Mauguio-Carnon,Mauguio-Carnon Hérault France,Gendarmerie,small_green
+34,Hérault,Mireval,Mireval Hérault France,Gendarmerie,small_green
+34,Hérault,Montferriez-sur-Lez,Montferriez-sur-Lez Hérault France,Gendarmerie,small_green
+34,Hérault,Murviel-les-Beziers,Murviel-les-Beziers Hérault France,Gendarmerie,small_green
+34,Hérault,Murviel-les-Montpellier,Murviel-les-Montpellier Hérault France,Gendarmerie,small_green
+34,Hérault,Palavas-les-Flots,Palavas-les-Flots Hérault France,Gendarmerie,small_green
+34,Hérault,Pignan,Pignan Hérault France,Gendarmerie,small_green
+34,Hérault,Portiragnes,Portiragnes Hérault France,Gendarmerie,small_green
+34,Hérault,Poussan,Poussan Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Gely-du-Fesc,Saint-Gely-du-Fesc Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Georges-d'Orques,Saint-Georges-d'Orques Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Guilhem-le-Désert,Saint-Guilhem-le-Désert Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Jean-de-Fos,Saint-Jean-de-Fos Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Just Hérault France,Saint-Just Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Nazaire-de-Pezan,Saint-Nazaire-de-Pezan Hérault France,Gendarmerie,small_green
+34,Hérault,Saint-Pargoire,Saint-Pargoire Hérault France,Gendarmerie,small_green
+34,Hérault,Sainte-Croix-de-Quintillargues,Sainte-Croix-de-Quintillargues Hérault France,Gendarmerie,small_green
+34,Hérault,Teyran,Teyran Hérault France,Gendarmerie,small_green
+34,Hérault,Thezan-les-Beziers,Thezan-les-Beziers Hérault France,Gendarmerie,small_green
+34,Hérault,Valros,Valros Hérault France,Gendarmerie,small_green
+34,Hérault,Villeneuve-les-Maguelone,Villeneuve-les-Maguelone Hérault France,Gendarmerie,small_green
+34,Hérault,Balaruc-le-Vieux,Balaruc-le-Vieux Hérault France,Gendarmerie,small_green
+34,Hérault,Montagnac,Montagnac Hérault France,Gendarmerie,small_green
+34,Hérault,Pinet,Pinet Hérault France,Gendarmerie,small_green
+35,Ille-et-Vilaine,Rennes,Rennes Ille-et-Vilaine France,Police,small_blue
+35,Ille-et-Vilaine,Saint Malo,Saint Malo Ille-et-Vilaine France,Police,small_blue
+35,Ille-et-Vilaine,Dinard,Dinard Ille-et-Vilaine France,Police,small_blue
+35,Ille-et-Vilaine,Ploërmel,Ploërmel Ille-et-Vilaine France,Gendarmerie,small_green
+35,Ille-et-Vilaine,Cancale,Cancale Ille-et-Vilaine France,Gendarmerie,small_green
+35,Ille-et-Vilaine,Vitré,Vitré Ille-et-Vilaine France,Gendarmerie,small_green
+36,Indre,Châteauroux,Châteauroux Indre France,Police,small_blue
+36,Indre,Saint-Maur,Saint-Maur Indre France,Police,small_blue
+36,Indre,Déols,Déols Indre France,Police,small_blue
+36,Indre,Diors,Diors Indre France,Gendarmerie,small_green
+37,Indre-et-Loire,Joué-lès-Tours,Joué-lès-Tours Indre-et-Loire France,Police,small_blue
+37,Indre-et-Loire,Saint Cyr sur Loire,Saint Cyr sur Loire Indre-et-Loire France,Police,small_blue
+37,Indre-et-Loire,Tours,Tours Indre-et-Loire France,Police,small_blue
+37,Indre-et-Loire,Parcay-Meslay,Parcay-Meslay Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Vouvray,Vouvray Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Chançay Indre-et-Loire France,Chançay Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Reugny,Reugny Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Rochecorbon,Rochecorbon Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Vernou,Vernou Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Loches,Loches Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Chinon,Chinon Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Veigne,Veigne Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Château-Renault,Château-Renault Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Poce-sur-Cisse,Poce-sur-Cisse Indre-et-Loire France,Gendarmerie,small_green
+37,Indre-et-Loire,Athee-sur-Cher,Athee-sur-Cher Indre-et-Loire France,Gendarmerie,small_green
+38,Isère,Bourgoin-Jallieu,Bourgoin-Jallieu Isère France,Police,small_blue
+38,Isère,Vienne,Vienne Isère France,Police,small_blue
+38,Isère,Saint-Martin-le-Vinoux,Saint-Martin-le-Vinoux Isère France,Police,small_blue
+38,Isère,Echirolles,Echirolles Isère France,Police,small_blue
+38,Isère,Fontaine,Fontaine Isère France,Police,small_blue
+38,Isère,Grenoble,Grenoble Isère France,Police,small_blue
+38,Isère,Ebeyns,Ebeyns Isère France,Gendarmerie,small_green
+38,Isère,Saint-Georges-de-Commiers,Saint-Georges-de-Commiers Isère France,Gendarmerie,small_green
+38,Isère,Villette-d'Anthon,Villette-d'Anthon Isère France,Gendarmerie,small_green
+38,Isère,Charvieu-Chavagnieu,Charvieu-Chavagnieu Isère France,Gendarmerie,small_green
+38,Isère,Janneyrias,Janneyrias Isère France,Gendarmerie,small_green
+38,Isère,La Verpillière,La Verpillière Isère France,Gendarmerie,small_green
+38,Isère,La Tour-du-Pin,La Tour-du-Pin Isère France,Gendarmerie,small_green
+38,Isère,Heyrieux,Heyrieux Isère France,Gendarmerie,small_green
+38,Isère,Allevard,Allevard Isère France,Gendarmerie,small_green
+38,Isère,Bougé-Chambalud,Bougé-Chambalud Isère France,Gendarmerie,small_green
+38,Isère,Pisieur,Pisieur Isère France,Gendarmerie,small_green
+38,Isère,Huez,Huez Isère France,Gendarmerie,small_green
+38,Isère,Saint-Chef,Saint-Chef Isère France,Gendarmerie,small_green
+38,Isère,Saint-Savin,Saint-Savin Isère France,Gendarmerie,small_green
+38,Isère,Clelles,Clelles Isère France,Gendarmerie,small_green
+38,Isère,Le Monestier-du-Percy,Le Monestier-du-Percy Isère France,Gendarmerie,small_green
+38,Isère,Saint-Maurice-en-Trièves,Saint-Maurice-en-Trièves Isère France,Gendarmerie,small_green
+38,Isère,Saint-Michel-les-Portes,Saint-Michel-les-Portes Isère France,Gendarmerie,small_green
+38,Isère,Le Versoud,Le Versoud Isère France,Gendarmerie,small_green
+38,Isère,Bresson Isère France,Bresson Isère France,Gendarmerie,small_green
+38,Isère,Grenay,Grenay Isère France,Gendarmerie,small_green
+38,Isère,Saint-Georges d'Esperanche,Saint-Georges d'Esperanche Isère France,Gendarmerie,small_green
+38,Isère,Valencin,Valencin Isère France,Gendarmerie,small_green
+38,Isère,L'Isle d'Abeau,L'Isle d'Abeau Isère France,Gendarmerie,small_green
+38,Isère,La Mure,La Mure Isère France,Gendarmerie,small_green
+38,Isère,Mizoën,Mizoën Isère France,Gendarmerie,small_green
+38,Isère,Le Touvet,Le Touvet Isère France,Gendarmerie,small_green
+38,Isère,Les Avenières,Les Avenières Isère France,Gendarmerie,small_green
+38,Isère,Mont-de-Lans,Mont-de-Lans Isère France,Gendarmerie,small_green
+38,Isère,Livet-et-Gavet,Livet-et-Gavet Isère France,Gendarmerie,small_green
+38,Isère,Corenc,Corenc Isère France,Gendarmerie,small_green
+38,Isère,Moirans,Moirans Isère France,Gendarmerie,small_green
+38,Isère,Roissard,Roissard Isère France,Gendarmerie,small_green
+38,Isère,Pont-de-Cheruy,Pont-de-Cheruy Isère France,Gendarmerie,small_green
+38,Isère,Chavanoz,Chavanoz Isère France,Gendarmerie,small_green
+38,Isère,Tignieu-Jameyzieu,Tignieu-Jameyzieu Isère France,Gendarmerie,small_green
+38,Isère,Saint-Romain-de-Surieu,Saint-Romain-de-Surieu Isère France,Gendarmerie,small_green
+38,Isère,Sassenage,Sassenage Isère France,Gendarmerie,small_green
+38,Isère,Seyssinet-Pariset,Seyssinet-Pariset Isère France,Gendarmerie,small_green
+38,Isère,La Frette,La Frette Isère France,Gendarmerie,small_green
+38,Isère,Saint-Etienne-de-Saint-Géoirs,Saint-Etienne-de-Saint-Géoirs Isère France,Gendarmerie,small_green
+38,Isère,Montferrat,Montferrat Isère France,Gendarmerie,small_green
+38,Isère,Saint-Jean-de-Bournay,Saint-Jean-de-Bournay Isère France,Gendarmerie,small_green
+38,Isère,La Sone,La Sone Isère France,Gendarmerie,small_green
+38,Isère,Saint-Marcellin,Saint-Marcellin Isère France,Gendarmerie,small_green
+38,Isère,Chasse-sur-Rhône,Chasse-sur-Rhône Isère France,Gendarmerie,small_green
+38,Isère,Saint-Paul-de-Varces,Saint-Paul-de-Varces Isère France,Gendarmerie,small_green
+38,Isère,Villefontaine,Villefontaine Isère France,Gendarmerie,small_green
+38,Isère,Vinay,Vinay Isère France,Gendarmerie,small_green
+38,Isère,Brié-et-Angonnes,Brié-et-Angonnes Isère France,Gendarmerie,small_green
+38,Isère,La Buisse,La Buisse Isère France,Gendarmerie,small_green
+38,Isère,Mont-Saint-Martin,Mont-Saint-Martin Isère France,Gendarmerie,small_green
+38,Isère,Saint-Romain-de-Jalonias,Saint-Romain-de-Jalonias Isère France,Gendarmerie,small_green
+39,Jura,Lons-le-Saulnier,Lons-le-Saulnier Jura France,Police,small_blue
+39,Jura,Morez,Morez Jura France,Gendarmerie,small_green
+39,Jura,Saint-Claude,Saint-Claude Jura France,Gendarmerie,small_green
+39,Jura,Dole,Dole Jura France,Gendarmerie,small_green
+39,Jura,Baverans,Baverans Jura France,Gendarmerie,small_green
+39,Jura,Poligny,Poligny Jura France,Gendarmerie,small_green
+39,Jura,Mont-sous-Vaudrey,Mont-sous-Vaudrey Jura France,Gendarmerie,small_green
+39,Jura,Les Rousses,Les Rousses Jura France,Gendarmerie,small_green
+40,Landes,Dax,Dax Landes France,Police,small_blue
+40,Landes,Saint-Paul-lès-Dax,Saint-Paul-lès-Dax Landes France,Police,small_blue
+40,Landes,Mont-de-Marsan,Mont-de-Marsan Landes France,Police,small_blue
+40,Landes,Biscarrosse,Biscarrosse Landes France,Gendarmerie,small_green
+40,Landes,Bretagne-de-Marsan,Bretagne-de-Marsan Landes France,Gendarmerie,small_green
+40,Landes,Buanes,Buanes Landes France,Gendarmerie,small_green
+40,Landes,Capbreton,Capbreton Landes France,Gendarmerie,small_green
+40,Landes,Solferino,Solferino Landes France,Gendarmerie,small_green
+40,Landes,Soort-Hossegor,Soort-Hossegor Landes France,Gendarmerie,small_green
+40,Landes,Vielle-Saint-Girons,Vielle-Saint-Girons Landes France,Gendarmerie,small_green
+40,Landes,Clermont Landes France,Clermont Landes France,Gendarmerie,small_green
+41,Loir-et-Cher,Blois,Blois Loir-et-Cher France,Police,small_blue
+41,Loir-et-Cher,Romorantin-Lanthenay,Romorantin-Lanthenay Loir-et-Cher France,Police,small_blue
+41,Loir-et-Cher,Contres,Contres Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Soing-en-Sologne,Soing-en-Sologne Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Nouan-le-Fuselier,Nouan-le-Fuselier Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Salbris,Salbris Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Mer Loir-et-Cher France,Mer Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Chailles,Chailles Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Les Montils,Les Montils Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Huisseau-sur-Cosson,Huisseau-sur-Cosson Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Cour-Cheverny,Cour-Cheverny Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Montrichard,Montrichard Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Selles-sur-Cher,Selles-sur-Cher Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Mur-de-Sologne,Mur-de-Sologne Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Saint-Aignan,Saint-Aignan Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Mondoubleau,Mondoubleau Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Thenay,Thenay Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Chaon,Chaon Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Ouzouer-le-Marche,Ouzouer-le-Marche Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Villefranche-sur-Cher,Villefranche-sur-Cher Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Villebarou,Villebarou Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Noyer-sur-Cher,Noyer-sur-Cher Loir-et-Cher France,Gendarmerie,small_green
+41,Loir-et-Cher,Oulques,Oulques Loir-et-Cher France,Gendarmerie,small_green
+42,Loire,Saint-Étienne,Saint-Étienne Loire France,Police,small_blue
+42,Loire,Saint-Jean-Bonnefonds,Saint-Jean-Bonnefonds Loire France,Police,small_blue
+42,Loire,Rive-de-Gier,Rive-de-Gier Loire France,Police,small_blue
+42,Loire,Roanne,Roanne Loire France,Police,small_blue
+42,Loire,Lorette,Lorette Loire France,Police,small_blue
+42,Loire,Saint-Chamond,Saint-Chamond Loire France,Police,small_blue
+42,Loire,Firminy,Firminy Loire France,Police,small_blue
+42,Loire,Fraisses,Fraisses Loire France,Police,small_blue
+42,Loire,La Ricamarie,La Ricamarie Loire France,Police,small_blue
+42,Loire,Le Chambon-Feugerolles,Le Chambon-Feugerolles Loire France,Police,small_blue
+42,Loire,Unieux,Unieux Loire France,Police,small_blue
+42,Loire,Saint-Genest-Lerpt,Saint-Genest-Lerpt Loire France,Police,small_blue
+42,Loire,Villars,Villars Loire France,Police,small_blue
+42,Loire,Saint-Cyprien,Saint-Cyprien Loire France,Gendarmerie,small_green
+42,Loire,Andrezieux-Boutheon,Andrezieux-Boutheon Loire France,Gendarmerie,small_green
+42,Loire,Feurs,Feurs Loire France,Gendarmerie,small_green
+42,Loire,Fraisses,Fraisses Loire France,Gendarmerie,small_green
+42,Loire,Montbrison,Montbrison Loire France,Gendarmerie,small_green
+42,Loire,Montrond-les-Bains,Montrond-les-Bains Loire France,Gendarmerie,small_green
+42,Loire,Noirétable,Noirétable Loire France,Gendarmerie,small_green
+42,Loire,Rivas Loire France,Rivas Loire France,Gendarmerie,small_green
+42,Loire,Saint-Galmier,Saint-Galmier Loire France,Gendarmerie,small_green
+42,Loire,Saint-Jean-de-Bonnefonds,Saint-Jean-de-Bonnefonds Loire France,Gendarmerie,small_green
+42,Loire,Saint-Marcellin-en-Forez,Saint-Marcellin-en-Forez Loire France,Gendarmerie,small_green
+42,Loire,Saint-Romain-le-Puy,Saint-Romain-le-Puy Loire France,Gendarmerie,small_green
+42,Loire,Sury-le-Comtal,Sury-le-Comtal Loire France,Gendarmerie,small_green
+43,Haute-Loire,Aiguilhe,Aiguilhe Haute-Loire France,Police,small_blue
+43,Haute-Loire,Le-Puy-en-Velay,Le-Puy-en-Velay Haute-Loire France,Police,small_blue
+43,Haute-Loire,Brioude,Brioude Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Aurec-sur-Loire,Aurec-sur-Loire Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Rosières Haute-Loire France,Rosières Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Lorlanges,Lorlanges Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Retournac,Retournac Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Monastier-sur-Gazelle,Monastier-sur-Gazelle Haute-Loire France,Gendarmerie,small_green
+43,Haute-Loire,Langeac,Langeac Haute-Loire France,Gendarmerie,small_green
+44,Loire-Atlantique,Orvault,Orvault Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,Saint-Herblain,Saint-Herblain Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,La Baule,La Baule Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,Nantes,Nantes Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,Rezé,Rezé Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,Pornichet,Pornichet Loire-Atlantique France,Police,small_blue
+44,Loire-Atlantique,Saint-Etienne-de-Montluc,Saint-Etienne-de-Montluc Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Saint-Nicolas-de-Redon,Saint-Nicolas-de-Redon Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Bouguenais,Bouguenais Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,vertou,vertou Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Carquefou,Carquefou Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,La Bernerie-en-Retz,La Bernerie-en-Retz Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Piriac-sur-Mer,Piriac-sur-Mer Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Lege,Lege Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Basse-Goulaine,Basse-Goulaine Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,La Chapelle-sur-Erdre,La Chapelle-sur-Erdre Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Chateaubriant,Chateaubriant Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Pornic,Pornic Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,Saint-Joachim,Saint-Joachim Loire-Atlantique France,Gendarmerie,small_green
+44,Loire-Atlantique,La Chevrolière,La Chevrolière Loire-Atlantique France,Gendarmerie,small_green
+45,Loiret,Orléans,Orléans Loiret France,Police,small_blue
+45,Loiret,Montargis,Montargis Loiret France,Police,small_blue
+45,Loiret,Amilly,Amilly Loiret France,Police,small_blue
+45,Loiret,Fleury-les-Aubrais,Fleury-les-Aubrais Loiret France,Police,small_blue
+45,Loiret,Olivet Loiret France,Olivet Loiret France,Police,small_blue
+45,Loiret,Ormes,Ormes Loiret France,Police,small_blue
+45,Loiret,Semoy,Semoy Loiret France,Police,small_blue
+45,Loiret,Saint-Jean-de-Braye,Saint-Jean-de-Braye Loiret France,Police,small_blue
+45,Loiret,Saint-Jean-de-la-Ruelle,Saint-Jean-de-la-Ruelle Loiret France,Police,small_blue
+45,Loiret,Saint-Privé-Saint-Mesmin,Saint-Privé-Saint-Mesmin Loiret France,Police,small_blue
+45,Loiret,La-Chapelle-Saint-Mesmin,La-Chapelle-Saint-Mesmin Loiret France,Police,small_blue
+45,Loiret,Ferrières-en-Gatinais,Ferrières-en-Gatinais Loiret France,Gendarmerie,small_green
+45,Loiret,Cepoy,Cepoy Loiret France,Gendarmerie,small_green
+45,Loiret,Pannes,Pannes Loiret France,Gendarmerie,small_green
+45,Loiret,Courtenay Loiret France,Courtenay Loiret France,Gendarmerie,small_green
+45,Loiret,Trigueres,Trigueres Loiret France,Gendarmerie,small_green
+45,Loiret,Meung-sur-Loire,Meung-sur-Loire Loiret France,Gendarmerie,small_green
+45,Loiret,Saint-Ay,Saint-Ay Loiret France,Gendarmerie,small_green
+45,Loiret,Pithiviers,Pithiviers Loiret France,Gendarmerie,small_green
+45,Loiret,Pithiviers le Vieil,Pithiviers le Vieil Loiret France,Gendarmerie,small_green
+45,Loiret,Gien,Gien Loiret France,Gendarmerie,small_green
+45,Loiret,Chaingy,Chaingy Loiret France,Gendarmerie,small_green
+45,Loiret,Sully-sur-Loire,Sully-sur-Loire Loiret France,Gendarmerie,small_green
+45,Loiret,Chevillon-sur-Huillard,Chevillon-sur-Huillard Loiret France,Gendarmerie,small_green
+45,Loiret,Saint-Maurice-sur-Ferrard,Saint-Maurice-sur-Ferrard Loiret France,Gendarmerie,small_green
+45,Loiret,Bonny-sur-Loire,Bonny-sur-Loire Loiret France,Gendarmerie,small_green
+45,Loiret,Saint-Maurice-sur-Fessard,Saint-Maurice-sur-Fessard Loiret France,Gendarmerie,small_green
+45,Loiret,Checy,Checy Loiret France,Gendarmerie,small_green
+45,Loiret,Puiseaux,Puiseaux Loiret France,Gendarmerie,small_green
+46,Lot,Saint-Cere,Saint-Cere Lot France,Gendarmerie,small_green
+47,Lot-et-Garonne,Aiguillon,Aiguillon Lot-et-Garonne France,Gendarmerie,small_green
+47,Lot-et-Garonne,Marmande,Marmande Lot-et-Garonne France,Gendarmerie,small_green
+47,Lot-et-Garonne,Pont-du-Casse,Pont-du-Casse Lot-et-Garonne France,Gendarmerie,small_green
+48,Lozère,Mende,Mende Lozère France,Police,small_blue
+48,Lozère,Marvejols,Marvejols Lozère France,Gendarmerie,small_green
+48,Lozère,Villefort,Villefort Lozère France,Gendarmerie,small_green
+48,Lozère,Le-Collet-de-Deze,Le-Collet-de-Deze Lozère France,Gendarmerie,small_green
+48,Lozère,Aumont-Aubrac,Aumont-Aubrac Lozère France,Gendarmerie,small_green
+48,Lozère,Saint-Chery-d'Archer,Saint-Chery-d'Archer Lozère France,Gendarmerie,small_green
+48,Lozère,Massegros,Massegros Lozère France,Gendarmerie,small_green
+48,Lozère,Marvejols,Marvejols Lozère France,Gendarmerie,small_green
+49,Maine-et-Loire,Angers,Angers Maine-et-Loire France,Police,small_blue
+49,Maine-et-Loire,Avrillé,Avrillé Maine-et-Loire France,Police,small_blue
+49,Maine-et-Loire,Les-Ponts-de-Cé,Les-Ponts-de-Cé Maine-et-Loire France,Police,small_blue
+49,Maine-et-Loire,Trélazé,Trélazé Maine-et-Loire France,Police,small_blue
+49,Maine-et-Loire,Cholet,Cholet Maine-et-Loire France,Police,small_blue
+49,Maine-et-Loire,Montjean-sur-Loire,Montjean-sur-Loire Maine-et-Loire France,Gendarmerie,small_green
+49,Maine-et-Loire,Becon-les-Granits,Becon-les-Granits Maine-et-Loire France,Gendarmerie,small_green
+50,Manche,Cherbourg-Octeville,Cherbourg-Octeville Manche France,Police,small_blue
+50,Manche,Saint-Lô,Saint-Lô Manche France,Police,small_blue
+50,Manche,Avranches,Avranches Manche France,Gendarmerie,small_green
+51,Marne,Châlons-en-Champagne,Châlons-en-Champagne Marne France,Police,small_blue
+51,Marne,Saint-Martin-sur-le-Pré,Saint-Martin-sur-le-Pré Marne France,Police,small_blue
+51,Marne,Bezannes,Bezannes Marne France,Police,small_blue
+51,Marne,Cormontreuil,Cormontreuil Marne France,Police,small_blue
+51,Marne,Reims,Reims Marne France,Police,small_blue
+51,Marne,Saint-Brice-Courcelles,Saint-Brice-Courcelles Marne France,Police,small_blue
+51,Marne,Trinqueux,Trinqueux Marne France,Police,small_blue
+51,Marne,Epernay,Epernay Marne France,Police,small_blue
+51,Marne,Magenta Marne France,Magenta Marne France,Police,small_blue
+51,Marne,Vitry-le-François,Vitry-le-François Marne France,Gendarmerie,small_green
+51,Marne,Pontfaverger-Moronvilliers,Pontfaverger-Moronvilliers Marne France,Gendarmerie,small_green
+51,Marne,Warmeriville,Warmeriville Marne France,Gendarmerie,small_green
+51,Marne,Isle-sur-Marne,Isle-sur-Marne Marne France,Gendarmerie,small_green
+52,Haute-Marne,Chaumont,Chaumont Haute-Marne France,Police,small_blue
+52,Haute-Marne,Saint-Dizier,Saint-Dizier Haute-Marne France,Police,small_blue
+52,Haute-Marne,Langres,Langres Haute-Marne France,Gendarmerie,small_green
+52,Haute-Marne,Joinville Haute-Marne France,Joinville Haute-Marne France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Nancy,Nancy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Pont-à-Mousson,Pont-à-Mousson Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Briey,Briey Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Auboué,Auboué Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Joeuf,Joeuf Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Conflans-en-Jarnisy,Conflans-en-Jarnisy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Jarny,Jarny Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Moineville,Moineville Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Herserange,Herserange Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Longlaville,Longlaville Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Longwy,Longwy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Mont-Saint-Martin,Mont-Saint-Martin Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Varangeville,Varangeville Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Lunéville,Lunéville Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Essey-lès-Nancy,Essey-lès-Nancy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Heillecourt,Heillecourt Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Houdemont,Houdemont Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Laxou,Laxou Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Ludres,Ludres Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Maxéville,Maxéville Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Pulnoy,Pulnoy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Saint-Max,Saint-Max Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Saulxures-lès-Nancy,Saulxures-lès-Nancy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Villers-lès-Nancy,Villers-lès-Nancy Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Pont-à-Mousson,Pont-à-Mousson Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Tomblaine,Tomblaine Meurthe-et-Moselle France,Police,small_blue
+54,Meurthe-et-Moselle,Lexy,Lexy Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Cosnes-et-Romain,Cosnes-et-Romain Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Chambley-Bussières,Chambley-Bussières Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Frouard,Frouard Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Pompey Meurthe-et-Moselle France,Pompey Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Champigneulles,Champigneulles Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Saizerais,Saizerais Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Blainville-sur-l'Eau,Blainville-sur-l'Eau Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Chaligny,Chaligny Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Laneuvelotte,Laneuvelotte Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Landres,Landres Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Chenevieres,Chenevieres Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Thiaucourt-Regnieville,Thiaucourt-Regnieville Meurthe-et-Moselle France,Gendarmerie,small_green
+54,Meurthe-et-Moselle,Rosières-aux-Salines,Rosières-aux-Salines Meurthe-et-Moselle France,Gendarmerie,small_green
+55,Meuse,Bar-le-Duc,Bar-le-Duc Meuse France,Police,small_blue
+55,Meuse,Saint-Mihiel,Saint-Mihiel Meuse France,Gendarmerie,small_green
+56,Morbihan,Hennebont,Hennebont Morbihan France,Police,small_blue
+56,Morbihan,Larmor-Plage,Larmor-Plage Morbihan France,Police,small_blue
+56,Morbihan,Vannes,Vannes Morbihan France,Police,small_blue
+56,Morbihan,Landevant,Landevant Morbihan France,Gendarmerie,small_green
+56,Morbihan,Arzon,Arzon Morbihan France,Gendarmerie,small_green
+56,Morbihan,Groix,Groix Morbihan France,Gendarmerie,small_green
+56,Morbihan,Le Palais,Le Palais Morbihan France,Gendarmerie,small_green
+56,Morbihan,Ploermel,Ploermel Morbihan France,Gendarmerie,small_green
+56,Morbihan,Quiberon,Quiberon Morbihan France,Gendarmerie,small_green
+56,Morbihan,Sarzeau,Sarzeau Morbihan France,Gendarmerie,small_green
+56,Morbihan,Josselin,Josselin Morbihan France,Gendarmerie,small_green
+56,Morbihan,Le Palais,Le Palais Morbihan France,Gendarmerie,small_green
+56,Morbihan,Saint-Marcel,Saint-Marcel Morbihan France,Gendarmerie,small_green
+57,Moselle,Metz,Metz Moselle France,Police,small_blue
+57,Moselle,Thionville,Thionville Moselle France,Police,small_blue
+57,Moselle,Florange,Florange Moselle France,Police,small_blue
+57,Moselle,Yutz,Yutz Moselle France,Police,small_blue
+57,Moselle,Forbach,Forbach Moselle France,Police,small_blue
+57,Moselle,Freming-Merlebach,Freming-Merlebach Moselle France,Police,small_blue
+57,Moselle,Petite-Rosselle,Petite-Rosselle Moselle France,Police,small_blue
+57,Moselle,Schoeneck Moselle France,Schoeneck Moselle France,Police,small_blue
+57,Moselle,Stiring-Wendel,Stiring-Wendel Moselle France,Police,small_blue
+57,Moselle,Hombourg-Haut,Hombourg-Haut Moselle France,Police,small_blue
+57,Moselle,L'Hôpital,L'Hôpital Moselle France,Police,small_blue
+57,Moselle,Saint-Avold,Saint-Avold Moselle France,Police,small_blue
+57,Moselle,Sarrebourg,Sarrebourg Moselle France,Police,small_blue
+57,Moselle,Sarreguemines,Sarreguemines Moselle France,Police,small_blue
+57,Moselle,Clouange,Clouange Moselle France,Police,small_blue
+57,Moselle,Mayeuvre-Grande,Mayeuvre-Grande Moselle France,Police,small_blue
+57,Moselle,Rombas,Rombas Moselle France,Police,small_blue
+57,Moselle,Marly,Marly Moselle France,Police,small_blue
+57,Moselle,Montigny-lès-Metz,Montigny-lès-Metz Moselle France,Police,small_blue
+57,Moselle,Woippy,Woippy Moselle France,Police,small_blue
+57,Moselle,Hayange,Hayange Moselle France,Police,small_blue
+57,Moselle,Knutange,Knutange Moselle France,Police,small_blue
+57,Moselle,Terville,Terville Moselle France,Police,small_blue
+57,Moselle,Holving,Holving Moselle France,Police,small_blue
+57,Moselle,Cattenon,Cattenon Moselle France,Gendarmerie,small_green
+57,Moselle,Fameck,Fameck Moselle France,Gendarmerie,small_green
+57,Moselle,Hettange-Grande,Hettange-Grande Moselle France,Gendarmerie,small_green
+57,Moselle,Behren-les-Forbach,Behren-les-Forbach Moselle France,Gendarmerie,small_green
+57,Moselle,Corny-sur-Moselle,Corny-sur-Moselle Moselle France,Gendarmerie,small_green
+57,Moselle,Etzling,Etzling Moselle France,Gendarmerie,small_green
+57,Moselle,Farebersviller,Farebersviller Moselle France,Gendarmerie,small_green
+57,Moselle,Folschviller,Folschviller Moselle France,Gendarmerie,small_green
+57,Moselle,Guenange,Guenange Moselle France,Gendarmerie,small_green
+57,Moselle,Illange,Illange Moselle France,Gendarmerie,small_green
+57,Moselle,La Maxe,La Maxe Moselle France,Gendarmerie,small_green
+57,Moselle,Montois-la-Montagne,Montois-la-Montagne Moselle France,Gendarmerie,small_green
+57,Moselle,Oeting,Oeting Moselle France,Gendarmerie,small_green
+57,Moselle,Ogy,Ogy Moselle France,Gendarmerie,small_green
+57,Moselle,Sarralbe,Sarralbe Moselle France,Gendarmerie,small_green
+57,Moselle,Uckange,Uckange Moselle France,Gendarmerie,small_green
+57,Moselle,Valmont,Valmont Moselle France,Gendarmerie,small_green
+57,Moselle,Pierrevillers,Pierrevillers Moselle France,Gendarmerie,small_green
+57,Moselle,Noisseville,Noisseville Moselle France,Gendarmerie,small_green
+57,Moselle,Ay-sur-Moselle,Ay-sur-Moselle Moselle France,Gendarmerie,small_green
+57,Moselle,Dieuze,Dieuze Moselle France,Gendarmerie,small_green
+57,Moselle,Marange-Silvange,Marange-Silvange Moselle France,Gendarmerie,small_green
+57,Moselle,Feves,Feves Moselle France,Gendarmerie,small_green
+57,Moselle,Saint-Jean-de-Kourtzerode,Saint-Jean-de-Kourtzerode Moselle France,Gendarmerie,small_green
+57,Moselle,Woustviller,Woustviller Moselle France,Gendarmerie,small_green
+57,Moselle,Laquenexy.,Laquenexy. Moselle France,Gendarmerie,small_green
+58,Nièvre,Cosne-Cours-sur-Loire,Cosne-Cours-sur-Loire Nièvre France,Gendarmerie,small_green
+59,Nord,Lille,Lille Nord France,Police,small_blue
+59,Nord,Loos,Loos Nord France,Police,small_blue
+59,Nord,Ronchin,Ronchin Nord France,Police,small_blue
+59,Nord,Seclin,Seclin Nord France,Police,small_blue
+59,Nord,Villeneuve-d'Ascq,Villeneuve-d'Ascq Nord France,Police,small_blue
+59,Nord,Leward Nord France,Leward Nord France,Police,small_blue
+59,Nord,Cambrai,Cambrai Nord France,Police,small_blue
+59,Nord,Wallers,Wallers Nord France,Police,small_blue
+59,Nord,Douai,Douai Nord France,Police,small_blue
+59,Nord,Flers-en-Escrebieux,Flers-en-Escrebieux Nord France,Police,small_blue
+59,Nord,Guesnain,Guesnain Nord France,Police,small_blue
+59,Nord,Lallaing,Lallaing Nord France,Police,small_blue
+59,Nord,Grande-Synthe,Grande-Synthe Nord France,Police,small_blue
+59,Nord,Jeumont,Jeumont Nord France,Police,small_blue
+59,Nord,Roubaix,Roubaix Nord France,Police,small_blue
+59,Nord,Lys-Lès-Lannoy,Lys-Lès-Lannoy Nord France,Police,small_blue
+59,Nord,Tourcoing,Tourcoing Nord France,Police,small_blue
+59,Nord,Valenciennes,Valenciennes Nord France,Police,small_blue
+59,Nord,Escaudoeuvres,Escaudoeuvres Nord France,Police,small_blue
+59,Nord,Aniche,Aniche Nord France,Police,small_blue
+59,Nord,Auberchicourt,Auberchicourt Nord France,Police,small_blue
+59,Nord,Courchelettes,Courchelettes Nord France,Police,small_blue
+59,Nord,Dechy,Dechy Nord France,Police,small_blue
+59,Nord,Râches,Râches Nord France,Police,small_blue
+59,Nord,Teteghem,Teteghem Nord France,Police,small_blue
+59,Nord,Bousbecque,Bousbecque Nord France,Police,small_blue
+59,Nord,Croix,Croix Nord France,Police,small_blue
+59,Nord,Halluin,Halluin Nord France,Police,small_blue
+59,Nord,Haubourdin,Haubourdin Nord France,Police,small_blue
+59,Nord,Hem,Hem Nord France,Police,small_blue
+59,Nord,Lambersart,Lambersart Nord France,Police,small_blue
+59,Nord,Lampret,Lampret Nord France,Police,small_blue
+59,Nord,Marcq-en-Baroeul,Marcq-en-Baroeul Nord France,Police,small_blue
+59,Nord,Neuville-en-Ferrain,Neuville-en-Ferrain Nord France,Police,small_blue
+59,Nord,Roncq,Roncq Nord France,Police,small_blue
+59,Nord,Toufflers,Toufflers Nord France,Police,small_blue
+59,Nord,Wattignies,Wattignies Nord France,Police,small_blue
+59,Nord,Aulnoye-Aymeries,Aulnoye-Aymeries Nord France,Police,small_blue
+59,Nord,Berlaimont,Berlaimont Nord France,Police,small_blue
+59,Nord,Ferrière-la-Grande,Ferrière-la-Grande Nord France,Police,small_blue
+59,Nord,Maubeuge,Maubeuge Nord France,Police,small_blue
+59,Nord,Anzin,Anzin Nord France,Police,small_blue
+59,Nord,Aubry-du-Hainaut,Aubry-du-Hainaut Nord France,Police,small_blue
+59,Nord,Aulnoy-lez-Valenciennes,Aulnoy-lez-Valenciennes Nord France,Police,small_blue
+59,Nord,Beuvrages,Beuvrages Nord France,Police,small_blue
+59,Nord,Bruay-sur-l'Escaut,Bruay-sur-l'Escaut Nord France,Police,small_blue
+59,Nord,Crespin,Crespin Nord France,Police,small_blue
+59,Nord,Denain,Denain Nord France,Police,small_blue
+59,Nord,Escaudain,Escaudain Nord France,Police,small_blue
+59,Nord,Fresnes-sur-Escaut,Fresnes-sur-Escaut Nord France,Police,small_blue
+59,Nord,Maing,Maing Nord France,Police,small_blue
+59,Nord,Marly,Marly Nord France,Police,small_blue
+59,Nord,Neuville-sur-Escaut,Neuville-sur-Escaut Nord France,Police,small_blue
+59,Nord,Petite-Forêt,Petite-Forêt Nord France,Police,small_blue
+59,Nord,Quievrechain,Quievrechain Nord France,Police,small_blue
+59,Nord,Saint-Amand-les-Eaux,Saint-Amand-les-Eaux Nord France,Police,small_blue
+59,Nord,Saint-Saulve,Saint-Saulve Nord France,Police,small_blue
+59,Nord,Saultain,Saultain Nord France,Police,small_blue
+59,Nord,Vieux-Condé,Vieux-Condé Nord France,Police,small_blue
+59,Nord,La Madeleine,La Madeleine Nord France,Police,small_blue
+59,Nord,Bondues.,Bondues. Nord France,Police,small_blue
+59,Nord,Caudry,Caudry Nord France,Gendarmerie,small_green
+59,Nord,Esquelbecq,Esquelbecq Nord France,Gendarmerie,small_green
+59,Nord,Merville,Merville Nord France,Gendarmerie,small_green
+59,Nord,Meteren,Meteren Nord France,Gendarmerie,small_green
+59,Nord,Verlinghem,Verlinghem Nord France,Gendarmerie,small_green
+59,Nord,Salome Nord France,Salome Nord France,Gendarmerie,small_green
+59,Nord,Cantin,Cantin Nord France,Gendarmerie,small_green
+59,Nord,Hamel Nord France,Hamel Nord France,Gendarmerie,small_green
+59,Nord,Bray-Dunes,Bray-Dunes Nord France,Gendarmerie,small_green
+59,Nord,Spycker,Spycker Nord France,Gendarmerie,small_green
+59,Nord,Hordain,Hordain Nord France,Gendarmerie,small_green
+59,Nord,Haussy,Haussy Nord France,Gendarmerie,small_green
+59,Nord,Le-Quesnoy,Le-Quesnoy Nord France,Gendarmerie,small_green
+59,Nord,Terdeghem,Terdeghem Nord France,Gendarmerie,small_green
+59,Nord,Hondschotte,Hondschotte Nord France,Gendarmerie,small_green
+59,Nord,Quesnoy-sur-Deule,Quesnoy-sur-Deule Nord France,Gendarmerie,small_green
+59,Nord,Ghyvelde,Ghyvelde Nord France,Gendarmerie,small_green
+59,Nord,Arleux.,Arleux. Nord France,Gendarmerie,small_green
+60,Oise,Creil,Creil Oise France,Police,small_blue
+60,Oise,Beauvais,Beauvais Oise France,Police,small_blue
+60,Oise,Nogent-sur-Oise,Nogent-sur-Oise Oise France,Police,small_blue
+60,Oise,Compiègne,Compiègne Oise France,Police,small_blue
+60,Oise,Méru,Méru Oise France,Gendarmerie,small_green
+60,Oise,Nogent-sur-Oise,Nogent-sur-Oise Oise France,Gendarmerie,small_green
+60,Oise,Compiègne,Compiègne Oise France,Gendarmerie,small_green
+60,Oise,Senlis,Senlis Oise France,Gendarmerie,small_green
+60,Oise,Breuil-le-Sec,Breuil-le-Sec Oise France,Gendarmerie,small_green
+60,Oise,Noyon,Noyon Oise France,Gendarmerie,small_green
+60,Oise,Angy,Angy Oise France,Gendarmerie,small_green
+60,Oise,Crépy-en-Valois,Crépy-en-Valois Oise France,Gendarmerie,small_green
+60,Oise,Plailly,Plailly Oise France,Gendarmerie,small_green
+60,Oise,Pont-Sainte-Maxence,Pont-Sainte-Maxence Oise France,Gendarmerie,small_green
+60,Oise,Bailleul-sur-Thérain,Bailleul-sur-Thérain Oise France,Gendarmerie,small_green
+60,Oise,Saint-Just-en-Chaussée,Saint-Just-en-Chaussée Oise France,Gendarmerie,small_green
+60,Oise,Monceaux,Monceaux Oise France,Gendarmerie,small_green
+60,Oise,Liancourt,Liancourt Oise France,Gendarmerie,small_green
+60,Oise,Précy-sur-Oise,Précy-sur-Oise Oise France,Gendarmerie,small_green
+60,Oise,Essuiles-Saint-Rimault,Essuiles-Saint-Rimault Oise France,Gendarmerie,small_green
+60,Oise,Fontaine-Chaalis,Fontaine-Chaalis Oise France,Gendarmerie,small_green
+60,Oise,Gouvieux,Gouvieux Oise France,Gendarmerie,small_green
+60,Oise,Chantilly Oise France,Chantilly Oise France,Gendarmerie,small_green
+60,Oise,Longueil-Sainte-Marie,Longueil-Sainte-Marie Oise France,Gendarmerie,small_green
+60,Oise,Rémy Oise France,Rémy Oise France,Gendarmerie,small_green
+60,Oise,Néry Oise France,Néry Oise France,Gendarmerie,small_green
+60,Oise,Mongneville,Mongneville Oise France,Gendarmerie,small_green
+60,Oise,Lachelle,Lachelle Oise France,Gendarmerie,small_green
+60,Oise,Apremont,Apremont Oise France,Gendarmerie,small_green
+60,Oise,Auneuil,Auneuil Oise France,Gendarmerie,small_green
+60,Oise,Avilly-Saint-Léonard,Avilly-Saint-Léonard Oise France,Gendarmerie,small_green
+60,Oise,Barbery,Barbery Oise France,Gendarmerie,small_green
+60,Oise,Béthisy-Saint-Pierre,Béthisy-Saint-Pierre Oise France,Gendarmerie,small_green
+60,Oise,Breteuil,Breteuil Oise France,Gendarmerie,small_green
+60,Oise,Bury Oise France,Bury Oise France,Gendarmerie,small_green
+60,Oise,Chamant,Chamant Oise France,Gendarmerie,small_green
+60,Oise,Chambly,Chambly Oise France,Gendarmerie,small_green
+60,Oise,Clermont Oise France,Clermont Oise France,Gendarmerie,small_green
+60,Oise,Coye-la-Fôret,Coye-la-Fôret Oise France,Gendarmerie,small_green
+60,Oise,Cramoisy,Cramoisy Oise France,Gendarmerie,small_green
+60,Oise,Ermenonville,Ermenonville Oise France,Gendarmerie,small_green
+60,Oise,Eve Oise France,Eve Oise France,Gendarmerie,small_green
+60,Oise,Fitz-James,Fitz-James Oise France,Gendarmerie,small_green
+60,Oise,Grandvilliers,Grandvilliers Oise France,Gendarmerie,small_green
+60,Oise,Lagny-le-Sec,Lagny-le-Sec Oise France,Gendarmerie,small_green
+60,Oise,Laigneville,Laigneville Oise France,Gendarmerie,small_green
+60,Oise,Maysel Oise France,Maysel Oise France,Gendarmerie,small_green
+60,Oise,Montmartin,Montmartin Oise France,Gendarmerie,small_green
+60,Oise,Mouy,Mouy Oise France,Gendarmerie,small_green
+60,Oise,Quinquempoix,Quinquempoix Oise France,Gendarmerie,small_green
+60,Oise,Rieux,Rieux Oise France,Gendarmerie,small_green
+60,Oise,Rully,Rully Oise France,Gendarmerie,small_green
+60,Oise,Thiverny,Thiverny Oise France,Gendarmerie,small_green
+60,Oise,Villers-Saint-Frambourg,Villers-Saint-Frambourg Oise France,Gendarmerie,small_green
+60,Oise,Vineuil-Saint-Firmin,Vineuil-Saint-Firmin Oise France,Gendarmerie,small_green
+60,Oise,Aumont-en-Halatte,Aumont-en-Halatte Oise France,Gendarmerie,small_green
+60,Oise,Le-Mesnil-en-Thelle,Le-Mesnil-en-Thelle Oise France,Gendarmerie,small_green
+60,Oise,Saint-Sulpice,Saint-Sulpice Oise France,Gendarmerie,small_green
+60,Oise,Verneuil-sur-Halatte,Verneuil-sur-Halatte Oise France,Gendarmerie,small_green
+60,Oise,Saint-Vaast-les-Mello,Saint-Vaast-les-Mello Oise France,Gendarmerie,small_green
+60,Oise,Plessis-Belleville,Plessis-Belleville Oise France,Gendarmerie,small_green
+60,Oise,Francières,Francières Oise France,Gendarmerie,small_green
+60,Oise,Feuquières,Feuquières Oise France,Gendarmerie,small_green
+60,Oise,Chiry-Ourscamp,Chiry-Ourscamp Oise France,Gendarmerie,small_green
+61,Orne,Argentan,Argentan Orne France,Police,small_blue
+61,Orne,Flers,Flers Orne France,Police,small_blue
+61,Orne,L'Aigle,L'Aigle Orne France,Gendarmerie,small_green
+61,Orne,Mortagne-au-Perche,Mortagne-au-Perche Orne France,Gendarmerie,small_green
+61,Orne,Tinchebray,Tinchebray Orne France,Gendarmerie,small_green
+61,Orne,Bagnoles-de-Loorne,Bagnoles-de-Loorne Orne France,Gendarmerie,small_green
+62,Pas-de-Calais,Arras,Arras Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Boulogne-sur-Mer,Boulogne-sur-Mer Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Saint-Léonard Pas-de-Calais France,Saint-Léonard Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Saint-Omer,Saint-Omer Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Dainville,Dainville Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Sainte-Catherine Pas-de-Calais France,Sainte-Catherine Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Saint-Laurent-Blangy,Saint-Laurent-Blangy Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Avion Pas-de-Calais France,Avion Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Le-Portel,Le-Portel Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Outreau,Outreau Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Courrières,Courrières Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Estevelles,Estevelles Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Henin-Beaumont,Henin-Beaumont Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Leforest,Leforest Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Coquelles,Coquelles Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Le-Touquet-Paris-Plage,Le-Touquet-Paris-Plage Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Carvin,Carvin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Saint-Martin-Boulogne,Saint-Martin-Boulogne Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Wimereux,Wimereux Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Lens,Lens Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Libercourt,Libercourt Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Liévin,Liévin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Mazingarbe,Mazingarbe Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Noyelles-Godault,Noyelles-Godault Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Oignies,Oignies Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Vendin-le-Vieil,Vendin-le-Vieil Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Arques,Arques Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Clairmarais,Clairmarais Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Longuenesse,Longuenesse Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Burbure,Burbure Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Lillers,Lillers Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Annequin,Annequin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Annezin,Annezin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Auchy-les-Mines,Auchy-les-Mines Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Beuvry,Beuvry Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Billy-Berclau,Billy-Berclau Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Cambrin,Cambrin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Cuinchy,Cuinchy Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Douvrin,Douvrin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Festubert,Festubert Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Haisnes,Haisnes Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Labourse,Labourse Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Noyelles-lès-Varmelles,Noyelles-lès-Varmelles Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Sailly-Labourse,Sailly-Labourse Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Vermelles,Vermelles Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Verquigneul,Verquigneul Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Violaines,Violaines Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Lapugnoy,Lapugnoy Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Marnes-les-Mines,Marnes-les-Mines Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Douvrin,Douvrin Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Calais,Calais Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Cambrin.,Cambrin. Pas-de-Calais France,Police,small_blue
+62,Pas-de-Calais,Guines Pas-de-Calais France,Guines Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Hardingem,Hardingem Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Equihen-Plage,Equihen-Plage Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Hardelot-Samer,Hardelot-Samer Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Etaples,Etaples Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Saint-Paul-sur-Ternoise,Saint-Paul-sur-Ternoise Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Neufchatel,Neufchatel Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Samer,Samer Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Hesdin-l'Abbé,Hesdin-l'Abbé Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Richebourg,Richebourg Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Lestrem,Lestrem Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Estrée-Blanche,Estrée-Blanche Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Hinges,Hinges Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Bapaume,Bapaume Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Frevent,Frevent Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Ytres,Ytres Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Laventie,Laventie Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Saint-Venan,Saint-Venan Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Balinghem,Balinghem Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Sainte-Marie-Kerque,Sainte-Marie-Kerque Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Saint-Omer-Capelle,Saint-Omer-Capelle Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Saint-Folquin,Saint-Folquin Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Aire-sur-la-Lys,Aire-sur-la-Lys Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Wavrans-sur-l'AA,Wavrans-sur-l'AA Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Serques,Serques Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Maroeuil,Maroeuil Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Vitry-en-Artois,Vitry-en-Artois Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Tortequesnes,Tortequesnes Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Montreuil-sur-Mer,Montreuil-sur-Mer Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,Nordausques,Nordausques Pas-de-Calais France,Gendarmerie,small_green
+62,Pas-de-Calais,La Couture.,La Couture. Pas-de-Calais France,Gendarmerie,small_green
+63,Puy-de-Dôme,Chamalières,Chamalières Puy-de-Dôme France,Police,small_blue
+63,Puy-de-Dôme,Clermont-Ferrand,Clermont-Ferrand Puy-de-Dôme France,Police,small_blue
+63,Puy-de-Dôme,Puy-Guillaume,Puy-Guillaume Puy-de-Dôme France,Gendarmerie,small_green
+63,Puy-de-Dôme,Thiers,Thiers Puy-de-Dôme France,Gendarmerie,small_green
+63,Puy-de-Dôme,Brassac-les-Mines,Brassac-les-Mines Puy-de-Dôme France,Gendarmerie,small_green
+63,Puy-de-Dôme,Le Mont-Doré.,Le Mont-Doré. Puy-de-Dôme France,Gendarmerie,small_green
+64,Pyrénées-Atlantiques,Pau,Pau Pyrénées-Atlantiques France,Police,small_blue
+64,Pyrénées-Atlantiques,Anglet,Anglet Pyrénées-Atlantiques France,Police,small_blue
+64,Pyrénées-Atlantiques,Bayonne,Bayonne Pyrénées-Atlantiques France,Police,small_blue
+64,Pyrénées-Atlantiques,Biarritz,Biarritz Pyrénées-Atlantiques France,Police,small_blue
+64,Pyrénées-Atlantiques,Arros-de-Nay,Arros-de-Nay Pyrénées-Atlantiques France,Gendarmerie,small_green
+64,Pyrénées-Atlantiques,Laroin,Laroin Pyrénées-Atlantiques France,Gendarmerie,small_green
+64,Pyrénées-Atlantiques,Morlaas,Morlaas Pyrénées-Atlantiques France,Gendarmerie,small_green
+64,Pyrénées-Atlantiques,arcangues,arcangues Pyrénées-Atlantiques France,Gendarmerie,small_green
+65,Hautes-Pyrénées,Lourdes,Lourdes Hautes-Pyrénées France,Police,small_blue
+65,Hautes-Pyrénées,Tarbes,Tarbes Hautes-Pyrénées France,Police,small_blue
+65,Hautes-Pyrénées,Cauterets,Cauterets Hautes-Pyrénées France,Gendarmerie,small_green
+65,Hautes-Pyrénées,Vignec,Vignec Hautes-Pyrénées France,Gendarmerie,small_green
+65,Hautes-Pyrénées,Louey,Louey Hautes-Pyrénées France,Gendarmerie,small_green
+65,Hautes-Pyrénées,Ade Hautes-Pyrénées France,Ade Hautes-Pyrénées France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Perpignan,Perpignan Pyrénées-Orientales France,Police,small_blue
+66,Pyrénées-Orientales,Bompas,Bompas Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Pollestres,Pollestres Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-André,Saint-André Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Rivesaltes,Rivesaltes Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Le Soler,Le Soler Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Sainte-Marie Pyrénées-Orientales France,Sainte-Marie Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-Cyprien,Saint-Cyprien Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Céret,Céret Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Elne,Elne Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Amélie-les-Bains,Amélie-les-Bains Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Bages,Bages Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Baixas,Baixas Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Banyuls-sur-Mer,Banyuls-sur-Mer Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Canet-en-Roussillon,Canet-en-Roussillon Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Claira,Claira Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Collioure,Collioure Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Le-Barcares,Le-Barcares Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Le-Boulou,Le-Boulou Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Mont-Louis,Mont-Louis Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Pézilla-la-Rivière,Pézilla-la-Rivière Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Pia Pyrénées-Orientales France,Pia Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Prades,Prades Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-Esteve,Saint-Esteve Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-Laurent-de-la-Salanque,Saint-Laurent-de-la-Salanque Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-Nazaire,Saint-Nazaire Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saleilles,Saleilles Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Thuir,Thuir Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Toulouges,Toulouges Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Villeneuve-la-Raho,Villeneuve-la-Raho Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Vives Pyrénées-Orientales France,Vives Pyrénées-Orientales France,Gendarmerie,small_green
+66,Pyrénées-Orientales,Saint-Cyprien,Saint-Cyprien Pyrénées-Orientales France,Gendarmerie,small_green
+67,Bas-Rhin,Strasbourg,Strasbourg Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Haguenau,Haguenau Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Sélestat,Sélestat Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Bischheim,Bischheim Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Illkirch-Graffenstaden,Illkirch-Graffenstaden Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Lingolsheim,Lingolsheim Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Ostwald,Ostwald Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Schiltigheim,Schiltigheim Bas-Rhin France,Police,small_blue
+67,Bas-Rhin,Eckbolsheim,Eckbolsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Fegersheim,Fegersheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Wolfisheim,Wolfisheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Bischoffsheim,Bischoffsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Bischwiller,Bischwiller Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Bouxwiller,Bouxwiller Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Geispolsheim,Geispolsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Hilsenheim,Hilsenheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Molsheim,Molsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Mutzing,Mutzing Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Niederbronn-les-Bains,Niederbronn-les-Bains Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Niederschaeffolsheim,Niederschaeffolsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Obernai,Obernai Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Oberschaeffolsheim,Oberschaeffolsheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Offendorf,Offendorf Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Reichstett,Reichstett Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Sarre-Union,Sarre-Union Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Saverne,Saverne Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Schweighouse-sur-Moder,Schweighouse-sur-Moder Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Souffelweyersheim,Souffelweyersheim Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Wasselonne,Wasselonne Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Erstein,Erstein Bas-Rhin France,Gendarmerie,small_green
+67,Bas-Rhin,Mertzwiller,Mertzwiller Bas-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Guebwiller,Guebwiller Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Mulhouse,Mulhouse Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Saint-Louis Haut-Rhin France,Saint-Louis Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Wittenheim,Wittenheim Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Colmar,Colmar Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Huningue,Huningue Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Kingersheim,Kingersheim Haut-Rhin France,Police,small_blue
+68,Haut-Rhin,Cernay,Cernay Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Altkirch,Altkirch Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Bergheim Haut-Rhin France,Bergheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Habsheim,Habsheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Hombourg,Hombourg Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Houssen,Houssen Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Illzach,Illzach Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Morschwiller-le-Bas,Morschwiller-le-Bas Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Ribeauville,Ribeauville Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Rixheim,Rixheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Sausheim,Sausheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Soultz,Soultz Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Sainte-Marie-aux-Mines,Sainte-Marie-aux-Mines Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Steinbach Haut-Rhin France,Steinbach Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Walheim Haut-Rhin France,Walheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Wintzenheim,Wintzenheim Haut-Rhin France,Gendarmerie,small_green
+68,Haut-Rhin,Wittelsheim,Wittelsheim Haut-Rhin France,Gendarmerie,small_green
+69,Rhône,Lyon,Lyon Rhône France,Police,small_blue
+69,Rhône,Saint-Fons,Saint-Fons Rhône France,Police,small_blue
+69,Rhône,Vaux-en-Velin,Vaux-en-Velin Rhône France,Police,small_blue
+69,Rhône,Saint-Priest,Saint-Priest Rhône France,Police,small_blue
+69,Rhône,Pierre-Bénite,Pierre-Bénite Rhône France,Police,small_blue
+69,Rhône,Givors,Givors Rhône France,Police,small_blue
+69,Rhône,Grigny,Grigny Rhône France,Police,small_blue
+69,Rhône,Villefranche-sur-Saône,Villefranche-sur-Saône Rhône France,Police,small_blue
+69,Rhône,Caluire et Cuire,Caluire et Cuire Rhône France,Police,small_blue
+69,Rhône,Décines-Charpieu,Décines-Charpieu Rhône France,Police,small_blue
+69,Rhône,Meyzieu,Meyzieu Rhône France,Police,small_blue
+69,Rhône,Oullins,Oullins Rhône France,Police,small_blue
+69,Rhône,Venissieux,Venissieux Rhône France,Police,small_blue
+69,Rhône,Gleizé,Gleizé Rhône France,Police,small_blue
+69,Rhône,Saint-Laurent-de-Mure,Saint-Laurent-de-Mure Rhône France,Gendarmerie,small_green
+69,Rhône,Saint-Pierre-de-Chandieu,Saint-Pierre-de-Chandieu Rhône France,Gendarmerie,small_green
+69,Rhône,Saint-Symphorien-d'Ozon,Saint-Symphorien-d'Ozon Rhône France,Gendarmerie,small_green
+69,Rhône,Serrezin-du-Rhône,Serrezin-du-Rhône Rhône France,Gendarmerie,small_green
+69,Rhône,Mions,Mions Rhône France,Gendarmerie,small_green
+69,Rhône,Chaponnay,Chaponnay Rhône France,Gendarmerie,small_green
+69,Rhône,Chaponost,Chaponost Rhône France,Gendarmerie,small_green
+69,Rhône,Charly,Charly Rhône France,Gendarmerie,small_green
+69,Rhône,Millery,Millery Rhône France,Gendarmerie,small_green
+69,Rhône,Montagny,Montagny Rhône France,Gendarmerie,small_green
+69,Rhône,Rillieux-la-Pape,Rillieux-la-Pape Rhône France,Gendarmerie,small_green
+69,Rhône,Écully,Écully Rhône France,Gendarmerie,small_green
+69,Rhône,Saint-Genis-les-Ollières,Saint-Genis-les-Ollières Rhône France,Gendarmerie,small_green
+69,Rhône,Amérieu-d'Azergues,Amérieu-d'Azergues Rhône France,Gendarmerie,small_green
+69,Rhône,Belleville Rhône France,Belleville Rhône France,Gendarmerie,small_green
+69,Rhône,Blacé,Blacé Rhône France,Gendarmerie,small_green
+69,Rhône,Brignais,Brignais Rhône France,Gendarmerie,small_green
+69,Rhône,Brindas,Brindas Rhône France,Gendarmerie,small_green
+69,Rhône,Chazay-d'Azergues,Chazay-d'Azergues Rhône France,Gendarmerie,small_green
+69,Rhône,Collonges-au-Mont-d'Or,Collonges-au-Mont-d'Or Rhône France,Gendarmerie,small_green
+69,Rhône,Colombier-Saugnieu,Colombier-Saugnieu Rhône France,Gendarmerie,small_green
+69,Rhône,Cours-la-Ville,Cours-la-Ville Rhône France,Gendarmerie,small_green
+69,Rhône,Craponne,Craponne Rhône France,Gendarmerie,small_green
+69,Rhône,Francheville,Francheville Rhône France,Gendarmerie,small_green
+69,Rhône,Jonage,Jonage Rhône France,Gendarmerie,small_green
+69,Rhône,Jons,Jons Rhône France,Gendarmerie,small_green
+69,Rhône,Lozanne,Lozanne Rhône France,Gendarmerie,small_green
+69,Rhône,Marcy-l'Etoile,Marcy-l'Etoile Rhône France,Gendarmerie,small_green
+69,Rhône,Neuville-sur-Saone,Neuville-sur-Saone Rhône France,Gendarmerie,small_green
+69,Rhône,Pusignan,Pusignan Rhône France,Gendarmerie,small_green
+69,Rhône,Rochetaillée-sur-Saône,Rochetaillée-sur-Saône Rhône France,Gendarmerie,small_green
+69,Rhône,Sathonay-Camp,Sathonay-Camp Rhône France,Gendarmerie,small_green
+69,Rhône,Sainte-Colombe Rhône France,Sainte-Colombe Rhône France,Gendarmerie,small_green
+69,Rhône,Saint-Genis-Laval,Saint-Genis-Laval Rhône France,Gendarmerie,small_green
+69,Rhône,Saint-Romain-en-Gal,Saint-Romain-en-Gal Rhône France,Gendarmerie,small_green
+69,Rhône,Ternay,Ternay Rhône France,Gendarmerie,small_green
+69,Rhône,Toussieu,Toussieu Rhône France,Gendarmerie,small_green
+69,Rhône,Thizy,Thizy Rhône France,Gendarmerie,small_green
+69,Rhône,Vernaison,Vernaison Rhône France,Gendarmerie,small_green
+69,Rhône,Vourles,Vourles Rhône France,Gendarmerie,small_green
+70,Haute-Saône,Noidans-lès-Vesoul,Noidans-lès-Vesoul Haute-Saône France,Police,small_blue
+70,Haute-Saône,Vesoul,Vesoul Haute-Saône France,Police,small_blue
+70,Haute-Saône,Luxeuil-les-Bains,Luxeuil-les-Bains Haute-Saône France,Gendarmerie,small_green
+70,Haute-Saône,Lure,Lure Haute-Saône France,Gendarmerie,small_green
+70,Haute-Saône,Fougerolles,Fougerolles Haute-Saône France,Gendarmerie,small_green
+70,Haute-Saône,Saint-Loup-sur-Semouse,Saint-Loup-sur-Semouse Haute-Saône France,Gendarmerie,small_green
+70,Haute-Saône,Gray Haute-Saône France,Gray Haute-Saône France,Gendarmerie,small_green
+71,Saône-et-Loire,Chalon-sur-Saône,Chalon-sur-Saône Saône-et-Loire France,Police,small_blue
+71,Saône-et-Loire,Montceau-les-Mines,Montceau-les-Mines Saône-et-Loire France,Police,small_blue
+71,Saône-et-Loire,Charnay-lès-Mâcon,Charnay-lès-Mâcon Saône-et-Loire France,Police,small_blue
+71,Saône-et-Loire,Mâcon,Mâcon Saône-et-Loire France,Police,small_blue
+71,Saône-et-Loire,Crèches-sur-Saône,Crèches-sur-Saône Saône-et-Loire France,Gendarmerie,small_green
+71,Saône-et-Loire,Romanèche-Thorins,Romanèche-Thorins Saône-et-Loire France,Gendarmerie,small_green
+71,Saône-et-Loire,La Chapelle-de-Guinchay,La Chapelle-de-Guinchay Saône-et-Loire France,Gendarmerie,small_green
+71,Saône-et-Loire,Charolles,Charolles Saône-et-Loire France,Gendarmerie,small_green
+71,Saône-et-Loire,Crissey,Crissey Saône-et-Loire France,Gendarmerie,small_green
+71,Saône-et-Loire,Gueugnon.,Gueugnon. Saône-et-Loire France,Gendarmerie,small_green
+72,Sarthe,La Ferté-Bernard,La Ferté-Bernard Sarthe France,Gendarmerie,small_green
+72,Sarthe,Sablé-sur-Sarthe,Sablé-sur-Sarthe Sarthe France,Gendarmerie,small_green
+73,Savoie,Albertville,Albertville Savoie France,Police,small_blue
+73,Savoie,Aix-les-Bains,Aix-les-Bains Savoie France,Police,small_blue
+73,Savoie,Chambery,Chambery Savoie France,Police,small_blue
+73,Savoie,Bourg-Saint-Maurice,Bourg-Saint-Maurice Savoie France,Gendarmerie,small_green
+73,Savoie,Grésy-sur-Aix,Grésy-sur-Aix Savoie France,Gendarmerie,small_green
+73,Savoie,La Lechere,La Lechere Savoie France,Gendarmerie,small_green
+73,Savoie,La Norma Savoie France,La Norma Savoie France,Gendarmerie,small_green
+73,Savoie,La Ravoire,La Ravoire Savoie France,Gendarmerie,small_green
+73,Savoie,La Rochette,La Rochette Savoie France,Gendarmerie,small_green
+73,Savoie,Les Allues,Les Allues Savoie France,Gendarmerie,small_green
+73,Savoie,Les Marches,Les Marches Savoie France,Gendarmerie,small_green
+73,Savoie,Saint-Bon-Tarentaise,Saint-Bon-Tarentaise Savoie France,Gendarmerie,small_green
+73,Savoie,Saint-Martin-de-Belleville,Saint-Martin-de-Belleville Savoie France,Gendarmerie,small_green
+73,Savoie,Saint-Pierre-d'Albigny,Saint-Pierre-d'Albigny Savoie France,Gendarmerie,small_green
+73,Savoie,Saint-Sorlin-d'Arves,Saint-Sorlin-d'Arves Savoie France,Gendarmerie,small_green
+73,Savoie,Tignes,Tignes Savoie France,Gendarmerie,small_green
+73,Savoie,Val d'Isère,Val d'Isère Savoie France,Gendarmerie,small_green
+73,Savoie,La Biolle.,La Biolle. Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Annecy,Annecy Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Cran-Gevrier,Cran-Gevrier Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Évian-les-Bains,Évian-les-Bains Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Annemasse,Annemasse Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Gaillard,Gaillard Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Thonon-les-Bains,Thonon-les-Bains Haute-Savoie France,Police,small_blue
+74,Haute-Savoie,Bonneville,Bonneville Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Meythet,Meythet Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Seynod,Seynod Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Chatel,Chatel Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Vougy,Vougy Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Bons-en-Chablay,Bons-en-Chablay Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Excenevex,Excenevex Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Nernier,Nernier Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Sciez,Sciez Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Thorens-Glières,Thorens-Glières Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Epagny,Epagny Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,La Balme-de-Sillingy,La Balme-de-Sillingy Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Poisy,Poisy Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Megeve,Megeve Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Passy,Passy Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Marcellaz-Albanais,Marcellaz-Albanais Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Rumilly,Rumilly Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Sallanches,Sallanches Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Cluses,Cluses Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Scionzier,Scionzier Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Seyssel,Seyssel Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Saint-Gervais,Saint-Gervais Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Saint-Gervais-le-Fayet,Saint-Gervais-le-Fayet Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Viuz-en-Sallaz,Viuz-en-Sallaz Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Sévrier,Sévrier Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Saint-Jorioz,Saint-Jorioz Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,La Clusaz,La Clusaz Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Thônes,Thônes Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Valleiry,Valleiry Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Cranves-Sales,Cranves-Sales Haute-Savoie France,Gendarmerie,small_green
+74,Haute-Savoie,Sales Haute-Savoie France,Sales Haute-Savoie France,Gendarmerie,small_green
+76,Seine-Maritime,Le Havre,Le Havre Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Bracquemont,Bracquemont Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Dieppe,Dieppe Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Bonsecours,Bonsecours Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Darnétal,Darnétal Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Elbeuf,Elbeuf Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Grand-Couronne,Grand-Couronne Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Le-Grand-Quevilly,Le-Grand-Quevilly Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Maromme,Maromme Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Oissel,Oissel Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Orival,Orival Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Petit-Couronne,Petit-Couronne Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Rouen,Rouen Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Saint-Aubin-lès-Elbeuf,Saint-Aubin-lès-Elbeuf Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Saint-etienne-du-Rouvray,Saint-etienne-du-Rouvray Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Saint-Léger-du-Bourg-Denis,Saint-Léger-du-Bourg-Denis Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Tourville-la-Riviere,Tourville-la-Riviere Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Bolbec,Bolbec Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Notre-Dame-de-Gravenchon,Notre-Dame-de-Gravenchon Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Gonfreville-l'Orcher,Gonfreville-l'Orcher Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Harfleur,Harfleur Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Montivilliers,Montivilliers Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Saint-Adresse,Saint-Adresse Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Saint-Romain-de-Colbosc,Saint-Romain-de-Colbosc Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Bois-Guillaume,Bois-Guillaume Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Bihorel,Bihorel Seine-Maritime France,Police,small_blue
+76,Seine-Maritime,Le-Treport,Le-Treport Seine-Maritime France,Gendarmerie,small_green
+76,Seine-Maritime,Sandouville,Sandouville Seine-Maritime France,Gendarmerie,small_green
+76,Seine-Maritime,Tancarville,Tancarville Seine-Maritime France,Gendarmerie,small_green
+76,Seine-Maritime,Saint-Romain-de-Colbosc,Saint-Romain-de-Colbosc Seine-Maritime France,Gendarmerie,small_green
+76,Seine-Maritime,Saint-Arnoult,Saint-Arnoult Seine-Maritime France,Gendarmerie,small_green
+76,Seine-Maritime,Les Authieux-Saint-Ouen.,Les Authieux-Saint-Ouen. Seine-Maritime France,Gendarmerie,small_green
+79,Deux-Sèvres,Niort,Niort Deux-Sèvres France,Police,small_blue
+79,Deux-Sèvres,Chauray,Chauray Deux-Sèvres France,Police,small_blue
+80,Somme,Amiens,Amiens Somme France,Police,small_blue
+80,Somme,Dreuil-lès-Amiens,Dreuil-lès-Amiens Somme France,Police,small_blue
+80,Somme,Dury.,Dury. Somme France,Police,small_blue
+80,Somme,Airaines,Airaines Somme France,Gendarmerie,small_green
+80,Somme,Albert Somme France,Albert Somme France,Gendarmerie,small_green
+80,Somme,Biarre,Biarre Somme France,Gendarmerie,small_green
+80,Somme,Bourseville,Bourseville Somme France,Gendarmerie,small_green
+80,Somme,Fressenneville,Fressenneville Somme France,Gendarmerie,small_green
+80,Somme,Friville-Escarbotin,Friville-Escarbotin Somme France,Gendarmerie,small_green
+80,Somme,Ham Somme France,Ham Somme France,Gendarmerie,small_green
+80,Somme,Harbonnieres,Harbonnieres Somme France,Gendarmerie,small_green
+80,Somme,Laucourt,Laucourt Somme France,Gendarmerie,small_green
+80,Somme,Miraumont,Miraumont Somme France,Gendarmerie,small_green
+80,Somme,Peronne,Peronne Somme France,Gendarmerie,small_green
+80,Somme,Saint-Valery-sur-Somme,Saint-Valery-sur-Somme Somme France,Gendarmerie,small_green
+80,Somme,Beauval.,Beauval. Somme France,Gendarmerie,small_green
+81,Tarn,Castres,Castres Tarn France,Police,small_blue
+82,Tarn-et-Garonne,Montauban,Montauban Tarn-et-Garonne France,Police,small_blue
+82,Tarn-et-Garonne,Castelsarrasin,Castelsarrasin Tarn-et-Garonne France,Police,small_blue
+82,Tarn-et-Garonne,Moissac,Moissac Tarn-et-Garonne France,Gendarmerie,small_green
+82,Tarn-et-Garonne,Lafrancaise,Lafrancaise Tarn-et-Garonne France,Gendarmerie,small_green
+82,Tarn-et-Garonne,Verdun-sur-Garonne,Verdun-sur-Garonne Tarn-et-Garonne France,Gendarmerie,small_green
+82,Tarn-et-Garonne,Caussade,Caussade Tarn-et-Garonne France,Gendarmerie,small_green
+82,Tarn-et-Garonne,Golfech.,Golfech. Tarn-et-Garonne France,Gendarmerie,small_green
+83,Var,Draguignan,Draguignan Var France,Police,small_blue
+83,Var,Fréjus,Fréjus Var France,Police,small_blue
+83,Var,Hyères,Hyères Var France,Police,small_blue
+83,Var,Bandol,Bandol Var France,Police,small_blue
+83,Var,Sanary-sur-Mer,Sanary-sur-Mer Var France,Police,small_blue
+83,Var,Six-Fours,Six-Fours Var France,Police,small_blue
+83,Var,Toulon,Toulon Var France,Police,small_blue
+83,Var,La Garde,La Garde Var France,Police,small_blue
+83,Var,La Seyne-sur-Mer,La Seyne-sur-Mer Var France,Police,small_blue
+83,Var,Trans-en-Provence,Trans-en-Provence Var France,Police,small_blue
+83,Var,Saint-Raphaël,Saint-Raphaël Var France,Police,small_blue
+83,Var,Saint-Mandrier-sur-Mer,Saint-Mandrier-sur-Mer Var France,Police,small_blue
+83,Var,La Valette-du-Var,La Valette-du-Var Var France,Police,small_blue
+83,Var,Le Revest-les-Eaux,Le Revest-les-Eaux Var France,Police,small_blue
+83,Var,Ollioules,Ollioules Var France,Police,small_blue
+83,Var,Seillans,Seillans Var France,Gendarmerie,small_green
+83,Var,Saint-Paul-en-Forêt,Saint-Paul-en-Forêt Var France,Gendarmerie,small_green
+83,Var,Montaroux,Montaroux Var France,Gendarmerie,small_green
+83,Var,Callian,Callian Var France,Gendarmerie,small_green
+83,Var,Tourrettes,Tourrettes Var France,Gendarmerie,small_green
+83,Var,Vidauban,Vidauban Var France,Gendarmerie,small_green
+83,Var,Sainte-Maxime,Sainte-Maxime Var France,Gendarmerie,small_green
+83,Var,Brignoles,Brignoles Var France,Gendarmerie,small_green
+83,Var,Bagnols-en-Forêt,Bagnols-en-Forêt Var France,Gendarmerie,small_green
+83,Var,Puget-sur-Argens,Puget-sur-Argens Var France,Gendarmerie,small_green
+83,Var,Roquebrune-sur-Argens,Roquebrune-sur-Argens Var France,Gendarmerie,small_green
+83,Var,Signes,Signes Var France,Gendarmerie,small_green
+83,Var,La Londe,La Londe Var France,Gendarmerie,small_green
+83,Var,Bornes-les-Mimosas,Bornes-les-Mimosas Var France,Gendarmerie,small_green
+83,Var,Le Lavandou,Le Lavandou Var France,Gendarmerie,small_green
+83,Var,Sollies-Toucas,Sollies-Toucas Var France,Gendarmerie,small_green
+83,Var,Cuers,Cuers Var France,Gendarmerie,small_green
+83,Var,Regusse,Regusse Var France,Gendarmerie,small_green
+83,Var,Tavernes,Tavernes Var France,Gendarmerie,small_green
+83,Var,Saint-Cyr,Saint-Cyr Var France,Gendarmerie,small_green
+83,Var,Cotignac,Cotignac Var France,Gendarmerie,small_green
+83,Var,Besse,Besse Var France,Gendarmerie,small_green
+83,Var,La-Crau,La-Crau Var France,Gendarmerie,small_green
+83,Var,Bagnols,Bagnols Var France,Gendarmerie,small_green
+83,Var,Le-Beausset,Le-Beausset Var France,Gendarmerie,small_green
+83,Var,Villecroze,Villecroze Var France,Gendarmerie,small_green
+83,Var,Sollies-Pont,Sollies-Pont Var France,Gendarmerie,small_green
+83,Var,Le Val Var France,Le Val Var France,Gendarmerie,small_green
+83,Var,Le Cannet-des-Maures,Le Cannet-des-Maures Var France,Gendarmerie,small_green
+83,Var,Vins-sur-Carami,Vins-sur-Carami Var France,Gendarmerie,small_green
+83,Var,Varages,Varages Var France,Gendarmerie,small_green
+83,Var,Entrecasteaux,Entrecasteaux Var France,Gendarmerie,small_green
+83,Var,Les-Arcs-sur-Argens,Les-Arcs-sur-Argens Var France,Gendarmerie,small_green
+83,Var,Saint-Maximin,Saint-Maximin Var France,Gendarmerie,small_green
+83,Var,Regusse,Regusse Var France,Gendarmerie,small_green
+83,Var,Villecroze,Villecroze Var France,Gendarmerie,small_green
+83,Var,Saint-Mandrier-sur-Mer,Saint-Mandrier-sur-Mer Var France,Gendarmerie,small_green
+84,Vaucluse,Avignon,Avignon Vaucluse France,Police,small_blue
+84,Vaucluse,Villeneuve-lès-Avignon,Villeneuve-lès-Avignon Vaucluse France,Police,small_blue
+84,Vaucluse,Orange Vaucluse France,Orange Vaucluse France,Police,small_blue
+84,Vaucluse,Carpentras,Carpentras Vaucluse France,Police,small_blue
+84,Vaucluse,Perthuis,Perthuis Vaucluse France,Police,small_blue
+84,Vaucluse,Cavaillon,Cavaillon Vaucluse France,Police,small_blue
+84,Vaucluse,Roussillon,Roussillon Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,L'Isle-sur-Sorgue,L'Isle-sur-Sorgue Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Saint-Didier,Saint-Didier Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Piolène,Piolène Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Laroque-sur-Pernes,Laroque-sur-Pernes Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Vaison-la-Romaine,Vaison-la-Romaine Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Sainte-Cécile-les-Vignes,Sainte-Cécile-les-Vignes Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Le Barroux,Le Barroux Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Camaret-sur-Aygues,Camaret-sur-Aygues Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Bedoin,Bedoin Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Cheval-Blanc,Cheval-Blanc Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Entraigues-sur-la-Sorgue,Entraigues-sur-la-Sorgue Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Gigondas,Gigondas Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Le Pontet,Le Pontet Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Menerbes,Menerbes Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Bedarrides,Bedarrides Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Valreas,Valreas Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Bollene,Bollene Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Villelaure,Villelaure Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Cadenet,Cadenet Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Caumont-sur-Durance,Caumont-sur-Durance Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Ansouis,Ansouis Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Caderousse,Caderousse Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Lauris,Lauris Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Courthezon,Courthezon Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Pertuis,Pertuis Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Cucuron,Cucuron Vaucluse France,Gendarmerie,small_green
+84,Vaucluse,Jonquières.,Jonquières. Vaucluse France,Gendarmerie,small_green
+85,Vendée,Les Sables-d'Olonne,Les Sables-d'Olonne Vendée France,Police,small_blue
+85,Vendée,La Roche-sur-Yon,La Roche-sur-Yon Vendée France,Police,small_blue
+85,Vendée,Olonne-sur-Mer,Olonne-sur-Mer Vendée France,Police,small_blue
+85,Vendée,Jard-sur-Mer,Jard-sur-Mer Vendée France,Gendarmerie,small_green
+85,Vendée,Chantonnay,Chantonnay Vendée France,Gendarmerie,small_green
+85,Vendée,Mouilleron-le-Captif,Mouilleron-le-Captif Vendée France,Gendarmerie,small_green
+85,Vendée,L'Epine,L'Epine Vendée France,Gendarmerie,small_green
+85,Vendée,Bouille-Courdault,Bouille-Courdault Vendée France,Gendarmerie,small_green
+85,Vendée,Saint-Jean-de-Monts,Saint-Jean-de-Monts Vendée France,Gendarmerie,small_green
+85,Vendée,La Mothe-Achard,La Mothe-Achard Vendée France,Gendarmerie,small_green
+85,Vendée,L'Ile-d'Yeu,L'Ile-d'Yeu Vendée France,Gendarmerie,small_green
+85,Vendée,Fontenay-le-Comte,Fontenay-le-Comte Vendée France,Gendarmerie,small_green
+85,Vendée,Mache,Mache Vendée France,Gendarmerie,small_green
+86,Vienne,Saint-Benoit,Saint-Benoit Vienne France,Police,small_blue
+86,Vienne,Jaunay-Clan,Jaunay-Clan Vienne France,Gendarmerie,small_green
+86,Vienne,Champigny-le-Sec,Champigny-le-Sec Vienne France,Gendarmerie,small_green
+87,Haute-Vienne,Limoges,Limoges Haute-Vienne France,Police,small_blue
+87,Haute-Vienne,Oradour-sur-Glane,Oradour-sur-Glane Haute-Vienne France,Gendarmerie,small_green
+87,Haute-Vienne,Saint-Yrieix-la-Perche,Saint-Yrieix-la-Perche Haute-Vienne France,Gendarmerie,small_green
+88,Vosges,Remiremont,Remiremont Vosges France,Police,small_blue
+88,Vosges,Saint-Étienne-les-Remiremont,Saint-Étienne-les-Remiremont Vosges France,Police,small_blue
+88,Vosges,Saint-Dié-des-Vosges,Saint-Dié-des-Vosges Vosges France,Police,small_blue
+88,Vosges,Sainte-Marguerite,Sainte-Marguerite Vosges France,Police,small_blue
+88,Vosges,Contrexéville,Contrexéville Vosges France,Gendarmerie,small_green
+88,Vosges,Charmes,Charmes Vosges France,Gendarmerie,small_green
+88,Vosges,Bruyères,Bruyères Vosges France,Gendarmerie,small_green
+88,Vosges,Thaon-les-Vosges,Thaon-les-Vosges Vosges France,Gendarmerie,small_green
+88,Vosges,Neufchâteau Vosges France,Neufchâteau Vosges France,Gendarmerie,small_green
+89,Yonne,Sens,Sens Yonne France,Police,small_blue
+89,Yonne,Auxerre,Auxerre Yonne France,Police,small_blue
+89,Yonne,Paron Yonne France,Paron Yonne France,Police,small_blue
+89,Yonne,Saint-Denis-lès-Sens,Saint-Denis Yonne France,Police,small_blue
+89,Yonne,Saint-Martin-du-Tertre,Saint-Martin-du-Tertre Yonne France,Police,small_blue
+89,Yonne,Migennes,Migennes Yonne France,Gendarmerie,small_green
+89,Yonne,Joigny,Joigny Yonne France,Gendarmerie,small_green
+89,Yonne,Tonnerre,Tonnerre Yonne France,Gendarmerie,small_green
+89,Yonne,Saint-Florentin,Saint-Florentin Yonne France,Gendarmerie,small_green
+89,Yonne,Michery,Michery Yonne France,Gendarmerie,small_green
+89,Yonne,Flogny-la-Chapelle,Flogny-la-Chapelle Yonne France,Gendarmerie,small_green
+89,Yonne,Saint-Julien-du-Sault,Saint-Julien-du-Sault Yonne France,Gendarmerie,small_green
+89,Yonne,Villevallier,Villevallier Yonne France,Gendarmerie,small_green
+89,Yonne,Charny,Charny Yonne France,Gendarmerie,small_green
+89,Yonne,Venoy.,Venoy. Yonne France,Gendarmerie,small_green
+90,Territoire de Belfort,Belfort,Belfort Territoire de Belfort France,Police,small_blue
+90,Territoire de Belfort,Beaucourt,Beaucourt Territoire de Belfort France,Gendarmerie,small_green
+90,Territoire de Belfort,Chatenois-les-Forges.,Chatenois-les-Forges. Territoire de Belfort France,Gendarmerie,small_green
+75,Paris,Paris,Paris Paris France,Police,small_blue
+77,Seine-et-Marne,Melun,Melun Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Montereau,Montereau Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Meaux,Meaux Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Chessy,Chessy Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Boissy-le-Châtel,Boissy-le-Châtel Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Nanteuil-lès-Meaux,Nanteuil-lès-Meaux Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Compans,Compans Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Avon Seine-et-Marne France,Avon Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Héricy,Héricy Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Samoreau,Samoreau Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Boissise-la-Bertrand,Boissise-la-Bertrand Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Boissise-le-Roi,Boissise-le-Roi Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Dammarie-les-lys,Dammarie-les-lys Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Le Mée-sur-Seine,Le Mée-sur-Seine Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Vaux-le-Pénil,Vaux-le-Pénil Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Brie-Comte-Robert,Brie-Comte-Robert Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Cesson,Cesson Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Combs-la-Ville,Combs-la-Ville Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Lieusaint,Lieusaint Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Moissy-Cramayel,Moissy-Cramayel Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Nandy,Nandy Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Réau,Réau Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Savigny-le-Temple,Savigny-le-Temple Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Vert-Saint-Denis,Vert-Saint-Denis Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Montereau-Fault-Yonne,Montereau-Fault-Yonne Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Saint-Germain-Laval,Saint-Germain-Laval Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Villemer,Villemer Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Nemours,Nemours Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Provins,Provins Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Chelles,Chelles Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Vaires-sur-Marne,Vaires-sur-Marne Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Bussy-Saint-Georges,Bussy-Saint-Georges Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Lagny-sur-Marne,Lagny-sur-Marne Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Saint-Thibault-des-Vignes,Saint-Thibault-des-Vignes Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Emerainville,Emerainville Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Lognes,Lognes Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Noisiel,Noisiel Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Ozoir-la-Ferrière,Ozoir-la-Ferrière Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Claye-Souilly,Claye-Souilly Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Bailly-Romainvilliers,Bailly-Romainvilliers Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Servon,Servon Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Ferrières-en-Brie,Ferrières-en-Brie Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Pommeuse,Pommeuse Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Gretz-Armainvilliers,Gretz-Armainvilliers Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Pontault-Combault.,Pontault-Combault. Seine-et-Marne France,Police,small_blue
+77,Seine-et-Marne,Monthyon,Monthyon Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Moussy-le-Neuf,Moussy-le-Neuf Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Fleury-en-Biere,Fleury-en-Biere Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Annet-sur-Marne,Annet-sur-Marne Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Mauregard,Mauregard Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,La Ferté-Gaucher,La Ferté-Gaucher Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Jouarre,Jouarre Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Crecy-la-Chapelle,Crecy-la-Chapelle Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Choisy-en-Brie,Choisy-en-Brie Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Nangis,Nangis Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Saint-Soupplets,Saint-Soupplets Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,La Ferté-sous-Jouarre,La Ferté-sous-Jouarre Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Longperrier,Longperrier Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Le Châtelet-en-Brie,Le Châtelet-en-Brie Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Moussy-le-Vieux,Moussy-le-Vieux Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Moisenay,Moisenay Seine-et-Marne France,Gendarmerie,small_green
+77,Seine-et-Marne,Touquin.,Touquin. Seine-et-Marne France,Gendarmerie,small_green
+78,Yvelines,Plaisir,Plaisir Yvelines France,Police,small_blue
+78,Yvelines,Les Clayes-sous-Bois,Les Clayes-sous-Bois Yvelines France,Police,small_blue
+78,Yvelines,Saint-Germain-en-Laye,Saint-Germain-en-Laye Yvelines France,Police,small_blue
+78,Yvelines,Maisons-Lafitte,Maisons-Lafitte Yvelines France,Police,small_blue
+78,Yvelines,Sartrouville,Sartrouville Yvelines France,Police,small_blue
+78,Yvelines,Le Vésinet,Le Vésinet Yvelines France,Police,small_blue
+78,Yvelines,Les Mureaux,Les Mureaux Yvelines France,Police,small_blue
+78,Yvelines,Élancourt,Élancourt Yvelines France,Police,small_blue
+78,Yvelines,Gyancourt,Gyancourt Yvelines France,Police,small_blue
+78,Yvelines,Montigny-le-Bretonneux,Montigny-le-Bretonneux Yvelines France,Police,small_blue
+78,Yvelines,Rambouillet,Rambouillet Yvelines France,Police,small_blue
+78,Yvelines,Trappes,Trappes Yvelines France,Police,small_blue
+78,Yvelines,Le-Mesnil-Saint-Denis,Le-Mesnil-Saint-Denis Yvelines France,Police,small_blue
+78,Yvelines,Maurepas,Maurepas Yvelines France,Police,small_blue
+78,Yvelines,Voisins-le-Bretonneux,Voisins-le-Bretonneux Yvelines France,Police,small_blue
+78,Yvelines,Gazeran,Gazeran Yvelines France,Police,small_blue
+78,Yvelines,Rambouillet,Rambouillet Yvelines France,Police,small_blue
+78,Yvelines,Aubergenville,Aubergenville Yvelines France,Police,small_blue
+78,Yvelines,Vaux-sur-Seine,Vaux-sur-Seine Yvelines France,Police,small_blue
+78,Yvelines,Mantes-la-Jolie,Mantes-la-Jolie Yvelines France,Police,small_blue
+78,Yvelines,Porcheville,Porcheville Yvelines France,Police,small_blue
+78,Yvelines,Chanteloup-les-Vignes,Chanteloup-les-Vignes Yvelines France,Police,small_blue
+78,Yvelines,Croissy-sur-Seine,Croissy-sur-Seine Yvelines France,Police,small_blue
+78,Yvelines,Le Mesnil-le-Roi,Le Mesnil-le-Roi Yvelines France,Police,small_blue
+78,Yvelines,Carrières-sous-Poissy,Carrières-sous-Poissy Yvelines France,Police,small_blue
+78,Yvelines,Villennes-sur-Seine,Villennes-sur-Seine Yvelines France,Police,small_blue
+78,Yvelines,Chambourcy,Chambourcy Yvelines France,Police,small_blue
+78,Yvelines,Le Pecq,Le Pecq Yvelines France,Police,small_blue
+78,Yvelines,Bois d'Arcy,Bois d'Arcy Yvelines France,Police,small_blue
+78,Yvelines,Fontenay-le-Fleury,Fontenay-le-Fleury Yvelines France,Police,small_blue
+78,Yvelines,Villepreux,Villepreux Yvelines France,Police,small_blue
+78,Yvelines,Jouy-en-Josas,Jouy-en-Josas Yvelines France,Police,small_blue
+78,Yvelines,Vélisy-Villacoublay,Vélisy-Villacoublay Yvelines France,Police,small_blue
+78,Yvelines,Buc,Buc Yvelines France,Police,small_blue
+78,Yvelines,Le Chesnay,Le Chesnay Yvelines France,Police,small_blue
+78,Yvelines,Rocquencourt,Rocquencourt Yvelines France,Police,small_blue
+78,Yvelines,Versailles,Versailles Yvelines France,Police,small_blue
+78,Yvelines,Bonnières-sur-Seine,Bonnières-sur-Seine Yvelines France,Gendarmerie,small_green
+78,Yvelines,Ecquevilly,Ecquevilly Yvelines France,Gendarmerie,small_green
+78,Yvelines,Beynes,Beynes Yvelines France,Gendarmerie,small_green
+78,Yvelines,Neauphle-le-Château,Neauphle-le-Château Yvelines France,Gendarmerie,small_green
+78,Yvelines,Chevreuse,Chevreuse Yvelines France,Gendarmerie,small_green
+78,Yvelines,Ablis,Ablis Yvelines France,Gendarmerie,small_green
+78,Yvelines,Montfort-L'Amaury,Montfort-L'Amaury Yvelines France,Gendarmerie,small_green
+78,Yvelines,Ponthevard,Ponthevard Yvelines France,Gendarmerie,small_green
+78,Yvelines,Breval,Breval Yvelines France,Gendarmerie,small_green
+78,Yvelines,Bailly,Bailly Yvelines France,Gendarmerie,small_green
+78,Yvelines,Crespières,Crespières Yvelines France,Gendarmerie,small_green
+78,Yvelines,Feucherolles,Feucherolles Yvelines France,Gendarmerie,small_green
+78,Yvelines,Gambais,Gambais Yvelines France,Gendarmerie,small_green
+78,Yvelines,Houdan,Houdan Yvelines France,Gendarmerie,small_green
+78,Yvelines,Les-Alluets-le-Roi,Les-Alluets-le-Roi Yvelines France,Gendarmerie,small_green
+78,Yvelines,Maule,Maule Yvelines France,Gendarmerie,small_green
+78,Yvelines,Mere,Mere Yvelines France,Gendarmerie,small_green
+78,Yvelines,Morainvilliers,Morainvilliers Yvelines France,Gendarmerie,small_green
+78,Yvelines,Noisy-le-Roi,Noisy-le-Roi Yvelines France,Gendarmerie,small_green
+78,Yvelines,Orgeval,Orgeval Yvelines France,Gendarmerie,small_green
+78,Yvelines,Raizeux,Raizeux Yvelines France,Gendarmerie,small_green
+78,Yvelines,Saint-Arnoult-en-Yvelines,Saint-Arnoult-en-Yvelines Yvelines France,Gendarmerie,small_green
+78,Yvelines,Saint-Nom-la-Breteche,Saint-Nom-la-Breteche Yvelines France,Gendarmerie,small_green
+78,Yvelines,Saint-rémy-les-Chevreuse,Saint-rémy-les-Chevreuse Yvelines France,Gendarmerie,small_green
+78,Yvelines,Magny-les-Hameaux,Magny-les-Hameaux Yvelines France,Gendarmerie,small_green
+78,Yvelines,Ecquevilly,Ecquevilly Yvelines France,Gendarmerie,small_green
+78,Yvelines,Chevreuse.,Chevreuse. Yvelines France,Gendarmerie,small_green
+91,Essonne,Ris-Orangis,Ris-Orangis Essonne France,Police,small_blue
+91,Essonne,Evry,Evry Essonne France,Police,small_blue
+91,Essonne,Etampes,Etampes Essonne France,Police,small_blue
+91,Essonne,Massy,Massy Essonne France,Police,small_blue
+91,Essonne,Yerres,Yerres Essonne France,Police,small_blue
+91,Essonne,Les Ulis,Les Ulis Essonne France,Police,small_blue
+91,Essonne,Corbeil Essonne France,Corbeil Essonne France,Police,small_blue
+91,Essonne,Courcouronnes,Courcouronnes Essonne France,Police,small_blue
+91,Essonne,Etampes,Etampes Essonne France,Police,small_blue
+91,Essonne,Brunoy,Brunoy Essonne France,Police,small_blue
+91,Essonne,Draveil,Draveil Essonne France,Police,small_blue
+91,Essonne,Crosnes,Crosnes Essonne France,Police,small_blue
+91,Essonne,Montgeron,Montgeron Essonne France,Police,small_blue
+91,Essonne,Grigny,Grigny Essonne France,Police,small_blue
+91,Essonne,Savigny sur Orge,Savigny sur Orge Essonne France,Police,small_blue
+91,Essonne,Arpajon,Arpajon Essonne France,Police,small_blue
+91,Essonne,La Norville,La Norville Essonne France,Police,small_blue
+91,Essonne,Chilly-Mazarin,Chilly-Mazarin Essonne France,Police,small_blue
+91,Essonne,Longjumeau,Longjumeau Essonne France,Police,small_blue
+91,Essonne,Bièvres,Bièvres Essonne France,Police,small_blue
+91,Essonne,Bures-sur-Yvette,Bures-sur-Yvette Essonne France,Police,small_blue
+91,Essonne,Saint-Michel-sur-Orge,Saint-Michel-sur-Orge Essonne France,Police,small_blue
+91,Essonne,Monthlery,Monthlery Essonne France,Police,small_blue
+91,Essonne,breuillet,breuillet Essonne France,Police,small_blue
+91,Essonne,Boussy-Saint-Antoine.,Boussy-Saint-Antoine. Essonne France,Police,small_blue
+91,Essonne,Saint-Chéron,Saint-Chéron Essonne France,Gendarmerie,small_green
+91,Essonne,La Ville-du-Bois,La Ville-du-Bois Essonne France,Gendarmerie,small_green
+91,Essonne,Milly-la-Fôret,Milly-la-Fôret Essonne France,Gendarmerie,small_green
+91,Essonne,Breuillet,Breuillet Essonne France,Gendarmerie,small_green
+91,Essonne,Courson-Monteloup,Courson-Monteloup Essonne France,Gendarmerie,small_green
+91,Essonne,Dannemois,Dannemois Essonne France,Gendarmerie,small_green
+91,Essonne,Itteville,Itteville Essonne France,Gendarmerie,small_green
+91,Essonne,Lisses,Lisses Essonne France,Gendarmerie,small_green
+91,Essonne,Boigneville,Boigneville Essonne France,Gendarmerie,small_green
+91,Essonne,Vert-le-Petit,Vert-le-Petit Essonne France,Gendarmerie,small_green
+91,Essonne,Maisse,Maisse Essonne France,Gendarmerie,small_green
+91,Essonne,Mennecy,Mennecy Essonne France,Gendarmerie,small_green
+91,Essonne,Marolles-en-Hurepoix,Marolles-en-Hurepoix Essonne France,Gendarmerie,small_green
+91,Essonne,Saclas,Saclas Essonne France,Gendarmerie,small_green
+91,Essonne,Saint-Germain-les-Corbeil,Saint-Germain-les-Corbeil Essonne France,Gendarmerie,small_green
+91,Essonne,Angervilliers,Angervilliers Essonne France,Gendarmerie,small_green
+91,Essonne,Boissy-sous-Saint-Yon,Boissy-sous-Saint-Yon Essonne France,Gendarmerie,small_green
+91,Essonne,Gif-sur-Yvette,Gif-sur-Yvette Essonne France,Gendarmerie,small_green
+91,Essonne,Saclay,Saclay Essonne France,Gendarmerie,small_green
+91,Essonne,Saint-Maurice-Montouronne,Saint-Maurice-Montouronne Essonne France,Gendarmerie,small_green
+91,Essonne,Angerville,Angerville Essonne France,Gendarmerie,small_green
+91,Essonne,Villabé,Villabé Essonne France,Gendarmerie,small_green
+91,Essonne,Etrechy,Etrechy Essonne France,Gendarmerie,small_green
+91,Essonne,Dourdan.,Dourdan. Essonne France,Gendarmerie,small_green
+92,Hauts-de-Seine,Antony,Antony Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Asnières,Asnières Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Colombes,Colombes Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Issy-les-Moulineaux,Issy-les-Moulineaux Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,La Défense,La Défense Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Levallois-Perret,Levallois-Perret Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Montrouge,Montrouge Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Puteaux,Puteaux Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Suresnes,Suresnes Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Villeneuve-la-Garenne,Villeneuve-la-Garenne Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Boulogne-Billancourt,Boulogne-Billancourt Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Clichy-la-Garenne,Clichy-la-Garenne Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Rueil-Malmaison,Rueil-Malmaison Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Chaville,Chaville Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Garches,Garches Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Vanves,Vanves Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Plessis-Robinson,Plessis-Robinson Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Courbevoie,Courbevoie Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Bourg-la-Reine,Bourg-la-Reine Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Bagneux,Bagneux Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Chatenay,Chatenay Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Vanves,Vanves Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Bois-Colombes,Bois-Colombes Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Neuilly-sur-Seine,Neuilly-sur-Seine Hauts-de-Seine France,Police,small_blue
+92,Hauts-de-Seine,Gennevilliers.,Gennevilliers. Hauts-de-Seine France,Police,small_blue
+93,Seine-Saint-Denis,Aulnay,Aulnay Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Drancy,Drancy Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Epinay-sur-Seine,Epinay-sur-Seine Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Le Blanc-Mesnil,Le Blanc-Mesnil Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Pré-Saint-Gervais,Pré-Saint-Gervais Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Rosny-sous-Bois,Rosny-sous-Bois Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Villemomble,Villemomble Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Bondy,Bondy Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,La Courneuve,La Courneuve Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Le Bourget,Le Bourget Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Le Raincy,Le Raincy Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Gagny,Gagny Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Gournay-sur-Marne,Gournay-sur-Marne Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Les Lilas,Les Lilas Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Livry-Gargan,Livry-Gargan Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Montfermeil,Montfermeil Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Montreuil,Montreuil Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Noisy-le-Grand,Noisy-le-Grand Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Noisy-le-Sec,Noisy-le-Sec Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Pavillon-sous-Bois,Pavillon-sous-Bois Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Pierrefite-sur-Seine,Pierrefite-sur-Seine Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Saint-Denis,Saint-Denis Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Stains,Stains Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Tremblay,Tremblay Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Villemonble,Villemonble Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Villepinte,Villepinte Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Gournay-sur-Marne,Gournay-sur-Marne Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Neuilly-sur-Marne,Neuilly-sur-Marne Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Coubron,Coubron Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Pantin,Pantin Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Villetaneuse,Villetaneuse Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Dugny,Dugny Seine-Saint-Denis France,Police,small_blue
+93,Seine-Saint-Denis,Romainville.,Romainville. Seine-Saint-Denis France,Police,small_blue
+94,Val-de-Marne,Créteil,Créteil Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Limeil-Brévannes,Limeil-Brévannes Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Sucy-en-Brie,Sucy-en-Brie Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Saint-Maurice,Saint-Maurice Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Maisons-Alfort,Maisons-Alfort Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Saint-Maur-des-Fossés,Saint-Maur Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Choisy-Le-Roi,Choisy-Le-Roi Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Orly,Orly Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Cachan,Cachan Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Thiais,Thiais Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Queue-en-Brie,Queue-en-Brie Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Villiers-sur-Marne,Villiers-sur-Marne Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Saint-Mandé,Saint-Mandé Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Vincennes Val-de-Marne France,Vincennes Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Nogent-sur-Marne,Nogent-sur-Marne Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Santeny,Santeny Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Charenton le Pont,Charenton le Pont Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Ivry-sur-Seine,Ivry-sur-Seine Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Villeneuve-le-roi,Villeneuve-le-roi Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,L'Hay-les-Roses,L'Hay-les-Roses Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Rungis,Rungis Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Bry-sur-Marne,Bry-sur-Marne Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Joinville-le-Pont,Joinville-le-Pont Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Le Plessis-Trevise,Le Plessis-Trevise Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Boissy-Saint-Léger,Boissy-Saint-Léger Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Ablon-sur-Seine,Ablon-sur-Seine Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Chennevières-sur-Marne,Chennevières-sur-Marne Val-de-Marne France,Police,small_blue
+94,Val-de-Marne,Ormesson-sur-Marne.,Ormesson-sur-Marne. Val-de-Marne France,Police,small_blue
+95,Val-d'Oise,Argenteuil,Argenteuil Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Saint-Gratien,Saint-Gratien Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Andilly,Andilly Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Montmorency,Montmorency Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Soisy-sous-Montmorency,Soisy-sous-Montmorency Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Margency,Margency Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Deuil-la-Barre,Deuil-la-Barre Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Groslay,Groslay Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Montmagny Val-d'Oise France,Montmagny Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Arnouville-les-Gonesse,Arnouville-les-Gonesse Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Goussainville,Goussainville Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Beaumont-sur-Oise,Beaumont-sur-Oise Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Cormeilles-en-Parisis,Cormeilles-en-Parisis Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Sannois,Sannois Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Herblay,Herblay Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Cergy,Cergy Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Saint-Ouen-l'Aumône,Saint-Ouen-l'Aumône Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Eaubonne,Eaubonne Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Ermont,Ermont Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Franconville,Franconville Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Le Plessis-Bouchard,Le Plessis-Bouchard Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Montlignon,Montlignon Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Saint-Prix,Saint-Prix Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,L'Isle-Adam,L'Isle-Adam Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Presles Val-d'Oise France,Presles Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Saint-Leu-la-Forêt,Saint-Leu-la-Forêt Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Enghien-les-Bains,Enghien-les-Bains Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Bonneuil-en-France,Bonneuil-en-France Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Gonesse,Gonesse Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Saint-Brice-sous-Forêt,Saint-Brice-sous-Forêt Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Garges-les-Gonesses,Garges-les-Gonesses Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Villiers-le-Bel,Villiers-le-Bel Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Sarcelles.,Sarcelles. Val-d'Oise France,Police,small_blue
+95,Val-d'Oise,Domont,Domont Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Bouffemont,Bouffemont Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Moisselles,Moisselles Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Piscop,Piscop Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Ézanville,Ézanville Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Villeron,Villeron Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Saint-Witz,Saint-Witz Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Le Thillay,Le Thillay Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Montsoult,Montsoult Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Baillet-en-France,Baillet-en-France Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Belloy-en-France,Belloy-en-France Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Asnières-sur-Oise,Asnières-sur-Oise Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Bernes-sur-Oise,Bernes-sur-Oise Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Jouy-le-Moutier,Jouy-le-Moutier Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Domont,Domont Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Roissy-en-France,Roissy-en-France Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Vaudherland,Vaudherland Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Louvres,Louvres Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Epiais-les-Louvres,Epiais-les-Louvres Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Vemars,Vemars Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Survilliers,Survilliers Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Marly-la-Ville,Marly-la-Ville Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Le Mesnil-Aubry,Le Mesnil-Aubry Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Theuville,Theuville Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Ennery,Ennery Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Parmain,Parmain Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Champagne-sur-Oise,Champagne-sur-Oise Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Saint-Witz,Saint-Witz Val-d'Oise France,Gendarmerie,small_green
+95,Val-d'Oise,Arnouville.,Arnouville. Val-d'Oise France,Gendarmerie,small_green
+971,Guadeloupe,Pointe-à-Pitre,Pointe-à-Pitre Guadeloupe France,Police,small_blue
+971,Guadeloupe,Basse-Terre Guadeloupe France,Basse-Terre Guadeloupe France,Police,small_blue
+971,Guadeloupe,Le-Gosier,Le-Gosier Guadeloupe France,Police,small_blue
+971,Guadeloupe,Les Abymes,Les Abymes. Guadeloupe France,Police,small_blue
+971,Guadeloupe,Saint-Martin,Saint-Martin Guadeloupe France,Gendarmerie,small_green
+971,Guadeloupe,Baie-Mahault,Baie-Mahault Guadeloupe France,Gendarmerie,small_green
+971,Guadeloupe,Lamentin,Lamentin Guadeloupe France,Gendarmerie,small_green
+971,Guadeloupe,Petit-Bourg,Petit-Bourg Guadeloupe France,Gendarmerie,small_green
+971,Guadeloupe,Gustavia Guadeloupe France,Gustavia Guadeloupe France,Gendarmerie,small_green
+971,Guadeloupe,Saint-François Guadeloupe France,Saint-François Guadeloupe France,Gendarmerie,small_green
+972,Martinique,Fort-de-France,Fort-de-France Martinique France,Police,small_blue
+972,Martinique,Le Lamentin,Le Lamentin Martinique France,Police,small_blue
+972,Martinique,La Trinité,La Trinité Martinique France,Gendarmerie,small_green
+972,Martinique,Le Prêcheur,Le Prêcheur Martinique France,Gendarmerie,small_green
+972,Martinique,Ducos,Ducos Martinique France,Gendarmerie,small_green
+972,Martinique,Schoelcher,Schoelcher Martinique France,Gendarmerie,small_green
+973,Guyane,Cayenne,Cayenne Guyane France,Police,small_blue
+973,Guyane,Kourou,Kourou Guyane France,Gendarmerie,small_green
+973,Guyane,Matoury,Matoury. Guyane France,Gendarmerie,small_green
+974,Réunion,Saint-Pierre,Saint-Pierre Réunion France,Police,small_blue
+974,Réunion,Saint-Denis,Saint-Denis Réunion France,Police,small_blue
+974,Réunion,Saint-Louis Réunion France,Saint-Louis Réunion France,Gendarmerie,small_green
+974,Réunion,Cilaos,Cilaos Réunion France,Gendarmerie,small_green
+974,Réunion,le Tampon.,le Tampon. Réunion France,Gendarmerie,small_green
+987,Polynésie Française,Papeete,Papeete Polynésie Française France,Police,small_blue
+987,Polynésie Française,Punaauia,Punaauia Polynésie Française France,Gendarmerie,small_green
+987,Polynésie Française,Bora-Bora,Bora-Bora Polynésie Française France,Gendarmerie,small_green
+988,Nouvelle Calédonie,Nouméa,Nouméa Nouvelle Calédonie France,Police,small_blue
+988,Nouvelle Calédonie,La Foa,La Foa Nouvelle Calédonie France,Gendarmerie,small_green

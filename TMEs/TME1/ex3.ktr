@@ -2,21 +2,21 @@
 <transformation>
   <info>
     <name>ex3</name>
-    <description />
-    <extended_description />
-    <trans_version />
+    <description/>
+    <extended_description/>
+    <trans_version/>
     <trans_type>Normal</trans_type>
     <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection />
-        <schema />
-        <table />
-        <size_limit_lines />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -41,37 +41,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>ERRORS</id>
@@ -125,11 +125,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection />
-        <schema />
-        <table />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -207,10 +207,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -273,10 +273,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -349,10 +349,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -401,9 +401,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection />
-      <table />
-      <field />
+      <connection/>
+      <table/>
+      <field/>
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -414,7 +414,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file />
+    <shared_objects_file/>
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -430,11 +430,7 @@
     <created_date>2018/02/09 15:01:11.143</created_date>
     <modified_user>-</modified_user>
     <modified_date>2018/02/09 15:01:11.143</modified_date>
-<<<<<<< HEAD
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
-=======
-    <key_for_session_key />
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -472,22 +468,16 @@
     </hop>
   </order>
   <step>
-<<<<<<< HEAD
     <name>Alimentation fichier</name>
     <type>TextFileOutput</type>
-=======
-    <name>Extraction depuis fichier CSV</name>
-    <type>CsvInput</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
     <separator>;</separator>
     <enclosure>"</enclosure>
     <enclosure_forced>N</enclosure_forced>
@@ -497,12 +487,12 @@
     <format>DOS</format>
     <compression>None</compression>
     <encoding>UTF-8</encoding>
-    <endedLine />
+    <endedLine/>
     <fileNameInField>N</fileNameInField>
-    <fileNameField />
+    <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>/users/Etu4/3502264/Documents/BI/TMEs/TME1/ex3</name>
+      <name>${user.home}/Documents/BI/TMEs/TME1/ex3</name>
       <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
@@ -513,53 +503,15 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format />
+      <date_time_format/>
       <add_to_result_filenames>Y</add_to_result_filenames>
       <pad>N</pad>
       <fast_dump>N</fast_dump>
       <splitevery>0</splitevery>
     </file>
     <fields>
-=======
-    <filename>/users/Etu4/3502264/Documents/BI/TMEs/TME1/noms-prenoms.csv</filename>
-    <filename_field />
-    <rownum_field />
-    <include_filename>N</include_filename>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>Y</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <encoding>UTF-8</encoding>
-    <fields>
-      <field>
-        <name>noms</name>
-        <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>prenoms</name>
-        <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -567,33 +519,22 @@
       </output>
     </remotesteps>
     <GUI>
-<<<<<<< HEAD
       <xloc>416</xloc>
       <yloc>512</yloc>
-=======
-      <xloc>192</xloc>
-      <yloc>96</yloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-<<<<<<< HEAD
     <name>Alimentation fichier Excel (xlsx)</name>
     <type>TypeExitExcelWriterStep</type>
-=======
-    <name>Manipulation de chaînes de caractères</name>
-    <type>StringOperations</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
     <header>Y</header>
     <footer>N</footer>
     <makeSheetActive>Y</makeSheetActive>
@@ -608,20 +549,20 @@
     <appendLines>N</appendLines>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>/users/Etu4/3502264/Documents/BI/TMEs/TME1/ex3</name>
+      <name>${user.home}/Documents/BI/TMEs/TME1/ex3</name>
       <extention>xls</extention>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
       <split>N</split>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format />
+      <date_time_format/>
       <sheetname>Sheet1</sheetname>
       <autosizecolums>N</autosizecolums>
       <stream_data>N</stream_data>
       <protect_sheet>N</protect_sheet>
       <password>Encrypted </password>
-      <protected_by />
+      <protected_by/>
       <splitevery>0</splitevery>
       <if_file_exists>new</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
@@ -630,41 +571,12 @@
       <enabled>N</enabled>
       <sheet_enabled>N</sheet_enabled>
       <filename>template.xls</filename>
-      <sheetname />
+      <sheetname/>
       <hidden>N</hidden>
     </template>
     <fields>
-=======
-    <fields>
-      <field>
-        <in_stream_name>noms</in_stream_name>
-        <out_stream_name>nomsMajuscule</out_stream_name>
-        <trim_type>none</trim_type>
-        <lower_upper>upper</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>no</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-      <field>
-        <in_stream_name>prenoms</in_stream_name>
-        <out_stream_name>prenomsMinuscule</out_stream_name>
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>no</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -673,40 +585,53 @@
     </remotesteps>
     <GUI>
       <xloc>416</xloc>
-<<<<<<< HEAD
       <yloc>416</yloc>
-=======
-      <yloc>96</yloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-<<<<<<< HEAD
     <name>Calculateur</name>
     <type>Formula</type>
-=======
-    <name>Extraction depuis chaînes de caractères</name>
-    <type>StringCut</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
     <formula>
       <field_name>LetsCalculate</field_name>
       <formula_string>LEFT([noms]; 3)</formula_string>
       <value_type>String</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
-      <replace_field />
+      <replace_field/>
     </formula>
-=======
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Extraction depuis chaînes de caractères</name>
+    <type>StringCut</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
     <fields>
       <field>
         <in_stream_name>noms</in_stream_name>
@@ -715,8 +640,7 @@
         <cut_to>3</cut_to>
       </field>
     </fields>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -724,87 +648,25 @@
       </output>
     </remotesteps>
     <GUI>
-<<<<<<< HEAD
-      <xloc>416</xloc>
-=======
       <xloc>192</xloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-<<<<<<< HEAD
-    <name>Extraction depuis chaînes de caractères</name>
-    <type>StringCut</type>
-=======
-    <name>Calculateur</name>
-    <type>Formula</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-<<<<<<< HEAD
-    <fields>
-      <field>
-        <in_stream_name>noms</in_stream_name>
-        <out_stream_name>3LettersOfName</out_stream_name>
-        <cut_from>0</cut_from>
-        <cut_to>3</cut_to>
-      </field>
-    </fields>
-=======
-    <formula>
-      <field_name>LetsCalculate</field_name>
-      <formula_string>LEFT([noms]; 3)</formula_string>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <replace_field />
-    </formula>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-<<<<<<< HEAD
-      <xloc>192</xloc>
-=======
-      <xloc>416</xloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-      <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-<<<<<<< HEAD
     <name>Extraction depuis fichier CSV</name>
     <type>CsvInput</type>
-=======
-    <name>Tri lignes</name>
-    <type>SortRows</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
-    <filename>/users/Etu4/3502264/Documents/BI/TMEs/TME1/noms-prenoms.csv</filename>
-    <filename_field />
-    <rownum_field />
+    <filename>${user.home}/Documents/BI/TMEs/TME1/noms-prenoms.csv</filename>
+    <filename_field/>
+    <rownum_field/>
     <include_filename>N</include_filename>
     <separator>;</separator>
     <enclosure>"</enclosure>
@@ -819,10 +681,10 @@
       <field>
         <name>noms</name>
         <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -830,33 +692,16 @@
       <field>
         <name>prenoms</name>
         <type>String</type>
-        <format />
-        <currency />
-        <decimal />
-        <group />
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
-=======
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>noms</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -865,31 +710,21 @@
     </remotesteps>
     <GUI>
       <xloc>192</xloc>
-<<<<<<< HEAD
       <yloc>96</yloc>
-=======
-      <yloc>480</yloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-<<<<<<< HEAD
     <name>Manipulation de chaînes de caractères</name>
     <type>StringOperations</type>
-=======
-    <name>Alimentation fichier</name>
-    <type>TextFileOutput</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
     <fields>
       <field>
         <in_stream_name>noms</in_stream_name>
@@ -897,8 +732,8 @@
         <trim_type>none</trim_type>
         <lower_upper>upper</lower_upper>
         <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
+        <pad_char/>
+        <pad_len/>
         <init_cap>no</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>
@@ -910,49 +745,15 @@
         <trim_type>none</trim_type>
         <lower_upper>lower</lower_upper>
         <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
+        <pad_char/>
+        <pad_len/>
         <init_cap>no</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>
         <remove_special_characters>none</remove_special_characters>
       </field>
-=======
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>Y</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding>UTF-8</encoding>
-    <endedLine />
-    <fileNameInField>N</fileNameInField>
-    <fileNameField />
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>/users/Etu4/3502264/Documents/BI/TMEs/TME1/ex3</name>
-      <is_command>N</is_command>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>csv</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format />
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -961,37 +762,27 @@
     </remotesteps>
     <GUI>
       <xloc>416</xloc>
-<<<<<<< HEAD
-      <yloc>80</yloc>
-=======
-      <yloc>512</yloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-<<<<<<< HEAD
     <name>Tri lignes</name>
     <type>SortRows</type>
-=======
-    <name>Alimentation fichier Excel (xlsx)</name>
-    <type>TypeExitExcelWriterStep</type>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-<<<<<<< HEAD
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory />
+    <free_memory/>
     <compress>N</compress>
-    <compress_variable />
+    <compress_variable/>
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -1002,50 +793,8 @@
         <collator_strength>0</collator_strength>
         <presorted>N</presorted>
       </field>
-=======
-    <header>Y</header>
-    <footer>N</footer>
-    <makeSheetActive>Y</makeSheetActive>
-    <rowWritingMethod>overwrite</rowWritingMethod>
-    <startingCell>A1</startingCell>
-    <appendOmitHeader>N</appendOmitHeader>
-    <appendOffset>0</appendOffset>
-    <appendEmpty>0</appendEmpty>
-    <rowWritingMethod>overwrite</rowWritingMethod>
-    <forceFormulaRecalculation>N</forceFormulaRecalculation>
-    <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
-    <appendLines>N</appendLines>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <file>
-      <name>/users/Etu4/3502264/Documents/BI/TMEs/TME1/ex3</name>
-      <extention>xls</extention>
-      <do_not_open_newfile_init>N</do_not_open_newfile_init>
-      <split>N</split>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format />
-      <sheetname>Sheet1</sheetname>
-      <autosizecolums>N</autosizecolums>
-      <stream_data>N</stream_data>
-      <protect_sheet>N</protect_sheet>
-      <password>Encrypted </password>
-      <protected_by />
-      <splitevery>0</splitevery>
-      <if_file_exists>new</if_file_exists>
-      <if_sheet_exists>new</if_sheet_exists>
-    </file>
-    <template>
-      <enabled>N</enabled>
-      <sheet_enabled>N</sheet_enabled>
-      <filename>template.xls</filename>
-      <sheetname />
-      <hidden>N</hidden>
-    </template>
-    <fields>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1053,13 +802,8 @@
       </output>
     </remotesteps>
     <GUI>
-<<<<<<< HEAD
       <xloc>192</xloc>
       <yloc>480</yloc>
-=======
-      <xloc>416</xloc>
-      <yloc>416</yloc>
->>>>>>> 098afc564ea9ca97ce8b8695b1e3f451bbcc0550
       <draw>Y</draw>
     </GUI>
   </step>

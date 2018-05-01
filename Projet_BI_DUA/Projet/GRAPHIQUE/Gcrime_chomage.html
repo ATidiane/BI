@@ -1,0 +1,36 @@
+  <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+['Annee','Crime','Chomage'],
+['2010',18.42718,8.625556555555557],
+['2011',18.54392,8.897778777777777],
+['2012',18.65625,9.733334333333335],
+['2013',19.35685,9.718889888888889],
+['2014',19.5743,10.100000999999994],
+['2015',19.25878,9.890000999999991],
+['2016',19.15189,9.847778777777773]
+        ]);
+
+        var options = {
+          title: 'Company Performance',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+  </body>
+</html>
+

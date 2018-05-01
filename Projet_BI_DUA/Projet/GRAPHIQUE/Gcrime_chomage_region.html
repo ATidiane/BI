@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+['Region','ratio'],
+['Mid',0.11948921018929294],
+['Cen',0.04931905019086348],
+['Hau',0.10262348052660515],
+['Lim',0.02336677671593812],
+['Bre',0.09211777501875683],
+['Rhô',0.15193228816144336],
+['Bas',0.04538630294298822],
+['Nor',0.24315083528811013],
+['Poi',0.05580086255789651],
+['Bou',0.047308028207427945],
+['Als',0.06484114007477804],
+['Lan',0.07743742943012791],
+['Fra',0.03934994759814488],
+['Pro',0.14919693599235448],
+['Auv',0.05361930743983846],
+['Cha',0.04756403133546782],
+['Ile',0.3769427378155217],
+['Aqu',0.09406466979817887],
+['Pic',0.0660209339158624],
+['Lor',0.05664984427098401],
+['Pay',0.1161442565266561]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+

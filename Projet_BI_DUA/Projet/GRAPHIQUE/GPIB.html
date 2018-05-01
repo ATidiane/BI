@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+['Region','Potentiel Fiscal'],
+['Pro',355889],
+['Ile',439588],
+['Rhô',572301],
+['Lan',204913],
+['Nor',151017],
+['Aqu',175838],
+['Mid',115875],
+['Cen',101207],
+['Pic',84453],
+['Lor',123118],
+['Pay',99964],
+['Bre',140082],
+['Als',104201],
+['Hau',88018],
+['Bou',94559],
+['Poi',100905],
+['Bas',65242],
+['Auv',49213],
+['Cha',36892],
+['Fra',44363],
+['Lim',12285]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Projet BI',
+            subtitle: 'Crime et Policier',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+
