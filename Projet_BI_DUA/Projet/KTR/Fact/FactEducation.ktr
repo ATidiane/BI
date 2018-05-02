@@ -771,7 +771,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/users/Etu6/3200386/M1DAC/BI/Projet_BI_DUA/CSV/edu_genre.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../CSV/Education/edu_genre.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

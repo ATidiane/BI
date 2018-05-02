@@ -633,7 +633,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${user.home}/Documents/BI/Projet_BI_DUA/Projet/CSV/chomage_genre.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../CSV/chomage_genre.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

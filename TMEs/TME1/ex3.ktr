@@ -492,7 +492,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${user.home}/Documents/BI/TMEs/TME1/ex3</name>
+      <name>${Internal.Entry.Current.Directory}/ex3</name>
       <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
@@ -664,7 +664,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${user.home}/Documents/BI/TMEs/TME1/noms-prenoms.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/noms-prenoms.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -710,7 +710,7 @@
     </remotesteps>
     <GUI>
       <xloc>192</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

@@ -382,7 +382,7 @@
       <name>Suppression fichier</name>
       <description/>
       <type>DELETE_FILE</type>
-      <filename>/users/nfs/Etu4/3502264/Documents/BI/TMEs/TME1/ex3.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/ex3.ktr</filename>
       <fail_if_file_not_exists>N</fail_if_file_not_exists>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -394,7 +394,7 @@
       <name>Attente apparition fichier</name>
       <description/>
       <type>WAIT_FOR_FILE</type>
-      <filename>/users/nfs/Etu4/3502264/Documents/BI/TMEs/TME1/ex3.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/ex3.ktr</filename>
       <maximum_timeout>0</maximum_timeout>
       <check_cycle_time>60</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
