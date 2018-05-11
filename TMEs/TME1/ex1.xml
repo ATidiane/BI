@@ -1,13 +1,3 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Rows>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>1</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>2</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>3</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>4</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>5</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>6</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>7</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>8</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>9</valuename></Row>
-<Row><test>1</test> <checksum>2212294583</checksum> <gender>male</gender> <cola>test</cola> <valuename>10</valuename></Row>
 </Rows>

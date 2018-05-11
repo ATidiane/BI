@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>load_dim_date</name>
+    <name>fait_immigres</name>
     <description />
     <extended_description />
     <trans_version />
@@ -427,89 +427,44 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2018/04/25 17:27:55.395</created_date>
+    <created_date>2018/05/11 14:19:58.270</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2018/04/25 17:27:55.395</modified_date>
+    <modified_date>2018/05/11 14:19:58.270</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
-  <connection>
-    <name>myworld_dwh</name>
-    <server>localhost</server>
-    <type>MYSQL</type>
-    <access>Native</access>
-    <database>world_dwh</database>
-    <port>3306</port>
-    <username>root</username>
-    <password>Encrypted </password>
-    <servername />
-    <data_tablespace />
-    <index_tablespace />
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>3306</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>STREAM_RESULTS</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
   <order>
     <hop>
-      <from>Generate years</from>
-      <to>DaySequence</to>
+      <from>Extraction depuis MIG.csv</from>
+      <to>Altération structure flux</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>DaySequence</from>
-      <to>Calculate Dimension Attributes</to>
+      <from>Altération structure flux</from>
+      <to>Tri lignes</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Calculate Dimension Attributes</from>
-      <to>Load dim_date</to>
+      <from>Tri lignes</from>
+      <to>Remplacer valeur nulle</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Remplacer valeur nulle</from>
+      <to>Agrégation valeurs</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Agrégation valeurs</from>
+      <to>Manipulation de chaînes de caractères</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Calculate Dimension Attributes</name>
-    <type>ScriptValueMod</type>
+    <name>Extraction depuis MIG.csv</name>
+    <type>CsvInput</type>
     <description />
     <distribute>Y</distribute>
     <custom_distribution />
@@ -518,218 +473,164 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Create a Locale according to the specified language code
-var locale = new java.util.Locale(
-   country_code.getString()
-);
-
-//Create a calendar, use the specified initial date
-var calendar = new java.util.GregorianCalendar(locale);
-calendar.setTime(initial_date.getDate());
-
-//set the calendar to the current date by adding DaySequence days
-calendar.add(calendar.DAY_OF_MONTH,DaySequence.getInteger() - 1);
-
-//get the calendar date
-var date = new java.util.Date(calendar.getTimeInMillis());
-
-//en-us example: Monday, September 3, 2007
-var date_full   = java.text.DateFormat.getDateInstance(
-                      java.text.DateFormat.FULL
-                  ,   locale
-                  ).format(date);
-
-//day in year: 1..366
-var simpleDateFormat   = java.text.SimpleDateFormat("D",locale);
-var day_in_year        = simpleDateFormat.format(date);
-//day in month: 1..31
-simpleDateFormat.applyPattern("d");
-var day_in_month       = simpleDateFormat.format(date);
-//en-us example: "Monday"
-simpleDateFormat.applyPattern("EEEE");
-var day_name           = simpleDateFormat.format(date);
-//en-us example: "Mon"
-simpleDateFormat.applyPattern("E");
-var day_abbreviation   = simpleDateFormat.format(date);
-//week in year, 1..53
-simpleDateFormat.applyPattern("ww");
-var week_in_year       = simpleDateFormat.format(date);
-//week in month, 1..5
-simpleDateFormat.applyPattern("W");
-var week_in_month      = simpleDateFormat.format(date);
-//month number in year, 1..12
-simpleDateFormat.applyPattern("MM");
-var month_number       = simpleDateFormat.format(date);
-//en-us example: "September"
-simpleDateFormat.applyPattern("MMMM");
-var month_name         = simpleDateFormat.format(date);
-//en-us example: "Sep"
-simpleDateFormat.applyPattern("MMM");
-var month_abbreviation = simpleDateFormat.format(date);
-//2 digit representation of the year, example: "07" for 2007
-simpleDateFormat.applyPattern("y");
-var year2              = simpleDateFormat.format(date);
-//4 digit representation of the year, example:  2007
-simpleDateFormat.applyPattern("yyyy");
-var year4              = "" + simpleDateFormat.format(date);
-//handling Quarters is a DIY
-var quarter_name = "Q";
-var quarter_number;
-switch(parseInt(month_number)){
-    case 1: case 2: case 3: quarter_number = "1"; break;
-    case 4: case 5: case 6: quarter_number = "2"; break;
-    case 7: case 8: case 9: quarter_number = "3"; break;
-    case 10: case 11: case 12: quarter_number = "4"; break;
-}
-quarter_name += quarter_number;
-
-//get the local yes/no values
-var yes = local_yes.getString();
-var no = local_no.getString();
-
-//initialize for week calculations
-var first_day_of_week = calendar.getFirstDayOfWeek();
-var day_of_week = java.util.Calendar.DAY_OF_WEEK;
-
-//find out if this is the first day of the week
-var is_first_day_in_week;
-if(first_day_of_week==calendar.get(day_of_week)){
-    is_first_day_in_week = yes;
-} else {
-    is_first_day_in_week = no;
-}
-
-//calculate the next day
-calendar.add(calendar.DAY_OF_MONTH,1);
-//get the next calendar date
-var next_day = new java.util.Date(calendar.getTimeInMillis());
-
-//find out if this is the first day of the week
-var is_last_day_in_week;
-if(first_day_of_week==calendar.get(day_of_week)){
-    is_last_day_in_week = yes;
-} else {
-    is_last_day_in_week = no;
-}
-
-//find out if this is the first day of the month
-var is_first_day_of_month;
-if(day_in_month == 1){
-    is_first_day_in_month = yes;
-} else {
-    is_first_day_in_month = no;
-}
-
-//find out if this is the last day in the month
-var is_last_day_of_month;
-if(java.text.SimpleDateFormat("d",locale).format(next_day)==1){
-    is_last_day_in_month = yes;
-} else {
-    is_last_day_in_month = no;
-}
-
-var year_month_number       = year4 + "-" + month_number;
-
-
-var date_key = year4 + month_number + (day_in_month&lt;10?"0":"") + day_in_month;</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>416</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>DaySequence</name>
-    <type>Sequence</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <valuename>DaySequence</valuename>
-    <use_database>N</use_database>
-    <connection>myworld_dwh</connection>
-    <schema />
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name />
-    <start_at>1</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>192</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Generate years</name>
-    <type>RowGenerator</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
+    <filename>/users/nfs/Vrac/Tidzo/home/Documents/BI/DWH_DM_Project/Initial Data/MIG.csv</filename>
+    <filename_field />
+    <rownum_field />
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding />
     <fields>
       <field>
-        <name>country_code</name>
+        <name>﻿"CO2"</name>
         <type>String</type>
         <format />
-        <currency />
-        <decimal />
-        <group />
-        <nullif />
-        <length>-1</length>
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>4</length>
         <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
+        <trim_type>none</trim_type>
       </field>
       <field>
-        <name>initiale_date</name>
-        <type>Date</type>
-        <format>dd-MM-yyyy</format>
-        <currency />
-        <decimal />
-        <group />
-        <nullif>01-01-2000</nullif>
+        <name>Pays de naissance/nationalité</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>42</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAR</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Variable</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>62</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>GEN</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Sexe</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>5</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>COU</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Pays</name>
+        <type>String</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>19</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>YEA</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Année</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Value</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>€</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Flag Codes</name>
+        <type>Boolean</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
         <length>-1</length>
         <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>Flags</name>
+        <type>Boolean</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
       </field>
     </fields>
-    <limit>3660</limit>
-    <never_ending>N</never_ending>
-    <interval_in_ms>5000</interval_in_ms>
-    <row_time_field>now</row_time_field>
-    <last_time_field>FiveSecondsAgo</last_time_field>
     <cluster_schema />
     <remotesteps>
       <input>
@@ -738,14 +639,14 @@ var date_key = year4 + month_number + (day_in_month&lt;10?"0":"") + day_in_month
       </output>
     </remotesteps>
     <GUI>
-      <xloc>192</xloc>
-      <yloc>64</yloc>
+      <xloc>128</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Load dim_date</name>
-    <type>TableOutput</type>
+    <name>Altération structure flux</name>
+    <type>SelectValues</type>
     <description />
     <distribute>Y</distribute>
     <custom_distribution />
@@ -754,24 +655,28 @@ var date_key = year4 + month_number + (day_in_month&lt;10?"0":"") + day_in_month
       <method>none</method>
       <schema_name />
     </partitioning>
-    <connection>myworld_dwh</connection>
-    <schema />
-    <table>dim_date</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>Y</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field />
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field />
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field />
     <fields>
+      <field>
+        <name>﻿"CO2"</name>
+        <rename>code</rename>
+      </field>
+      <field>
+        <name>COU</name>
+        <rename>code_dest</rename>
+      </field>
+      <field>
+        <name>Année</name>
+        <rename>year</rename>
+      </field>
+      <field>
+        <name>Value</name>
+        <rename>immigres</rename>
+      </field>
+      <field>
+        <name>VAR</name>
+        <rename />
+      </field>
+      <select_unspecified>N</select_unspecified>
     </fields>
     <cluster_schema />
     <remotesteps>
@@ -781,8 +686,251 @@ var date_key = year4 + month_number + (day_in_month&lt;10?"0":"") + day_in_month
       </output>
     </remotesteps>
     <GUI>
-      <xloc>624</xloc>
-      <yloc>192</yloc>
+      <xloc>304</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Tri lignes</name>
+    <type>SortRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>code</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>code_dest</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>year</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>VAR</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Agrégation valeurs</name>
+    <type>GroupBy</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>code</name>
+      </field>
+      <field>
+        <name>code_dest</name>
+      </field>
+      <field>
+        <name>year</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>immigres</aggregate>
+        <subject>immigres</subject>
+        <type>SUM</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Remplacer valeur nulle</name>
+    <type>IfNull</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <replaceAllByValue />
+    <replaceAllMask />
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>immigres</name>
+        <value>0</value>
+        <mask />
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>128</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>ETL Metadata Injection</name>
+    <type>MetaInject</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <specification_method>filename</specification_method>
+    <trans_object_id />
+    <trans_name />
+    <filename>file:///users/Etu4/3502264/Documents/BI/DWH_DM_Project/ETL/fait_immigres.ktr</filename>
+    <directory_path />
+    <source_step />
+    <source_output_fields>    </source_output_fields>
+    <target_file />
+    <no_execution>N</no_execution>
+    <stream_source_step />
+    <stream_target_step />
+    <mappings>    </mappings>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1152</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Manipulation de chaînes de caractères</name>
+    <type>StringOperations</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>code</in_stream_name>
+        <out_stream_name />
+        <trim_type>none</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char />
+        <pad_len />
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>code_dest</in_stream_name>
+        <out_stream_name />
+        <trim_type>none</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char />
+        <pad_len />
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

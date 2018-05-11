@@ -454,7 +454,7 @@
     <hop>
       <from>Ajout constantes 2</from>
       <to>Ajout séquence</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Ajout séquence</from>

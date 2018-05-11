@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>PIB</name>
-    <description/>
-    <extended_description/>
-    <trans_version/>
+    <name>fait_pib</name>
+    <description />
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -41,37 +41,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -125,11 +125,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -207,10 +207,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -273,10 +273,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -349,10 +349,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -401,9 +401,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -414,7 +414,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -465,17 +465,18 @@
   <step>
     <name>Choose columns</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
-        <name>Country Name</name>
+        <name>﻿"Country Name"</name>
+        <rename>Country Name</rename>
       </field>
       <field>
         <name>Country Code</name>
@@ -503,7 +504,7 @@
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -519,13 +520,13 @@
   <step>
     <name>MeanPIBs</name>
     <type>Formula</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <formula>
       <field_name>MeanPIBs</field_name>
@@ -533,9 +534,9 @@
       <value_type>Number</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
-      <replace_field/>
+      <replace_field />
     </formula>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -551,17 +552,17 @@
   <step>
     <name>PIBAnnuel</name>
     <type>CsvInput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/Initial Data/PIBAnnuel.csv</filename>
-    <filename_field/>
-    <rownum_field/>
+    <filename>${Internal.Entry.Current.Directory}/../Initial Data/PIBAnnuel.csv</filename>
+    <filename_field />
+    <rownum_field />
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -574,9 +575,9 @@
     <encoding>UTF-8</encoding>
     <fields>
       <field>
-        <name>Country Name</name>
+        <name>﻿"Country Name"</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>€</currency>
         <decimal>,</decimal>
         <group> </group>
@@ -587,7 +588,7 @@
       <field>
         <name>Country Code</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>€</currency>
         <decimal>,</decimal>
         <group> </group>
@@ -598,7 +599,7 @@
       <field>
         <name>Indicator Name</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>€</currency>
         <decimal>,</decimal>
         <group> </group>
@@ -609,7 +610,7 @@
       <field>
         <name>Indicator Code</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>€</currency>
         <decimal>,</decimal>
         <group> </group>
@@ -1244,8 +1245,30 @@
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>2017</name>
+        <type>Boolean</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name />
+        <type>Boolean</type>
+        <format />
+        <currency>€</currency>
+        <decimal>,</decimal>
+        <group> </group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1261,16 +1284,16 @@
   <step>
     <name>Remove lines with null values</name>
     <type>FilterRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <send_true_to>MeanPIBs</send_true_to>
-    <send_false_to/>
+    <send_false_to />
     <compare>
       <condition>
         <negated>Y</negated>
@@ -1279,11 +1302,11 @@
             <negated>N</negated>
             <leftvalue>2010</leftvalue>
             <function>IS NULL</function>
-            <rightvalue/>
+            <rightvalue />
             <value>
               <name>constant</name>
               <type>Number</type>
-              <text/>
+              <text />
               <length>-1</length>
               <precision>-1</precision>
               <isnull>Y</isnull>
@@ -1308,7 +1331,7 @@
                     <negated>N</negated>
                     <leftvalue>2012</leftvalue>
                     <function>IS NULL</function>
-                    <rightvalue/>
+                    <rightvalue />
                   </condition>
                   <condition>
                     <negated>N</negated>
@@ -1318,7 +1341,7 @@
                         <negated>N</negated>
                         <leftvalue>2013</leftvalue>
                         <function>IS NULL</function>
-                        <rightvalue/>
+                        <rightvalue />
                       </condition>
                       <condition>
                         <negated>N</negated>
@@ -1328,7 +1351,7 @@
                             <negated>N</negated>
                             <leftvalue>2014</leftvalue>
                             <function>IS NULL</function>
-                            <rightvalue/>
+                            <rightvalue />
                           </condition>
                           <condition>
                             <negated>N</negated>
@@ -1338,14 +1361,14 @@
                                 <negated>N</negated>
                                 <leftvalue>2015</leftvalue>
                                 <function>IS NULL</function>
-                                <rightvalue/>
+                                <rightvalue />
                               </condition>
                               <condition>
                                 <negated>N</negated>
                                 <operator>OR</operator>
                                 <leftvalue>2016</leftvalue>
                                 <function>IS NULL</function>
-                                <rightvalue/>
+                                <rightvalue />
                               </condition>
                             </conditions>
                           </condition>
@@ -1356,9 +1379,9 @@
                   <condition>
                     <negated>N</negated>
                     <operator>OR</operator>
-                    <leftvalue/>
+                    <leftvalue />
                     <function>=</function>
-                    <rightvalue/>
+                    <rightvalue />
                   </condition>
                 </conditions>
               </condition>
@@ -1367,7 +1390,7 @@
         </conditions>
       </condition>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1383,13 +1406,13 @@
   <step>
     <name>TransformedPIBAnnuel</name>
     <type>TextFileOutput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -1400,9 +1423,9 @@
     <format>DOS</format>
     <compression>None</compression>
     <encoding>UTF-8</encoding>
-    <endedLine/>
+    <endedLine />
     <fileNameInField>N</fileNameInField>
-    <fileNameField/>
+    <fileNameField />
     <create_parent_folder>Y</create_parent_folder>
     <file>
       <name>${Internal.Entry.Current.Directory}/CSV/TPIBAnnuel</name>
@@ -1416,7 +1439,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
+      <date_time_format />
       <add_to_result_filenames>Y</add_to_result_filenames>
       <pad>N</pad>
       <fast_dump>N</fast_dump>
@@ -1426,11 +1449,11 @@
       <field>
         <name>Country Name</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
         <trim_type>none</trim_type>
         <length>46</length>
         <precision>-1</precision>
@@ -1438,11 +1461,11 @@
       <field>
         <name>Country Code</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
         <trim_type>none</trim_type>
         <length>3</length>
         <precision>-1</precision>
@@ -1454,7 +1477,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1466,7 +1489,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1478,7 +1501,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1490,7 +1513,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1502,7 +1525,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1514,7 +1537,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1526,7 +1549,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -1538,13 +1561,13 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif/>
+        <nullif />
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1560,20 +1583,20 @@
   <step>
     <name>Tri lignes Desc</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -1585,7 +1608,7 @@
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
