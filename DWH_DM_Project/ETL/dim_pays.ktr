@@ -722,6 +722,252 @@
     </GUI>
   </step>
   <step>
+    <name>Altération structure flux</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>name</name>
+        <rename>nom_pays</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask />
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>lifeExpectancy</name>
+        <rename>life_expectancy</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask />
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>608</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Altération structure flux 2</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <remove>
+        <name>life_expectancy</name>
+      </remove>
+      <remove>
+        <name>population</name>
+      </remove>
+      <meta>
+        <name>life_expectancy_discr</name>
+        <rename>life_expectancy</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask />
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>population_discr</name>
+        <rename>population</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask />
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Création plages de nombres</name>
+    <type>NumberRange</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <inputField>population</inputField>
+    <outputField>population_discr</outputField>
+    <fallBackValue>UNKNOWN</fallBackValue>
+    <rules>
+      <rule>
+        <lower_bound>-1.7976931348623157E308</lower_bound>
+        <upper_bound>10000.0</upper_bound>
+        <value>1-10,000</value>
+      </rule>
+      <rule>
+        <lower_bound>10000.0</lower_bound>
+        <upper_bound>100000.0</upper_bound>
+        <value>10,000-100,000</value>
+      </rule>
+      <rule>
+        <lower_bound>100000.0</lower_bound>
+        <upper_bound>500000.0</upper_bound>
+        <value>100,000-500,000</value>
+      </rule>
+      <rule>
+        <lower_bound>500000.0</lower_bound>
+        <upper_bound>1000000.0</upper_bound>
+        <value>500,000-1,000,000</value>
+      </rule>
+      <rule>
+        <lower_bound>1000000.0</lower_bound>
+        <upper_bound>5000000.0</upper_bound>
+        <value>1,000,000-5,000,000</value>
+      </rule>
+      <rule>
+        <lower_bound>5000000.0</lower_bound>
+        <upper_bound>1.0E7</upper_bound>
+        <value>5,000,000-10,000,000</value>
+      </rule>
+      <rule>
+        <lower_bound>1.0E7</lower_bound>
+        <upper_bound>5.0E7</upper_bound>
+        <value>10,000,000-50,000,000</value>
+      </rule>
+      <rule>
+        <lower_bound>5.0E7</lower_bound>
+        <upper_bound>1.0E8</upper_bound>
+        <value>50,000,000-100,000,000</value>
+      </rule>
+      <rule>
+        <lower_bound>1.0E8</lower_bound>
+        <upper_bound>1.7976931348623157E308</upper_bound>
+        <value>100,000,000+</value>
+      </rule>
+    </rules>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Création plages de nombres 2</name>
+    <type>NumberRange</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <inputField>life_expectancy</inputField>
+    <outputField>life_expectancy_discr</outputField>
+    <fallBackValue>UNKNOWN</fallBackValue>
+    <rules>
+      <rule>
+        <lower_bound>-1.7976931348623157E308</lower_bound>
+        <upper_bound>50.0</upper_bound>
+        <value>1-50</value>
+      </rule>
+      <rule>
+        <lower_bound>50.0</lower_bound>
+        <upper_bound>70.0</upper_bound>
+        <value>50-70</value>
+      </rule>
+      <rule>
+        <lower_bound>70.0</lower_bound>
+        <upper_bound>1.7976931348623157E308</upper_bound>
+        <value>70+</value>
+      </rule>
+    </rules>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>608</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Insertion / Mise à jour table</name>
     <type>InsertUpdate</type>
     <description />
@@ -847,7 +1093,8 @@
 	continent,
 	region,
 	population,
-	lifeExpectancy
+	lifeExpectancy,
+	IndepYear 
 from country;</sql>
     <limit>0</limit>
     <lookup />
@@ -862,7 +1109,7 @@ from country;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>144</xloc>
+      <xloc>176</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -903,252 +1150,6 @@ from country;</sql>
     <GUI>
       <xloc>176</xloc>
       <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Création plages de nombres</name>
-    <type>NumberRange</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <inputField>population</inputField>
-    <outputField>population_discr</outputField>
-    <fallBackValue>UNKNOWN</fallBackValue>
-    <rules>
-      <rule>
-        <lower_bound>-1.7976931348623157E308</lower_bound>
-        <upper_bound>10000.0</upper_bound>
-        <value>1-10,000</value>
-      </rule>
-      <rule>
-        <lower_bound>10000.0</lower_bound>
-        <upper_bound>100000.0</upper_bound>
-        <value>10,000-100,000</value>
-      </rule>
-      <rule>
-        <lower_bound>100000.0</lower_bound>
-        <upper_bound>500000.0</upper_bound>
-        <value>100,000-500,000</value>
-      </rule>
-      <rule>
-        <lower_bound>500000.0</lower_bound>
-        <upper_bound>1000000.0</upper_bound>
-        <value>500,000-1,000,000</value>
-      </rule>
-      <rule>
-        <lower_bound>1000000.0</lower_bound>
-        <upper_bound>5000000.0</upper_bound>
-        <value>1,000,000-5,000,000</value>
-      </rule>
-      <rule>
-        <lower_bound>5000000.0</lower_bound>
-        <upper_bound>1.0E7</upper_bound>
-        <value>5,000,000-10,000,000</value>
-      </rule>
-      <rule>
-        <lower_bound>1.0E7</lower_bound>
-        <upper_bound>5.0E7</upper_bound>
-        <value>10,000,000-50,000,000</value>
-      </rule>
-      <rule>
-        <lower_bound>5.0E7</lower_bound>
-        <upper_bound>1.0E8</upper_bound>
-        <value>50,000,000-100,000,000</value>
-      </rule>
-      <rule>
-        <lower_bound>1.0E8</lower_bound>
-        <upper_bound>1.7976931348623157E308</upper_bound>
-        <value>100,000,000+</value>
-      </rule>
-    </rules>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
-      <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Création plages de nombres 2</name>
-    <type>NumberRange</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <inputField>life_expectancy</inputField>
-    <outputField>life_expectancy_discr</outputField>
-    <fallBackValue>UNKNOWN</fallBackValue>
-    <rules>
-      <rule>
-        <lower_bound>-1.7976931348623157E308</lower_bound>
-        <upper_bound>50.0</upper_bound>
-        <value>1-50</value>
-      </rule>
-      <rule>
-        <lower_bound>50.0</lower_bound>
-        <upper_bound>70.0</upper_bound>
-        <value>50-70</value>
-      </rule>
-      <rule>
-        <lower_bound>70.0</lower_bound>
-        <upper_bound>1.7976931348623157E308</upper_bound>
-        <value>70+</value>
-      </rule>
-    </rules>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Altération structure flux 2</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <remove>
-        <name>life_expectancy</name>
-      </remove>
-      <remove>
-        <name>population</name>
-      </remove>
-      <meta>
-        <name>life_expectancy_discr</name>
-        <rename>life_expectancy</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask />
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale />
-        <date_format_timezone />
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding />
-        <decimal_symbol />
-        <grouping_symbol />
-        <currency_symbol />
-        <storage_type />
-      </meta>
-      <meta>
-        <name>population_discr</name>
-        <rename>population</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask />
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale />
-        <date_format_timezone />
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding />
-        <decimal_symbol />
-        <grouping_symbol />
-        <currency_symbol />
-        <storage_type />
-      </meta>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
-      <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Altération structure flux</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>name</name>
-        <rename>nom_pays</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask />
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale />
-        <date_format_timezone />
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding />
-        <decimal_symbol />
-        <grouping_symbol />
-        <currency_symbol />
-        <storage_type />
-      </meta>
-      <meta>
-        <name>lifeExpectancy</name>
-        <rename>life_expectancy</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask />
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale />
-        <date_format_timezone />
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding />
-        <decimal_symbol />
-        <grouping_symbol />
-        <currency_symbol />
-        <storage_type />
-      </meta>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
