@@ -26,14 +26,15 @@ CREATE TABLE dim_date (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 
-DROP TABLE IF EXISTS fact_pib;
+DROP TABLE IF EXISTS fact_decision;
 CREATE TABLE fact_pib (
-  pib_key int NOT NULL,
+  decision_key int NOT NULL,
   pays_key int NOT NULL,
   date_key int NOT NULL,
 
   pib real NOT NULL,
   croissance_pib real NOT NULL,
+  smic real NOT NULL,
 
   KEY dim_pays_fact_pib_fk (pays_key),
   KEY dim_date_fact_pib_fk (date_key),

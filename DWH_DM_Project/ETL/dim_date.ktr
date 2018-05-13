@@ -436,8 +436,8 @@
   <notepads>
     <notepad>
       <note>Création années</note>
-      <xloc>192</xloc>
-      <yloc>400</yloc>
+      <xloc>176</xloc>
+      <yloc>176</yloc>
       <width>115</width>
       <heigth>31</heigth>
       <fontname>Cantarell</fontname>
@@ -457,8 +457,8 @@
     </notepad>
     <notepad>
       <note>Ajout keys</note>
-      <xloc>496</xloc>
-      <yloc>400</yloc>
+      <xloc>416</xloc>
+      <yloc>176</yloc>
       <width>78</width>
       <heigth>31</heigth>
       <fontname>Cantarell</fontname>
@@ -478,8 +478,8 @@
     </notepad>
     <notepad>
       <note>Nettoyage avant insertion</note>
-      <xloc>656</xloc>
-      <yloc>400</yloc>
+      <xloc>560</xloc>
+      <yloc>176</yloc>
       <width>179</width>
       <heigth>31</heigth>
       <fontname>Cantarell</fontname>
@@ -499,8 +499,8 @@
     </notepad>
     <notepad>
       <note>Insertion</note>
-      <xloc>944</xloc>
-      <yloc>400</yloc>
+      <xloc>832</xloc>
+      <yloc>176</yloc>
       <width>67</width>
       <heigth>31</heigth>
       <fontname>Cantarell</fontname>
@@ -625,8 +625,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>288</xloc>
-      <yloc>320</yloc>
+      <xloc>272</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -659,8 +659,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>320</yloc>
+      <xloc>432</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -723,8 +723,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
-      <yloc>320</yloc>
+      <xloc>624</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -766,8 +766,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>112</xloc>
-      <yloc>320</yloc>
+      <xloc>96</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -819,8 +819,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
-      <yloc>320</yloc>
+      <xloc>848</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
