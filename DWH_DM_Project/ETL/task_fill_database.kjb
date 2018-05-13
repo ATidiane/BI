@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
   <name>task_fill_database</name>
-  <description />
-  <extended_description />
-  <job_version />
+  <description/>
+  <extended_description/>
+  <job_version/>
   <directory>/</directory>
   <created_user>-</created_user>
   <created_date>2018/05/12 12:16:43.596</created_date>
@@ -14,12 +14,12 @@
   <slaveservers>
     </slaveservers>
   <job-log-table>
-    <connection />
-    <schema />
-    <table />
-    <size_limit_lines />
-    <interval />
-    <timeout_days />
+    <connection/>
+    <schema/>
+    <table/>
+    <size_limit_lines/>
+    <interval/>
+    <timeout_days/>
     <field>
       <id>ID_JOB</id>
       <enabled>Y</enabled>
@@ -127,10 +127,10 @@
     </field>
   </job-log-table>
   <jobentry-log-table>
-    <connection />
-    <schema />
-    <table />
-    <timeout_days />
+    <connection/>
+    <schema/>
+    <table/>
+    <timeout_days/>
     <field>
       <id>ID_BATCH</id>
       <enabled>Y</enabled>
@@ -218,10 +218,10 @@
     </field>
   </jobentry-log-table>
   <channel-log-table>
-    <connection />
-    <schema />
-    <table />
-    <timeout_days />
+    <connection/>
+    <schema/>
+    <table/>
+    <timeout_days/>
     <field>
       <id>ID_BATCH</id>
       <enabled>Y</enabled>
@@ -284,29 +284,29 @@
     </field>
   </channel-log-table>
   <pass_batchid>N</pass_batchid>
-  <shared_objects_file />
+  <shared_objects_file/>
   <entries>
     <entry>
       <name>load_dim_date</name>
-      <description />
+      <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
-      <trans_object_id />
+      <trans_object_id/>
       <filename>${Internal.Entry.Current.Directory}/dim_date.ktr</filename>
-      <transname />
+      <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
+      <logfile/>
+      <logext/>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
       <cluster>N</cluster>
-      <slave_server_name />
+      <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -324,7 +324,7 @@
     </entry>
     <entry>
       <name>START</name>
-      <description />
+      <description/>
       <type>SPECIAL</type>
       <start>Y</start>
       <dummy>N</dummy>
@@ -344,25 +344,25 @@
     </entry>
     <entry>
       <name>load_dim_pays</name>
-      <description />
+      <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
-      <trans_object_id />
+      <trans_object_id/>
       <filename>${Internal.Entry.Current.Directory}/dim_pays.ktr</filename>
-      <transname />
+      <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
+      <logfile/>
+      <logext/>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
       <cluster>N</cluster>
-      <slave_server_name />
+      <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -379,62 +379,26 @@
       <yloc>80</yloc>
     </entry>
     <entry>
-      <name>load_fait_pib</name>
-      <description />
-      <type>TRANS</type>
-      <specification_method>filename</specification_method>
-      <trans_object_id />
-      <filename>${Internal.Entry.Current.Directory}/fait_pib.ktr</filename>
-      <transname />
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name />
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <logging_remote_work>N</logging_remote_work>
-      <run_configuration>Pentaho local</run_configuration>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>480</xloc>
-      <yloc>80</yloc>
-    </entry>
-    <entry>
       <name>load_injection_metadata</name>
-      <description />
+      <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
-      <trans_object_id />
+      <trans_object_id/>
       <filename>${Internal.Entry.Current.Directory}/injection_metadata.ktr</filename>
-      <transname />
+      <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
+      <logfile/>
+      <logext/>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
       <cluster>N</cluster>
-      <slave_server_name />
+      <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -447,30 +411,30 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>608</xloc>
+      <xloc>512</xloc>
       <yloc>80</yloc>
     </entry>
     <entry>
-      <name>load_fait_immigres</name>
-      <description />
+      <name>load_fact_immigres</name>
+      <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
-      <trans_object_id />
-      <filename>${Internal.Entry.Current.Directory}/fait_immigres.ktr</filename>
-      <transname />
+      <trans_object_id/>
+      <filename>${Internal.Entry.Current.Directory}/fact_immigres.ktr</filename>
+      <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>N</set_logfile>
-      <logfile />
-      <logext />
+      <logfile/>
+      <logext/>
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Basic</loglevel>
       <cluster>N</cluster>
-      <slave_server_name />
+      <slave_server_name/>
       <set_append_logfile>N</set_append_logfile>
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
@@ -483,7 +447,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
+      <xloc>672</xloc>
       <yloc>80</yloc>
     </entry>
     <entry>
@@ -491,24 +455,24 @@
       <description>Mail</description>
       <type>MAIL</type>
       <server>smtp.gmail.com</server>
-      <port>587</port>
+      <port>25</port>
       <destination>baldeahmedtidiane36@gmail.com</destination>
-      <destinationCc />
-      <destinationBCc />
+      <destinationCc/>
+      <destinationBCc/>
       <replyto>baldeahmedtidiane36@gmail.com</replyto>
       <replytoname>Ahmed Tidiane BALDE</replytoname>
       <subject>Load of Sakile DWH Succeeded</subject>
       <include_date>Y</include_date>
-      <contact_person />
-      <contact_phone />
+      <contact_person/>
+      <contact_phone/>
       <comment>Nothing to see here.</comment>
       <include_files>N</include_files>
       <zip_files>N</zip_files>
-      <zip_name />
+      <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>baldeahmedtidiane36@gmail.com</auth_user>
-      <auth_password>Encrypted 646440616cdaf5c0a54489dca984348f5efab68fde</auth_password>
+      <auth_password>Encrypted 646440616cdaf5c0a54489dca984348f5efab68ffe</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -516,15 +480,15 @@
       <priority>normal</priority>
       <importance>normal</importance>
       <sensitivity>normal</sensitivity>
-      <secureconnectiontype>TLS</secureconnectiontype>
-      <replyToAddresses />
+      <secureconnectiontype>SSL</secureconnectiontype>
+      <replyToAddresses/>
       <filetypes>      </filetypes>
       <embeddedimages>
       </embeddedimages>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>896</xloc>
+      <xloc>1024</xloc>
       <yloc>80</yloc>
     </entry>
     <entry>
@@ -534,18 +498,18 @@
       <server>smtp.gmail.com</server>
       <port>25</port>
       <destination>baldeahmedtidiane36@gmail.com</destination>
-      <destinationCc />
-      <destinationBCc />
+      <destinationCc/>
+      <destinationBCc/>
       <replyto>baldeahmedtidiane36@gmail.com</replyto>
       <replytoname>Ahmed BALDE</replytoname>
       <subject>Load of Sakile DWH Failed!!!</subject>
       <include_date>Y</include_date>
-      <contact_person />
-      <contact_phone />
+      <contact_person/>
+      <contact_phone/>
       <comment>Please check the job, because it failed...</comment>
       <include_files>N</include_files>
       <zip_files>N</zip_files>
-      <zip_name />
+      <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>baldeahmedtidiane36@gmail.com</auth_user>
@@ -558,7 +522,7 @@
       <importance>high</importance>
       <sensitivity>normal</sensitivity>
       <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses />
+      <replyToAddresses/>
       <filetypes>
         <filetype>LOG</filetype>
       </filetypes>
@@ -567,20 +531,83 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>544</xloc>
-      <yloc>272</yloc>
+      <xloc>592</xloc>
+      <yloc>256</yloc>
+    </entry>
+    <entry>
+      <name>load_fact_smic</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>${Internal.Entry.Current.Directory}/fact_smic.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <run_configuration>Pentaho local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>912</xloc>
+      <yloc>80</yloc>
+    </entry>
+    <entry>
+      <name>load_fact_pib</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>${Internal.Entry.Current.Directory}/fact_pib.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <run_configuration>Pentaho local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>800</xloc>
+      <yloc>80</yloc>
     </entry>
   </entries>
   <hops>
-    <hop>
-      <from>load_fait_pib</from>
-      <to>load_injection_metadata</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
     <hop>
       <from>START</from>
       <to>load_dim_date</to>
@@ -600,26 +627,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>load_dim_pays</from>
-      <to>load_fait_pib</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>load_injection_metadata</from>
-      <to>load_fait_immigres</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>load_fait_immigres</from>
-      <to>Mail Success</to>
+      <to>load_fact_immigres</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -645,15 +654,6 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>load_fait_pib</from>
-      <to>Mail Failure</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>load_injection_metadata</from>
       <to>Mail Failure</to>
       <from_nr>0</from_nr>
@@ -663,7 +663,61 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>load_fait_immigres</from>
+      <from>load_fact_immigres</from>
+      <to>Mail Failure</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>load_dim_pays</from>
+      <to>load_injection_metadata</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>load_fact_immigres</from>
+      <to>load_fact_pib</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>load_fact_pib</from>
+      <to>load_fact_smic</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>load_fact_smic</from>
+      <to>Mail Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>load_fact_pib</from>
+      <to>Mail Failure</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>load_fact_smic</from>
       <to>Mail Failure</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
